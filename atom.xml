@@ -27,11 +27,12 @@
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;&lt;code&gt;注：建议先看文章底部的扩展&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&quot;安装条件&quot;&gt;&lt;a href=&quot;#安装条件&quot; class=&quot;headerlink&quot; title=&quot;安装条件&quot;&gt;&lt;/a&gt;安装条件&lt;/h3&gt;&lt;p&gt;Android 7.0以上操作系统&lt;br&gt;存储容量32G
-      
+      &lt;p&gt;&lt;code&gt;注：建议先看文章底部的扩展&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;安装条件&quot;&gt;&lt;a href=&quot;#安装条件&quot; class=&quot;headerlink&quot; title=&quot;安装条件&quot;&gt;&lt;/a&gt;安装条件&lt;/h3&gt;&lt;p&gt;Android 7.0以上操作系统&lt;br&gt;存储容量32G以上&lt;/p&gt;
+&lt;h3 id=&quot;安装Termux&quot;&gt;&lt;a href=&quot;#安装Termux&quot; class=&quot;headerlink&quot; title=&quot;安装Termux&quot;&gt;&lt;/a&gt;安装Termux&lt;/h3&gt;&lt;p&gt;下载地址：&lt;a href=&quot;https://termux.com/&quot;&gt;点我&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;安装环境&quot;&gt;&lt;a href=&quot;#安装环境&quot; class=&quot;headerlink&quot; title=&quot;安装环境&quot;&gt;&lt;/a&gt;安装环境&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;pkg &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; clang python fftw libzmq -y&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;等进度走完，有点慢，建议用移动数据或坐在100M以上带宽的WiFi路由器旁边&lt;/p&gt;
+&lt;h3 id=&quot;检查是否安装完成&quot;&gt;&lt;a href=&quot;#检查是否安装完成&quot; class=&quot;headerlink&quot; title=&quot;检查是否安装完成&quot;&gt;&lt;/a&gt;检查是否安装完成&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;python --version&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;pip --version&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
