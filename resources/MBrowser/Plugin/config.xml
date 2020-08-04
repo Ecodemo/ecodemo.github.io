@@ -61,25 +61,25 @@
                 <name>EasyList</name>
                 <info></info>
                 <version>5</version>
-                <url>ads/easylist.txt</url>
+                <url>adblock/easylist.txt</url>
             </item>
             <item>
                 <name>EasyList China</name>
                 <info></info>
                 <version>5</version>
-                <url>ads/easylistchina.txt</url>
+                <url>adblock/easylistchina.txt</url>
             </item>
             <item>
                 <name>X浏览器拦截规则国内版本</name>
                 <info>x浏览器针对国内版本的内建规则，由官方统一维护</info>
                 <version>5</version>
-                <url>ads/core-rule-cn.txt</url>
+                <url>adblock/core-rule-cn.txt</url>
             </item>
             <item>
                 <name>XBrowser core Ad-Rules </name>
                 <info></info>
                 <version>5</version>
-                <url>ads/xb_core_rule.txt</url>
+                <url>adblock/xb_core_rule.txt</url>
             </item>
         </list>
     </page>
