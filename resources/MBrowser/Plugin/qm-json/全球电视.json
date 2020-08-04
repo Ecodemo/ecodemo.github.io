@@ -1,0 +1,275 @@
+{
+	"baseUrl": true,
+	"coreVersion": 8,
+	"ine": "搜索",
+	"inq": "tab",
+	"ins": [],
+	"mous": [{
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"imgHeight\":0,\"itemtarget\":\"列表\",\"max\":0,\"row\":2,\"type\":8}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"code\":\"\",\"head\":\"\",\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"#PC\",\"url\":\"https://www.nettvplus.live/m/\"}"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(div.am-accordion-content).i(3).get(a)"
+			}, {
+				"a": "name",
+				"v": ".get(a).t()"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"sign": "地方电视台",
+		"type": 1
+	}, {
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"code\":\"\",\"head\":\"\",\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"#PC\",\"url\":\"https://www.nettvplus.live/m/\"}"
+		},
+		"ins": [],
+		"ors": [{
+			"a": "m",
+			"v": "[\"全球电视\",\"CCTV央视\",\"卫视频道\",\"地方电视台\"]"
+		}],
+		"sign": "tab",
+		"type": 8
+	}, {
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"imgHeight\":0,\"itemtarget\":\"列表\",\"max\":0,\"row\":2,\"type\":8}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"code\":\"\",\"head\":\"\",\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"#PC\",\"url\":\"https://www.nettvplus.live/m/\"}"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(div.am-accordion-content).i(4).get(a)"
+			}, {
+				"a": "name",
+				"v": ".get(a).t()"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"ors": [{
+			"a": "screen",
+			"v": "港澳台+港澳台\u003d"
+		}],
+		"sign": "港澳台",
+		"type": 1
+	}, {
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"imgHeight\":0,\"itemtarget\":\"列表\",\"max\":0,\"row\":2,\"type\":8}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"code\":\"\",\"head\":\"\",\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"#PC\",\"url\":\"https://www.nettvplus.live/m/\"}"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(div.am-accordion-content).i(0).get(a)"
+			}, {
+				"a": "name",
+				"v": ".get(a).t()"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"ors": [{
+			"a": "screen",
+			"v": "全球直播+全球直播\u003d"
+		}],
+		"sign": "全球直播",
+		"type": 1
+	}, {
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"imgHeight\":0,\"itemtarget\":\"列表\",\"max\":0,\"row\":2,\"type\":8}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"code\":\"\",\"head\":\"\",\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"#PC\",\"url\":\"https://www.nettvplus.live/m/\"}"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(div.am-accordion-content).i(5).get(a)"
+			}, {
+				"a": "name",
+				"v": ".get(a).t()"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"ors": [{
+			"a": "screen",
+			"v": "其它直播+其它直播\u003d"
+		}],
+		"sign": "其它直播",
+		"type": 1
+	}, {
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"imgHeight\":0,\"itemtarget\":\"#播放器\",\"max\":0,\"row\":2,\"type\":5}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"code\":\"\",\"head\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"q\\u003d#KEY#\",\"ua\":\"#PC\",\"url\":\"https://www.nettvplus.live/app/search.php\"}"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(li.mui-table-view-cell)"
+			}, {
+				"a": "name",
+				"v": ".get(img).a(alt)"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "img",
+				"v": ".get(img).a(src)"
+			}, {
+				"a": "msg"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next",
+				"v": ".byt(下一頁).a(href)"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"sign": "搜索",
+		"type": 1
+	}, {
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"imgHeight\":0,\"itemtarget\":\"#播放器\",\"max\":0,\"row\":2,\"type\":5}",
+		"host": {
+			"a": "#读上级地址"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(ul.am-gallery li)"
+			}, {
+				"a": "name",
+				"v": ".get(img).a(alt)"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "img",
+				"v": ".get(img).a(src)"
+			}, {
+				"a": "msg"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next",
+				"v": ".byt(下一頁).a(href)"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"sign": "列表",
+		"type": 1
+	}, {
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"imgHeight\":0,\"itemtarget\":\"#播放器\",\"max\":0,\"row\":2,\"type\":8}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"code\":\"\",\"head\":\"\",\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"#PC\",\"url\":\"https://www.nettvplus.live/m/\"}"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(div.am-accordion-content).i(1).get(a)"
+			}, {
+				"a": "name",
+				"v": ".get(a).t()"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"sign": "CCTV央视",
+		"type": 1
+	}, {
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"imgHeight\":0,\"itemtarget\":\"#播放器\",\"max\":0,\"row\":2,\"type\":8}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"code\":\"\",\"head\":\"\",\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"#PC\",\"url\":\"https://www.nettvplus.live/m/\"}"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(div.am-accordion-content).i(2).get(a)"
+			}, {
+				"a": "name",
+				"v": ".get(a).t()"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"sign": "卫视频道",
+		"type": 1
+	}, {
+		"host": {
+			"a": "#爬虫"
+		},
+		"ins": [],
+		"ors": [{
+			"a": "m",
+			"v": "[\"全球直播\",\"港澳台\",\"其它直播\"]"
+		}],
+		"sign": "全球电视",
+		"type": 23
+	}],
+	"name": "全球电视",
+	"sign": "2c7eb39b1c599fd4deffd258b1b82465",
+	"sqlId": 0,
+	"vars": [],
+	"version": 20200731
+}

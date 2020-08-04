@@ -1,0 +1,418 @@
+{
+	"baseUrl": true,
+	"coreVersion": 8,
+	"ine": "搜索",
+	"inq": "TAB",
+	"ins": [],
+	"mous": [{
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"播放器\",\"max\":0,\"row\":3,\"type\":5}",
+		"host": {
+			"a": "#取上级源码"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(div.list_item)"
+			}, {
+				"a": "name",
+				"v": ".get(div.figure_detail).t()"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "img",
+				"v": ".c(https:).get(a img).z2(lz_.*?\"\\(.*?\\)\").or().get(a img).a(src)"
+			}, {
+				"a": "msg",
+				"v": ".get(a).t()"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"sign": "推荐项目",
+		"type": 1
+	}, {
+		"attr": "{\"bxt\":false}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"code\":\"\",\"head\":\"\",\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"#默认\",\"url\":\"#url#\"}"
+		},
+		"ins": [{
+			"a": "sort",
+			"s": [{
+				"a": "sort",
+				"v": ".z(\\{\"id\":.*?\\}[\\s])"
+			}, {
+				"a": "s_name",
+				"v": ".json(title).c(_).json(update_desc)"
+			}, {
+				"a": "list",
+				"v": ".json(nomal_ids)"
+			}, {
+				"a": "name",
+				"v": ".json(E)"
+			}, {
+				"a": "url",
+				"v": ".c(http://wodaoba.cn/cs2txupup2.abc?teng1\u003d\u0026teng2\u003d\u0026pid\u003dhttps://v.qq.com/x/cover/).var(id).c(/).json(V).ct(.html)"
+			}]
+		}, {
+			"a": "info",
+			"s": [{
+				"a": "info",
+				"v": ".z(\\{\"id\":.*?\\}[\\s]).json(second_title).c(_).z(\\{\"id\":.*?\\}[\\s]).json(description)"
+			}]
+		}, {
+			"a": "con",
+			"s": [{
+				"a": "playurl_regex"
+			}, {
+				"a": "putjs",
+				"v": "var apiArray\u003d[\"https://api.1dior.cn/analysis/first/index.php?uid\u003d1099\u0026my\u003dfikmvxW035\u0026url\u003d\"\"https://jx.1ff1.cn/?url\u003d\",\"https://jx.iztyy.com/svip/?url\u003d\",\"https://jx.sigujiexi.com/?url\u003d\",\"https://vip.52jiexi.top/?url\u003d\",\"https://jx.yingxiangbao.cn/vip.php?url\u003d\",\"https://api.sigujx.com/?url\u003d\",\"占位\"];\nvar origin\u003ddocument.location.href.split(\"pid\u003d\")[1];\nvar iframeHtml\u003d\"\";\nfor(var i\u003d0;i\u003capiArray.length;i++){\nvar url\u003dapiArray[i]+origin;\niframeHtml\u003diframeHtml+\"\u003ciframe src\u003d\"+url+\"\u003e\u003c/iframe\u003e\";\n}\ndocument.write(iframeHtml);"
+			}]
+		}],
+		"sign": "播放器",
+		"type": 22,
+		"vars": [{
+			"a": "id",
+			"v": ".z2(\"id\":\"\\(.*?\\)\")"
+		}]
+	}, {
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"播放器\",\"max\":0,\"row\":3,\"type\":5}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"mode\":0,\"pn_raise\":30,\"pn_start\":0,\"ua\":\"#PC\",\"url\":\"https://v.qq.com/x/bu/pagesheet/list?_all\\u003d1\\u0026append\\u003d0\\u0026channel\\u003dvariety\\u0026iarea\\u003d地区\\u0026ipay\\u003d资费\\u0026listpage\\u003d2\\u0026offset\\u003d#PN#\\u0026pagesize\\u003d30\\u0026sort\\u003d排序\"}"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(div.list_item)"
+			}, {
+				"a": "name",
+				"v": ".get(div.figure_detail).t()"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "img",
+				"v": ".get(a img).a(src)"
+			}, {
+				"a": "msg",
+				"v": ".get(div.figure_caption).t()"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"ors": [{
+			"a": "screen",
+			"v": "地区+全部\u003d-1+国内\u003d1+海外\u003d2\n资费+全部\u003d-1+会员\u003d1\n排序+最新上架\u003d5+最近热播\u003d4"
+		}],
+		"sign": "综艺",
+		"type": 1
+	}, {
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"imgHeight\":0,\"itemtarget\":\"播放器\",\"max\":0,\"row\":3,\"type\":5}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"mode\":0,\"pn_raise\":30,\"pn_start\":0,\"ua\":\"#PC\",\"url\":\"https://v.qq.com/x/bu/pagesheet/list?_all\\u003d1\\u0026append\\u003d0\\u0026channel\\u003dmovie\\u0026iarea\\u003d地区\\u0026ipay\\u003d资费\\u0026listpage\\u003d2\\u0026offset\\u003d#PN#\\u0026pagesize\\u003d30\\u0026sort\\u003d排序\"}"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(div.list_item)"
+			}, {
+				"a": "name",
+				"v": ".get(div.figure_detail).t()"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "img",
+				"v": ".get(a img).a(src)"
+			}, {
+				"a": "msg",
+				"v": ".get(div.figure_caption).t()"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"ors": [{
+			"a": "screen",
+			"v": "地区+全部\u003d-1+内地\u003d100024+美国\u003d100029+欧洲\u003d100032+韩国\u003d100028+印度\u003d100030+泰国\u003d100031+日本\u003d100027+香港\u003d100025+台湾\u003d100026+其他\u003d100033\n资费+全部\u003d-1+免费\u003d1+包月\u003d2+用券\u003d3+付费\u003d4\n排序+最新上架\u003d19+最近热播\u003d18+高分好评\u003d21知乎高分\u003d22"
+		}],
+		"sign": "电影",
+		"type": 1
+	}, {
+		"host": {
+			"a": "#取上级源码"
+		},
+		"ins": [],
+		"ors": [{
+			"a": "m",
+			"v": "[\"首页推荐\",\"电视剧\",\"电影\",\"综艺\",\"动漫\",\"少惊悚\",\"其他\"]"
+		}],
+		"sign": "TAB",
+		"type": 8
+	}, {
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"播放器\",\"max\":0,\"row\":3,\"type\":5}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"mode\":0,\"pn_raise\":30,\"pn_start\":0,\"ua\":\"#PC\",\"url\":\"https://v.qq.com/x/bu/pagesheet/list?_all\\u003d1\\u0026append\\u003d0\\u0026channel\\u003dchild\\u0026iarea\\u003d地区\\u0026ipay\\u003d资费\\u0026listpage\\u003d2\\u0026offset\\u003d#PN#\\u0026pagesize\\u003d30\\u0026sort\\u003d排序\"}"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(div.list_item)"
+			}, {
+				"a": "name",
+				"v": ".get(div.figure_detail).t()"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "img",
+				"v": ".get(a img).a(src)"
+			}, {
+				"a": "msg",
+				"v": ".get(div.figure_caption).t()"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"ors": [{
+			"a": "screen",
+			"v": "地区+全部\u003d-1+国内\u003d3+欧美\u003d1+日韩\u003d2\n资费+全部\u003d-1+免费\u003d1+会员\u003d2\n排序+最新\u003d19+最热\u003d18+好评\u003d20"
+		}],
+		"sign": "少惊悚",
+		"type": 1
+	}, {
+		"attr": "{\"bxt\":false}",
+		"host": {
+			"a": "#读上级地址"
+		},
+		"ins": [{
+			"a": "sort",
+			"s": [{
+				"a": "sort",
+				"v": ".get(section.mod_box)"
+			}, {
+				"a": "s_name",
+				"v": ".get(div.mod_subtitle).t()"
+			}, {
+				"a": "list",
+				"v": ".get(ul li.item)"
+			}, {
+				"a": "name",
+				"v": ".get(a).t()"
+			}, {
+				"a": "url",
+				"v": ".c(http://wodaoba.cn/cs2txupup2.abc?teng1\u003d\u0026teng2\u003d\u0026pid\u003dhttps://v.qq.com/x/cover).get(a).a(href).ty(?).th(cid\u003d##/).th(\u0026vid\u003d##/).ct(.html)"
+			}]
+		}, {
+			"a": "info",
+			"s": [{
+				"a": "info",
+				"v": ".var(name).c().var(msg)"
+			}]
+		}, {
+			"a": "con",
+			"s": [{
+				"a": "playurl_regex"
+			}, {
+				"a": "putjs",
+				"v": "var apiArray\u003d[\"https://api.1dior.cn/analysis/first/index.php?uid\u003d1099\u0026my\u003dfikmvxW035\u0026url\u003d\",\"https://jx.1ff1.cn/?url\u003d\",\"https://jx.iztyy.com/svip/?url\u003d\",\"https://jx.sigujiexi.com/?url\u003d\",\"https://vip.52jiexi.top/?url\u003d\",\"https://jx.yingxiangbao.cn/vip.php?url\u003d\",\"https://api.sigujx.com/?url\u003d\"];\nvar origin\u003ddocument.location.href.split(\"pid\u003d\")[1];\nvar iframeHtml\u003d\"\";\nfor(var i\u003d0;i\u003capiArray.length;i++){\nvar url\u003dapiArray[i]+origin;\niframeHtml\u003diframeHtml+\"\u003ciframe src\u003d\"+url+\"\u003e\u003c/iframe\u003e\";\n}\ndocument.write(iframeHtml);"
+			}]
+		}],
+		"sign": "新播放器",
+		"type": 22
+	}, {
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"播放器\",\"max\":0,\"row\":3,\"type\":5}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"mode\":0,\"pn_raise\":30,\"pn_start\":0,\"ua\":\"#PC\",\"url\":\"https://v.qq.com/x/bu/pagesheet/list?_all\\u003d1\\u0026append\\u003d0\\u0026channel\\u003dcartoon\\u0026iarea\\u003d地区\\u0026ipay\\u003d资费\\u0026listpage\\u003d2\\u0026offset\\u003d#PN#\\u0026pagesize\\u003d30\\u0026sort\\u003d排序\"}"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(div.list_item)"
+			}, {
+				"a": "name",
+				"v": ".get(div.figure_detail).t()"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "img",
+				"v": ".get(a img).a(src)"
+			}, {
+				"a": "msg",
+				"v": ".get(div.figure_caption).t()"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"ors": [{
+			"a": "screen",
+			"v": "地区+全部\u003d-1+内地\u003d1+欧美\u003d3+日本\u003d2+其他\u003d4\n资费+全部\u003d-1+免费\u003d1+会员\u003d2\n排序+最新\u003d19+最热\u003d18+好评\u003d20"
+		}],
+		"sign": "动漫",
+		"type": 1
+	}, {
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"播放器\",\"max\":0,\"row\":3,\"type\":5}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"mode\":0,\"pn_raise\":30,\"pn_start\":0,\"ua\":\"#PC\",\"url\":\"https://v.qq.com/x/bu/pagesheet/list?_all\\u003d1\\u0026append\\u003d1\\u0026channel\\u003d分类\\u0026listpage\\u003d2\\u0026offset\\u003d#PN#\\u0026pagesize\\u003d30\\u0026sort\\u003d4\"}"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(div.list_item)"
+			}, {
+				"a": "name",
+				"v": ".get(div.figure_detail).t()"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "img",
+				"v": ".get(a img).a(src)"
+			}, {
+				"a": "msg",
+				"v": ".get(div.figure_caption).t()"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"ors": [{
+			"a": "screen",
+			"v": "分类+纪录片\u003ddoco+音乐\u003dmusic+生活\u003dlife+艺术\u003dart\u003d旅游\u003dtravel+育惊悚\u003dbaby+原创\u003dvideoplus+演唱会\u003dlivemusic+搞笑\u003dfun+知识\u003dknowledge+娱乐\u003dent+游戏\u003dgames"
+		}],
+		"sign": "其他",
+		"type": 1
+	}, {
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"播放器\",\"max\":0,\"row\":1,\"type\":1}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://v.qq.com/x/search/?q\\u003d%key%\\u0026filter\\u003dtabid\\u003d分类\\u0026pubfilter\\u003d0\\u0026duration\\u003d0\"}"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(div.result_item)"
+			}, {
+				"a": "name",
+				"v": ".get(.result_title).t()"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "img",
+				"v": ".get(a img).a(src)"
+			}, {
+				"a": "msg",
+				"v": ".get(span.desc_text).t().c().get(div.result_info).t()"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"ors": [{
+			"a": "screen",
+			"v": "分类+电影\u003d1+电视剧\u003d2+综艺\u003d3+动漫\u003d4"
+		}],
+		"sign": "搜索",
+		"type": 1
+	}, {
+		"attr": "{\"childmou\":\"推荐项目\"}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://v.qq.com/\"}"
+		},
+		"ins": [{
+			"a": "a",
+			"s": [{
+				"a": "sort",
+				"v": ".get(div[class\u003dmod_row_box][id~\u003dnew_.*])"
+			}, {
+				"a": "s_name",
+				"v": ".get(h2).t()"
+			}]
+		}],
+		"sign": "首页推荐",
+		"type": 5
+	}, {
+		"attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"imgHeight\":0,\"itemtarget\":\"播放器\",\"max\":0,\"row\":3,\"type\":5}",
+		"host": {
+			"a": "#爬虫",
+			"v": "{\"mode\":0,\"pn_raise\":30,\"pn_start\":0,\"ua\":\"#PC\",\"url\":\"https://v.qq.com/x/bu/pagesheet/list?_all\\u003d1\\u0026append\\u003d0\\u0026channel\\u003dtv\\u0026iarea\\u003d地区\\u0026ipay\\u003d资费\\u0026listpage\\u003d2\\u0026offset\\u003d#PN#\\u0026pagesize\\u003d30\\u0026sort\\u003d排序\"}"
+		},
+		"ins": [{
+			"a": "list",
+			"s": [{
+				"a": "list",
+				"v": ".get(div.list_item)"
+			}, {
+				"a": "name",
+				"v": ".get(div.figure_detail).t()"
+			}, {
+				"a": "url",
+				"v": ".get(a).a(href)"
+			}, {
+				"a": "img",
+				"v": ".get(a img).a(src)"
+			}, {
+				"a": "msg",
+				"v": ".get(div.figure_caption).t()"
+			}, {
+				"a": "prev"
+			}, {
+				"a": "next"
+			}, {
+				"a": "tail"
+			}]
+		}],
+		"ors": [{
+			"a": "screen",
+			"v": "地区+全部\u003d-1+内地\u003d814+美国\u003d815+英国\u003d816+韩国\u003d818+泰国\u003d9+日本\u003d10+香港\u003d14+台湾\u003d817+其他\u003d819\n资费+全部\u003d-1+免费\u003d867+会员\u003d868\n排序+最新\u003d19+最热\u003d18+好评\u003d16+口碑好剧\u003d21+高分好评\u003d54+知乎高分\u003d22"
+		}],
+		"sign": "电视剧",
+		"type": 1
+	}],
+	"name": "腾讯视频",
+	"sign": "cac9406cc62d66e88bcb01308d2e8b2f",
+	"sqlId": 0,
+	"vars": [],
+	"version": 4
+}

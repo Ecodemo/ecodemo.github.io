@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+    <page>
+        <name>轻站</name>
+        <type>qm-json</type>
+        <list>
+            <item>
+                <name>全球电视</name>
+                <info></info>
+                <version>20200731</version>
+                <sign>2c7eb39b1c599fd4deffd258b1b82465</sign>
+                <url>qm-json/全球电视.json</url>
+            </item>
+            <item>
+                <name>QQ音乐</name>
+                <info></info>
+                <version>5</version>
+                <sign>3ed94d3dbba6396430c363d69b2972a2</sign>
+                <url>qm-json/QQ音乐.json</url>
+            </item>
+            <item>
+                <name>网易云音乐</name>
+                <info></info>
+                <version>6</version>
+                <sign>38ade8298d305a99b29f65361bedf850</sign>
+                <url>qm-json/网易云音乐.json</url>
+            </item>
+            <item>
+                <name>腾讯视频</name>
+                <info></info>
+                <version>4</version>
+                <sign>cac9406cc62d66e88bcb01308d2e8b2f</sign>
+                <url>qm-json/腾讯视频.json</url>
+            </item>
+            <item>
+                <name>轻阅读</name>
+                <info></info>
+                <version>4</version>
+                <sign>8627aa09dc5483fe4052a4bcc99024f6</sign>
+                <url>qm-json/轻阅读.json</url>
+            </item>
+        </list>
+    </page>
+    <page>
+        <name>脚本</name>
+        <type>js</type>
+        <list>
+            <item>
+                <name>Eruda</name>
+                <info>Eruda 是一个专为手机网页前端设计的调试面板，类似 DevTools 的迷你版，其主要功能包括：捕获 console 日志、检查元素状态、捕获XHR请求、显示本地存储和 Cookie 信息等等。</info>
+                <version>2.3.3</version>
+                <url>js/eruda.js</url>
+            </item>
+        </list>
+    </page>
+    <page>
+        <name>Adblock规则</name>
+        <type>ad</type>
+        <list>
+            <item>
+                <name>EasyList</name>
+                <info></info>
+                <version>5</version>
+                <url>ads/easylist.txt</url>
+            </item>
+            <item>
+                <name>EasyList China</name>
+                <info></info>
+                <version>5</version>
+                <url>ads/easylistchina.txt</url>
+            </item>
+            <item>
+                <name>X浏览器拦截规则国内版本</name>
+                <info>x浏览器针对国内版本的内建规则，由官方统一维护</info>
+                <version>5</version>
+                <url>ads/core-rule-cn.txt</url>
+            </item>
+            <item>
+                <name>XBrowser core Ad-Rules </name>
+                <info></info>
+                <version>5</version>
+                <url>ads/xb_core_rule.txt</url>
+            </item>
+        </list>
+    </page>
+</xml>
+
+
+
