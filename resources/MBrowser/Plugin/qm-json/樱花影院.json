@@ -1,0 +1,436 @@
+{
+  "coreVersion": 3,
+  "ine": "\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "\u5206\u7c7b",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://thishua.com/vodshow/\u5206\u7c7b-\u5730\u533a-\u6392\u5e8f---------.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-list-info li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.fed-list-title).t(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-remarks).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next",
+              "v": ".get(div.fed-page-info).bytt(\u4e0b\u9875).a(href)"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"2\"},{\"a\":\"\u56fd\u4ea7\u5267\",\"v\":\"13\"},{\"a\":\"\u6e2f\u53f0\u5267\",\"v\":\"14\"},{\"a\":\"\u65e5\u97e9\u5267\",\"v\":\"15\"},{\"a\":\"\u6b27\u7f8e\u5267\",\"v\":\"16\"}]},{\"a\":\"\u5730\u533a\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"\"},{\"a\":\"\u5185\u5730\",\"v\":\"\u5185\u5730\"},{\"a\":\"\u65e5\u672c\",\"v\":\"\u65e5\u672c\"},{\"a\":\"\u97e9\u56fd\",\"v\":\"\u97e9\u56fd\"},{\"a\":\"\u9999\u6e2f\",\"v\":\"\u9999\u6e2f\"},{\"a\":\"\u53f0\u6e7e\",\"v\":\"\u53f0\u6e7e\"},{\"a\":\"\u7f8e\u56fd\",\"v\":\"\u7f8e\u56fd\"},{\"a\":\"\u6cf0\u56fd\",\"v\":\"\u6cf0\u56fd\"},{\"a\":\"\u82f1\u56fd\",\"v\":\"\u82f1\u56fd\"},{\"a\":\"\u65b0\u52a0\u5761\",\"v\":\"\u65b0\u52a0\u5761\"},{\"a\":\"\u5176\u4ed6\",\"v\":\"\u5176\u4ed6\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6309\u65f6\u95f4\",\"v\":\"time\"},{\"a\":\"\u6309\u4eba\u6c14\",\"v\":\"hits\"},{\"a\":\"\u6309\u8bc4\u5206\",\"v\":\"score\"}]}]"
+        }
+      ],
+      "sign": "\u7535\u89c6\u5267",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://thishua.com/vodshow/3-\u5730\u533a-\u6392\u5e8f---------.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-list-info li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.fed-list-title).t(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-remarks).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next",
+              "v": ".get(div.fed-page-info).bytt(\u4e0b\u9875).a(href)"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5730\u533a\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"\"},{\"a\":\"\u5185\u5730\",\"v\":\"\u5185\u5730\"},{\"a\":\"\u6e2f\u53f0\",\"v\":\"\u6e2f\u53f0\"},{\"a\":\"\u6b27\u7f8e\",\"v\":\"\u6b27\u7f8e\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6309\u65f6\u95f4\",\"v\":\"time\"},{\"a\":\"\u6309\u4eba\u6c14\",\"v\":\"hits\"},{\"a\":\"\u6309\u8bc4\u5206\",\"v\":\"score\"}]}]"
+        }
+      ],
+      "sign": "\u7efc\u827a",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://thishua.com/vodshow/\u5206\u7c7b-----------.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-list-info li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.fed-list-title).t(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-remarks).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next",
+              "v": ".get(div.fed-page-info).bytt(\u4e0b\u9875).a(href)"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u7535\u5f71\",\"v\":\"1\"},{\"a\":\"\u8fde\u7eed\u5267\",\"v\":\"2\"},{\"a\":\"\u7efc\u827a\",\"v\":\"3\"},{\"a\":\"\u52a8\u6f2b\",\"v\":\"4\"}]}]"
+        }
+      ],
+      "sign": "\u6700\u65b0\u89c6\u9891",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u9996\u9875\",\"\u6700\u65b0\u89c6\u9891\",\"\u7535\u5f71\",\"\u7535\u89c6\u5267\",\"\u7efc\u827a\",\"\u52a8\u6f2b\"]"
+        }
+      ],
+      "sign": "\u5206\u7c7b",
+      "type": 8
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://thishua.com/vodshow/\u5206\u7c7b-\u5730\u533a-\u6392\u5e8f---------.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-list-info li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.fed-list-title).t(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-remarks).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next",
+              "v": ".get(div.fed-page-info).bytt(\u4e0b\u9875).a(href)"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"1\"},{\"a\":\"\u52a8\u4f5c\u7247\",\"v\":\"6\"},{\"a\":\"\u559c\u5267\u7247\",\"v\":\"7\"},{\"a\":\"\u7231\u60c5\u7247\",\"v\":\"8\"},{\"a\":\"\u79d1\u5e7b\u7247\",\"v\":\"9\"},{\"a\":\"\u6050\u6016\u7247\",\"v\":\"10\"},{\"a\":\"\u5267\u60c5\u7247\",\"v\":\"11\"},{\"a\":\"\u6218\u4e89\u7247\",\"v\":\"12\"}]},{\"a\":\"\u5730\u533a\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"\"},{\"a\":\"\u5927\u9646\",\"v\":\"%E5%A4%A7%E9%99%86\"},{\"a\":\"\u9999\u6e2f\",\"v\":\"%E9%A6%99%E6%B8%AF\"},{\"a\":\"\u53f0\u6e7e\",\"v\":\"%E5%8F%B0%E6%B9%BE\"},{\"a\":\"\u7f8e\u56fd\",\"v\":\"%E7%BE%8E%E5%9B%BD\"},{\"a\":\"\u6cd5\u56fd\",\"v\":\"%E6%B3%95%E5%9B%BD\"},{\"a\":\"\u82f1\u56fd\",\"v\":\"\u82f1\u56fd\"},{\"a\":\"\u65e5\u672c\",\"v\":\"%E6%97%A5%E6%9C%AC\"},{\"a\":\"\u97e9\u56fd\",\"v\":\"%E9%9F%A9%E5%9B%BD\"},{\"a\":\"\u5fb7\u56fd\",\"v\":\"%E5%BE%B7%E5%9B%BD\"},{\"a\":\"\u6cf0\u56fd\",\"v\":\"%E6%B3%B0%E5%9B%BD\"},{\"a\":\"\u5370\u5ea6\",\"v\":\"%E5%8D%B0%E5%BA%A6\"},{\"a\":\"\u610f\u5927\u5229\",\"v\":\"%E6%84%8F%E5%A4%A7%E5%88%A9\"},{\"a\":\"\u897f\u73ed\u7259\",\"v\":\"%E8%A5%BF%E7%8F%AD%E7%89%99\"},{\"a\":\"\u52a0\u62ff\u5927\",\"v\":\"%E5%8A%A0%E6%8B%BF%E5%A4%A7\"},{\"a\":\"\u5176\u4ed6\",\"v\":\"%E5%85%B6%E4%BB%96\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6309\u65f6\u95f4\",\"v\":\"time\"},{\"a\":\"\u6309\u4eba\u6c14\",\"v\":\"hits\"},{\"a\":\"\u6309\u8bc4\u5206\",\"v\":\"score\"}]}]"
+        }
+      ],
+      "sign": "\u7535\u5f71",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://thishua.com/vodshow/4-\u5730\u533a-\u6392\u5e8f---------.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-list-info li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.fed-list-title).t(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-remarks).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next",
+              "v": ".get(div.fed-page-info).bytt(\u4e0b\u9875).a(href)"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5730\u533a\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"\"},{\"a\":\"\u56fd\u4ea7\",\"v\":\"\u56fd\u4ea7\"},{\"a\":\"\u65e5\u672c\",\"v\":\"\u65e5\u672c\"},{\"a\":\"\u6b27\u7f8e\",\"v\":\"\u6b27\u7f8e\"},{\"a\":\"\u5176\u4ed6\",\"v\":\"\u5176\u4ed6\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6309\u65f6\u95f4\",\"v\":\"time\"},{\"a\":\"\u6309\u4eba\u6c14\",\"v\":\"hits\"},{\"a\":\"\u6309\u8bc4\u5206\",\"v\":\"score\"}]}]"
+        }
+      ],
+      "sign": "\u52a8\u6f2b",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740_OkHttp"
+      },
+      "ins": [
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(div.fed-play-item.fed-drop-item)"
+            },
+            {
+              "a": "s_name",
+              "v": ".get(li.fed-padding).t()"
+            },
+            {
+              "a": "list",
+              "v": ".get(ul.fed-part-rows).i(1).get(li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            }
+          ]
+        },
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info",
+              "v": ".get(div.fed-tabs-info p).t()"
+            }
+          ]
+        },
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl",
+              "v": ""
+            },
+            {
+              "a": "playurl_regex"
+            },
+            {
+              "a": "putjs"
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://thishua.com/vodsearch/-------------.html?wd\\u003d%key%\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.fed-part-layout dl)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h1.fed-part-eone.fed-font-xvi).t(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-remarks.fed-font-xii).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u641c\u7d22\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://thishua.com/\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-list-info li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.fed-list-title).t(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-remarks).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9996\u9875",
+      "type": 1
+    }
+  ],
+  "name": "\u6a31\u82b1\u5f71\u9662",
+  "sign": "b4b147bc522828731f1a016bfa72c073",
+  "sqlId": 8,
+  "vars": [],
+  "version": 1
+}

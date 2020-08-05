@@ -1,0 +1,640 @@
+{
+  "coreVersion": 3,
+  "ine": "",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":2,\"type\":1}",
+      "host": {
+        "a": "#\u6587\u672c",
+        "v": "<div class=\"playlist\"> \n      <p class=\"intro\">\u76d2\u5b50\u6293\u53d6\uff0c\u6613\u5931\u6548</p> \n     <ul> \n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/7203.m3u\">\u76f4\u64ad7203</a></li>\n      </ul>\n    </div> \n<div class=\"playlist\"> \n      <p class=\"intro\">\u7f51\u7edc\u8ba2\u9605\uff0c\u5b9a\u671f\u7ef4\u62a4</p> \n     <ul>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/122.m3u\">\u76f4\u64ad122</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/123.m3u\">\u76f4\u64ad123</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/lt.m3u\">\u9a86\u9a7c\u76f4\u64ad</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/movie.m3u\">\u76f4\u64admovie</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/migu1.m3u\">\u54aa\u5495\u76f4\u64ad</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/qinyunian.m3u8\">\u5e86\u4f59\u5e74</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tvheizi/raw/master/\u536b\u89c6\u9891\u9053.m3u\">\u536b\u89c6\u9891\u9053</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tvheizi/raw/master/\u5730\u65b9\u53f0.m3u\">\u5730\u65b9\u53f0</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tvheizi/raw/master/\u592e\u89c6\u9891\u9053.m3u\">\u592e\u89c6\u9891\u9053</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tvheizi/raw/master/\u6e2f\u6fb3\u9891\u9053.m3u\">\u6e2f\u6fb3\u9891\u9053</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tvheizi/raw/master/\u7535\u5f71\u9891\u9053.m3u\">\u7535\u5f71\u9891\u9053</a></li>\n<li><a href=\"https://gitee.com/eeput/iptv/raw/master/iptv.m3u\"></a>\u5bd2\u751f\u540c\u5b66IPTV</li>\n<li><a href=\"https://gitee.com/lette/home/raw/master/list.m3u\">\u5bb6\u5ead\u7f51\u7edc\u8d44\u6e90\u5206\u4eabIPTV</a></li>\n<li><a href=\"https://gitee.com/hutao4399/IPTV/raw/master/dianxinIPTV.m3u8\">\u7535\u4fe1IPTV</a></li>\n<li><a href=\"https://gitee.com/hutao4399/IPTV/raw/master/yidongIPTV.m3u8\">\u79fb\u52a8IPTV</a></li>\n<li><a href=\"https://gitee.com/lihuosheng/tv/raw/master/tv.m3u\">\u7801\u4e91lihuosheng TV</a></li>\n<li><a href=\"https://gitee.com/lihuosheng/tv/raw/master/vod.m3u\">\u7801\u4e91lihuosheng VOD</a></li>\n<li><a href=\"https://raw.githubusercontent.com/EvilCult/iptv-m3u-maker/master/tv.m3u8\">\u5c0f\u68c9\u8884-Evilcult\u6e90</a></li>\n<li><a href=\"https://gitee.com/loikd/zhiboyuan/raw/master/zhiboyuan.m3u8\">\u7801\u4e91-\u957f\u8fea\u76f4\u64ad\u6e90</a></li>\n<li><a href=\"https://gitee.com/lisfa/tvlist/raw/master/list.m3u8\">\u7801\u4e91-lisfa\u76f4\u64ad\u6e90</a></li>\n<li><a href=\"https://gitee.com/ubn/iptv/raw/master/best.m3u\">\u7801\u4e91-ubn\u76f4\u64ad\u6e90</a></li>\n<li><a href=\"https://gitee.com/gongzhonghao/iptv/blob/master/index.m3u\">\u516c\u4f17\u53f7App\u9b54\u65b9\u76f4\u64ad\u6e90</a></li>\n<li><a href=\"https://gitee.com/mingxy/live_broadcast_source/raw/master/zhiboyuan.m3u8\">\u7801\u4e91-mingxy\u76f4\u64ad\u6e90</a></li>\n<li><a href=\"https://gitee.com/gong_li_guo/Live-TV/raw/master/tv.m3u8\">\u7801\u4e91-\u5de9\u7acb\u56fd\u76f4\u64ad\u6e90</a></li>\n<li><a href=\"https://gitee.com/le2002/livetv/raw/master/cn.m3u\">\u7801\u4e91-le2002\u76f4\u64ad\u6e90</a></li>\n<li><a href=\"https://gitee.com/yang_tian_lin/live_broadcast_source/raw/master/Zby.m3u8\">\u7801\u4e91-\u6768\u5929\u6797\u76f4\u64ad\u6e90-\u6709\u798f\u5229</a></li>\n\n      </ul>\n    </div>"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul li)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u76f4\u64ad\u5206\u7c7b\u5217\u8868",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740_Jsoup"
+      },
+      "ins": [
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort"
+            },
+            {
+              "a": "s_name",
+              "v": "\u64ad\u653e\u4e0d\u4e86\u7684\u5c1d\u8bd5\u5207\u6362\u5185\u6838\u6216\u7f51\u9875\u6253\u5f00"
+            },
+            {
+              "a": "list",
+              "v": ".z(#EXTINF[\\s\\S]*?,.*?[r|h]t[s|m|t]p.*?[\\s])"
+            },
+            {
+              "a": "name",
+              "v": ".z2(,\\(.*?\\)[r|h]t[s|m|t]p)"
+            },
+            {
+              "a": "url",
+              "v": ".z2(,.*?\\([r|h]t[s|m|t]p.*?\\)[\\s])"
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"json\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u6587\u672c",
+        "v": "<div class=\"playlist\"> \n      <p class=\"intro\">\u76d2\u5b50\u6293\u53d6\uff0c\u6613\u5931\u6548</p> \n     <ul> \n<li><a href=\"https://gitee.com/haotv/tvbtvb/raw/master/iptv.json\">TVB\u5185\u7f6eIPTV</a></li>\n<li><a href=\"https://gitee.com/haotv/tvbtvb/raw/master/iptv1.json\">TVB\u5185\u7f6eIPTV1</a></li>\n      </ul>\n    </div>"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul li)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u76f4\u64ad\u8f6f\u4ef6\u5185\u7f6ejson\u7c7b",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".json(data)"
+            },
+            {
+              "a": "s_name",
+              "v": ".json(group).ct(,\u64ad\u653e\u4e0d\u4e86\u7684\u5c1d\u8bd5\u5207\u6362\u5185\u6838\u6216\u7f51\u9875\u6253\u5f00)"
+            },
+            {
+              "a": "list",
+              "v": ".json(channels)"
+            },
+            {
+              "a": "name",
+              "v": ".json(title)"
+            },
+            {
+              "a": "url",
+              "v": ".json(url)"
+            }
+          ]
+        }
+      ],
+      "sign": "json\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://gitee.com/zengjian0303/Tvlist-awesome-m3u-m3u8/tree/master/m3u\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.tree-item-file-name.tree-file.tree-list-item)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href).th(blob##raw)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u7801\u4e91\u6c47\u603b\u9879\u76ee(\u5931\u6548\u8f83\u591a)",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5c0f\u68c9\u8884\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u6587\u672c",
+        "v": "<div class=\"playlist\"> \n      <p class=\"intro\">\u76d2\u5b50\u6293\u53d6\uff0c\u6613\u5931\u6548</p> \n     <ul> \n<li><a href=\"https://coding.net/u/Gold2River/p/NetRaw/git/raw/master/yangshi.json\">\u5c0f\u68c9\u8884-\u592e\u89c6</a></li>\n<li><a href=\"https://coding.net/u/Gold2River/p/NetRaw/git/raw/master/weishi.json\">\u5c0f\u68c9\u8884-\u536b\u89c6</a></li>\n<li><a href=\"https://coding.net/u/Gold2River/p/NetRaw/git/raw/master/yingshi.json\">\u5c0f\u68c9\u8884-\u5f71\u89c6\u8f6e\u64ad</a></li>\n<li><a href=\"https://coding.net/u/Gold2River/p/NetRaw/git/raw/master/dfgj.json\">\u5c0f\u68c9\u8884-\u5730\u65b9\u56fd\u9645</a></li>\n<li><a href=\"https://coding.net/u/Gold2River/p/NetRaw/git/raw/master/tvLive.json\">\u5c0f\u68c9\u8884-\u592e\u89c6</a></li>\n      </ul>\n    </div>"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul li)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5c0f\u68c9\u8884\u6d77\u9614\u76f4\u64ad\u7cfb\u5217",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort"
+            },
+            {
+              "a": "s_name",
+              "v": ".json(name)"
+            },
+            {
+              "a": "list",
+              "v": ".json(lives)"
+            },
+            {
+              "a": "name",
+              "v": ".json(name)"
+            },
+            {
+              "a": "url",
+              "v": ".json(url)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5c0f\u68c9\u8884\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5c0f\u68c9\u8884-\u7eaf\u4e8c\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u6587\u672c",
+        "v": "<div class=\"playlist\"> \n      <p class=\"intro\">\u76d2\u5b50\u6293\u53d6\uff0c\u6613\u5931\u6548</p> \n     <ul> \n<li><a href=\"https://coding.net/u/Gold2River/p/NetRaw/git/raw/master/tvLive.json\">\u5c0f\u68c9\u8884-\u7231\u597d</a></li>\n      </ul>\n    </div>"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul li)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5c0f\u68c9\u8884-\u7eaf\u4e8c",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://coding.net/u/Gold2River/p/NetRaw/git/raw/master/tvLive.json\"}"
+      },
+      "ins": [
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".json(lives)"
+            },
+            {
+              "a": "s_name",
+              "v": ".json(name)"
+            },
+            {
+              "a": "list",
+              "v": ".json(lives)"
+            },
+            {
+              "a": "name",
+              "v": ".json(name)"
+            },
+            {
+              "a": "url",
+              "v": ".json(url)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5c0f\u68c9\u8884-\u7eaf\u4e8c\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9501\u7801\u9891\u9053\u64ad\u653e\u5668\",\"max\":0,\"row\":0,\"type\":1}",
+      "host": {
+        "a": "#\u6587\u672c",
+        "v": "\u9501\u7801\u9891\u9053"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".t()"
+            },
+            {
+              "a": "name",
+              "v": "\u9501\u7801\u9891\u9053"
+            },
+            {
+              "a": "url",
+              "v": ".t()"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9501\u7801\u9891\u9053",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u6587\u672c",
+        "v": "Blowjob,http://live.redtraffic.xyz/blowjob.m3u8\r\nCuckold,http://live.redtraffic.xyz/cuckold.m3u8\r\nIatina,http://live.redtraffic.xyz/latina.m3u8\r\nBigtits,http://live.redtraffic.xyz/bigtits.m3u8\r\nMilf,http://live.redtraffic.xyz/milf.m3u8\r\nPov,http://live.redtraffic.xyz/pov.m3u8\r\nCdn1,http://cdn.adultiptv.net/livecams.m3u8\r\nCdn2,http://cdn.adultiptv.net/gangbang.m3u8\r\nCdn3,http://cdn.adultiptv.net/brunette.m3u8\r\nCdn4,http://cdn.adultiptv.net/compilation.m3u8\r\nCdn5,http://cdn.adultiptv.net/pornstar.m3u8\n\n\u4fc4\u7f57\u65af\u83ca\u82b1\u53f0,http://46.29.165.95:8081/stream/Runight/chunks.m3u8\n800\u9ad8\u6e051,https://www.800-cdn.com/20191104/E1HxL2k9/index.m3u8\r\n800\u9ad8\u6e052,https://www.800-cdn.com/20191104/BmPJsJib/index.m3u8\r\n800\u9ad8\u6e053,https://www.800-cdn.com/20191104/FOYD2Arr/index.m3u8\r\n800\u9ad8\u6e054,https://www.800-cdn.com/20191104/xWsSpVkx/index.m3u8\r\n800\u9ad8\u6e055,https://www.800-cdn.com/20191104/QLNa0Ar4/index.m3u8\r\n800\u9ad8\u6e056,https://www.800-cdn.com/20191104/1NVic5n6/index.m3u8\r\n800\u9ad8\u6e057,https://www.800-cdn.com/20191104/mxUrCin3/index.m3u8\r\n800\u9ad8\u6e058,https://www.800-cdn.com/20191104/gfXL8zE8/index.m3u8\r\n800\u9ad8\u6e059,https://www.800-cdn.com/20191104/PSnzMnZd/index.m3u8\r\n800\u9ad8\u6e0510,https://www.800-cdn.com/20191104/lL8NPXx2/index.m3u8\r\n800\u9ad8\u6e0511,https://www.800-cdn.com/20191104/y0KFfsPy/index.m3u8\r\n800\u9ad8\u6e0512,https://www.800-cdn.com/20191104/WbOhWHnk/index.m3u8\r\n800\u9ad8\u6e0513,https://www.800-cdn.com/20191027/R87kAR0L/index.m3u8\r\n800\u9ad8\u6e0514,https://www.800-cdn.com/20191027/RBJZ7rSf/index.m3u8\r\n800\u9ad8\u6e0515,https://www.800-cdn.com/20191027/4sGRBas8/index.m3u8\r\n800\u9ad8\u6e0516,https://www.800-cdn.com/20191027/f6eNa800/index.m3u8\r\n800\u9ad8\u6e0517,https://www.800-cdn.com/20191027/uAH7rRu4/index.m3u8\r\n800\u9ad8\u6e0518,https://www.800-cdn.com/20191027/QAIdDBmi/index.m3u8\r\n800\u9ad8\u6e0519,https://www.800-cdn.com/20191027/5X3C0amn/index.m3u8\r\n800\u9ad8\u6e0520,https://www.800-cdn.com/20191027/ZKXHEQyF/index.m3u8\r\n800\u9ad8\u6e0521,https://www.800-cdn.com/20191027/hqEHcPYy/index.m3u8\r\n800\u9ad8\u6e0522,https://www.800-cdn.com/20191027/9NOUhwRt/index.m3u8\r\n800\u9ad8\u6e0523,https://www.800-cdn.com/20191027/bYH5tZAI/index.m3u8\r\n800\u9ad8\u6e0524,https://www.800-cdn.com/20191027/2nvgyYWH/index.m3u8\r\n800\u9ad8\u6e0525,https://www.800-cdn.com/20191027/bySOhvPZ/index.m3u8\r\n800\u9ad8\u6e0526,https://www.800-cdn.com/20191027/xqHCnmsK/index.m3u8\r\n800\u9ad8\u6e0527,https://www.800-cdn.com/20191024/ArdisIvp/index.m3u8\r\n800\u9ad8\u6e0528,https://www.800-cdn.com/20191024/nP15lEjD/index.m3u8\r\n800\u9ad8\u6e0529,https://www.800-cdn.com/20191024/y2HqkX9g/index.m3u8\r\n800\u9ad8\u6e0530,https://www.800-cdn.com/20191024/TpNs2GDB/index.m3u8\r\n800\u9ad8\u6e0531,http://video.jiagew762.com:8091/20180616/wmxnujCZ/index.m3u8\r\n800\u9ad8\u6e0532,http://video.jiagew762.com:8091/20180614/NDShlY4s/index.m3u8\r\n800\u9ad8\u6e0533,http://video.jiagew762.com:8091/20180614/NDShlY4s/index.m3u8\r\n800\u9ad8\u6e0534,http://video.jiagew762.com:8091/20180614/rBl1szfa/index.m3u8\r\n800\u9ad8\u6e0535,http://video.jiagew762.com:8091/20180615/kQOBxis1/index.m3u8\r\n800\u9ad8\u6e0536,http://video.jiagew762.com:8091/20180614/1ltODGjX/index.m3u8\r\n800\u9ad8\u6e0537,http://video.jiagew762.com:8091/20180615/U9uFMZw1/index.m3u8\r\n800\u9ad8\u6e0538,http://video.jiagew762.com:8091/20180614/BUlr34Q7/index.m3u8\r\n800\u9ad8\u6e0539,http://video.jiagew762.com:8091/20180615/YsDPfuX5/index.m3u8\r\n800\u9ad8\u6e0540,http://video.jiagew762.com:8091/20180615/eQN4S0ro/index.m3u8\r\n800\u9ad8\u6e0541,http://video.jiagew762.com:8091/20180616/tsrocUhb/index.m3u8\r\n800\u9ad8\u6e0542,http://video.jiagew762.com:8091/20180615/hb6aWRVY/index.m3u8\r\n800\u9ad8\u6e0543,http://video.jiagew762.com:8091/20180615/Hy0GyDqw/index.m3u8\r\n800\u9ad8\u6e0544,http://video.jiagew762.com:8091/20180615/VNb8JbbL/index.m3u8\r\n800\u9ad8\u6e0545,http://video.jiagew762.com:8091/20180616/UnA748MV/index.m3u8\r\n800\u9ad8\u6e0546,http://video.jiagew762.com:8091/20180616/wmxnujCZ/index.m3u8\r\n800\u9ad8\u6e0547,http://video.jiagew762.com:8091/20180616/BpzeWWhs/index.m3u8\r\n800\u9ad8\u6e0548,http://video.jiagew762.com:8091/20180616/4QUnWwoD/index.m3u8\r\n800\u9ad8\u6e0549,http://video.jiagew762.com:8091/20180616/Ddwhp9yH/index.m3u8\r\n800\u9ad8\u6e05450,http://live.redtraffic.xyz/threesome.m3u8?fluxuslust.m3u8\r\n\u6b27\u7f8e\u9ad8\u6e051,http://live.redtraffic.xyz/teen.m3u8?fluxuslust.m3u8\r\n\u6b27\u7f8e\u9ad8\u6e052,http://live.redtraffic.xyz/pornstar.m3u8?fluxuslust.m3u8\r\n\u6b27\u7f8e\u9ad8\u6e053,http://live.redtraffic.xyz/pov.m3u8?fluxuslust.m3u8\r\n\u6b27\u7f8e\u9ad8\u6e054,http://live.redtraffic.xyz/milf.m3u8?fluxuslust.m3u8\r\n\u6b27\u7f8e\u9ad8\u6e055,http://live.redtraffic.xyz/lesbian.m3u8?fluxuslust.m3u8\r\n\u6b27\u7f8e\u9ad8\u6e056,http://live.redtraffic.xyz/latina.m3u8?fluxuslust.m3u8\r\n\u6b27\u7f8e\u9ad8\u6e057,http://live.redtraffic.xyz/fetish.m3u8?fluxuslust.m3u8\r\n\u6b27\u7f8e\u9ad8\u6e058,http://live.redtraffic.xyz/blowjob.m3u8?fluxuslust.m3u8\r\n\u6b27\u7f8e\u9ad8\u6e059,http://live.redtraffic.xyz/bigdick.m3u8?fluxuslust.m3u8\r\n\u6b27\u7f8e\u9ad8\u6e0510,http://live.redtraffic.xyz/bigass.m3u8fluxuslust.m3u8\n\u6d4b\u8bd5,http://okteve.com/pink-tv-korea-live/\n\n"
+      },
+      "ins": [
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort"
+            },
+            {
+              "a": "s_name"
+            },
+            {
+              "a": "list",
+              "v": ".z([\\S]*?,.*?[\\s])"
+            },
+            {
+              "a": "name",
+              "v": ".z2(\\(.*?\\),)"
+            },
+            {
+              "a": "url",
+              "v": ".z2(,\\(.*?\\)[\\s])"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9501\u7801\u9891\u9053\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u767e\u5e74\u76d2\u5b50\u4e3b\u64ad\u5217\u8868\",\"max\":0,\"row\":2,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://mi180.com/api_taiyang.php\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(data)"
+            },
+            {
+              "a": "name",
+              "v": ".json(title)"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://mi180.com/api_taiyang.php?pt=&pt=).json(latform_type)"
+            },
+            {
+              "a": "img",
+              "v": ".json(img)"
+            },
+            {
+              "a": "msg",
+              "v": ".json(number).ct(\u4f4d\u4e3b\u64ad)"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u767e\u5e74\u597d\u76d2",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"freeadultiptv\u64ad\u653e\u5668\",\"max\":0,\"row\":0,\"type\":1}",
+      "host": {
+        "a": "#\u6587\u672c",
+        "v": "freeadultiptv"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".t()"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".t()"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "freeadultiptv",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u6587\u672c",
+        "v": "AdultIPTV.net Live Cams,http://cdn.adultiptv.net/livecams.m3u8 AdultIPTV.net Anal,http://cdn.adultiptv.net/anal.m3u8 AdultIPTV.net Big Ass,http://cdn.adultiptv.net/bigass.m3u8 AdultIPTV.net Big Dick,http://cdn.adultiptv.net/bigdick.m3u8 AdultIPTV.net Big Tits,http://cdn.adultiptv.net/bigtits.m3u8 AdultIPTV.net Blonde,http://cdn.adultiptv.net/blonde.m3u8 AdultIPTV.net Blowjob,http://cdn.adultiptv.net/blowjob.m3u8 AdultIPTV.net Brunette,http://cdn.adultiptv.net/brunette.m3u8 AdultIPTV.net Compilation,http://cdn.adultiptv.net/compilation.m3u8 AdultIPTV.net Cuckold,http://cdn.adultiptv.net/cuckold.m3u8 AdultIPTV.net Fetish,http://cdn.adultiptv.net/fetish.m3u8 AdultIPTV.net Gangbang,http://cdn.adultiptv.net/gangbang.m3u8 AdultIPTV.net Gay,http://cdn.adultiptv.net/gay.m3u8 AdultIPTV.net Hardcore,http://cdn.adultiptv.net/hardcore.m3u8 AdultIPTV.net Interracial,http://cdn.adultiptv.net/interracial.m3u8 AdultIPTV.net Latina,http://cdn.adultiptv.net/latina.m3u8 AdultIPTV.net Lesbian,http://cdn.adultiptv.net/lesbian.m3u8 AdultIPTV.net MILF,http://cdn.adultiptv.net/milf.m3u8 AdultIPTV.net Pornstar,http://cdn.adultiptv.net/pornstar.m3u8 AdultIPTV.net POV,http://cdn.adultiptv.net/pov.m3u8 AdultIPTV.net Rough,http://cdn.adultiptv.net/rough.m3u8 AdultIPTV.net Russian,http://cdn.adultiptv.net/russian.m3u8 AdultIPTV.net Teen,http://cdn.adultiptv.net/teen.m3u8 AdultIPTV.net Threesome,http://cdn.adultiptv.net/threesome.m3u8 Amazing TV,http://204.45.182.172:26789/i/ghjnvq5o/8c85fsaf/index.m3u8 AST TV 1,https://www.ast.tv/stream/1/ultra.m3u8 AST TV 2,https://www.ast.tv/stream/2/ultra.m3u8 Babestation24,https://sdn-global-live-http-cache.3qsdn.com/live/_definst_/amlst:9528-mbr/chunklist.m3u8 HOT,http://204.45.182.172:26789/i/ghjnvq5o/8c855d75/index.m3u8 Jasmin TV,http://109.71.162.112:1935/live/sd.jasminchannel.stream/playlist.m3u8 Korean Adult TV,http://122.38.74.172:9981/stream/channelid/1463854277 Miami TV,https://59ec5453559f0.streamlock.net/miamitv/smil:miamitvROKU/chunklist_w1195980091_b2592000.m3u8 Miami TV Jenny Live,https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexicoROKU/chunklist_w1869403172_b1896000.m3u8 Miami TV Latino,https://59ec5453559f0.streamlock.net/canal18/smil:canal18/chunklist_w577650521_b2592000.m3u8 Midnight TV,http://112.148.183.161:9981/stream/channelid/96001658 Pandora Pink HD,http://204.45.182.172:26789/i/ghjnvq5o/8c85giea/index.m3u8 Private TV HD,http://188.35.9.5:10005/stolen/153a/imposter.rar Priv\u00e9 TV,http://08139e2f.ottv.info/iptv/S9824PT3RW2E72/877/index.m3u8 Rainbow TV,http://204.45.182.172:26789/i/ghjnvq5o/8c855daa/index.m3u8 Super One HD,http://188.35.9.5:10007/stolen/246r/parasite.install S\u014dng sh\u00ec 1,http://204.45.182.172:26789/i/ghjnvq5o/8c855fdf/index.m3u8 S\u014dng sh\u00ec 2,http://204.45.182.172:26789/i/ghjnvq5o/984fa1vb/index.m3u8 Viki,http://112.148.183.161:9981/stream/channelid/488704961 Visit-X TV,http://stream.visit-x.tv:1935/vxtv/live_720p/playlist.m3u8 Vivid TV Europe,http://188.35.9.26:2031/udp/031a XCafe 1,http://204.45.182.172:26789/i/ghjnvq5o/846a1ghm/index.m3u8 XCafe 2,http://204.45.182.172:26789/i/ghjnvq5o/1bf4a301/index.m3u8 XCafe 3,http://204.45.182.172:26789/i/ghjnvq5o/ahun18hg/index.m3u8 XCafe 4,http://204.45.182.172:26789/i/ghjnvq5o/84a15gbc/index.m3u8 XCafe Anal,http://204.45.182.172:26789/i/ghjnvq5o/952a3vvv/index.m3u8 XCafe Asian,http://204.45.182.172:26789/i/ghjnvq5o/456oinav/index.m3u8 XCafe Blowjob,http://204.45.182.172:26789/i/ghjnvq5o/91bnjred/index.m3u8 XCafe Ebony,http://204.45.182.172:26789/i/ghjnvq5o/8jainsbq/index.m3u8 XCafe Erotic,http://204.45.182.172:26789/i/ghjnvq5o/v19a2133/index.m3u8 Zest TV,http://188.35.9.5:10007/stolen/214g/parasite.install NYX Media 1,https://cdn1.ibizastream.biz:441/free/1/playlist.m3u8 NYX Media 2,https://cdn1.ibizastream.biz:441/free/2/playlist.m3u8"
+      },
+      "ins": [
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort"
+            },
+            {
+              "a": "s_name",
+              "v": "\u64ad\u653e\u4e0d\u4e86\u7684\u5c1d\u8bd5\u5207\u6362\u5185\u6838\u6216\u7f51\u9875\u6253\u5f00"
+            },
+            {
+              "a": "list",
+              "v": ".z([\\S].*?,.*?[\\s])"
+            },
+            {
+              "a": "name",
+              "v": ".z2(\\(.*?\\),)"
+            },
+            {
+              "a": "url",
+              "v": ".z2(,\\(.*?\\)[\\s])"
+            }
+          ]
+        }
+      ],
+      "sign": "freeadultiptv\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u64ad\u653e\u5668\",\"max\":0,\"row\":2,\"type\":5}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740_Jsoup"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(data)"
+            },
+            {
+              "a": "name",
+              "v": ".json(title)"
+            },
+            {
+              "a": "url",
+              "v": ".json(url)"
+            },
+            {
+              "a": "img",
+              "v": ".json(img)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u767e\u5e74\u76d2\u5b50\u4e3b\u64ad\u5217\u8868",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u76f4\u64ad\u5206\u7c7b\u5217\u8868\",\"\u76f4\u64ad\u8f6f\u4ef6\u5185\u7f6ejson\u7c7b\",\"\u7801\u4e91\u6c47\u603b\u9879\u76ee(\u5931\u6548\u8f83\u591a)\",\"\u5c0f\u68c9\u8884\u6d77\u9614\u76f4\u64ad\u7cfb\u5217\",\"\u5c0f\u68c9\u8884-\u7eaf\u4e8c\",\"\u9501\u7801\u9891\u9053\",\"\u767e\u5e74\u597d\u76d2\",\"freeadultiptv\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    }
+  ],
+  "name": "\u76f4\u64ad\u6e90\u8ba2\u9605-1.3",
+  "sign": "cd80fa7775868bbbf276fe24da13a0e3",
+  "sqlId": 123,
+  "vars": [],
+  "version": 2
+}

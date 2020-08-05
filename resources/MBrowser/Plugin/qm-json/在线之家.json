@@ -1,0 +1,277 @@
+{
+  "coreVersion": 3,
+  "ine": "\u641c\u7d22",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u9996\u9875\u63a8\u8350\",\"\u7535\u5f71\",\"\u8fde\u7eed\u5267\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.zxzj.me/\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.pic-text).t().c(_).get(p.text).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9996\u9875\u63a8\u8350",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(ul[class~=stui-.*?play.*])"
+            },
+            {
+              "a": "s_name",
+              "v": ""
+            },
+            {
+              "a": "list",
+              "v": ".get(li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            }
+          ]
+        },
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info",
+              "v": ".get(div.stui-player__detail)"
+            }
+          ]
+        },
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl"
+            },
+            {
+              "a": "playurl_regex"
+            },
+            {
+              "a": "putjs"
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.zxzj.me/vodshow/1-\u5730\u533a-\u6392\u5e8f------%pn%---.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.pic-text).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5730\u533a\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"\"},{\"a\":\"\u5927\u9646\",\"v\":\"\u5927\u9646\"},{\"a\":\"\u9999\u6e2f\",\"v\":\"\u9999\u6e2f\"},{\"a\":\"\u53f0\u6e7e\",\"v\":\"\u53f0\u6e7e\"},{\"a\":\"\u6b27\u7f8e\",\"v\":\"\u6b27\u7f8e\"},{\"a\":\"\u97e9\u56fd\",\"v\":\"\u97e9\u56fd\"},{\"a\":\"\u65e5\u672c\",\"v\":\"\u65e5\u672c\"},{\"a\":\"\u6cf0\u56fd\",\"v\":\"\u6cf0\u56fd\"},{\"a\":\"\u5370\u5ea6\",\"v\":\"\u5370\u5ea6\"},{\"a\":\"\u4fc4\u7f57\u65af\",\"v\":\"\u4fc4\u7f57\u65af\"},{\"a\":\"\u5176\u4ed6\",\"v\":\"\u5176\u4ed6\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u65f6\u95f4\",\"v\":\"time\"},{\"a\":\"\u4eba\u6c14\",\"v\":\"hits\"},{\"a\":\"\u8bc4\u5206\",\"v\":\"score\"}]}]"
+        }
+      ],
+      "sign": "\u7535\u5f71",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.zxzj.me/vodshow/\u7c7b\u578b--\u6392\u5e8f------%pn%---.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.pic-text).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u7c7b\u578b\",\"s\":[{\"a\":\"\u7f8e\u5267\",\"v\":\"2\"},{\"a\":\"\u97e9\u5267\",\"v\":\"3\"},{\"a\":\"\u65e5\u5267\",\"v\":\"4\"},{\"a\":\"\u6cf0\u5267\",\"v\":\"5\"},{\"a\":\"\u52a8\u6f2b\",\"v\":\"6\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u65f6\u95f4\",\"v\":\"time\"},{\"a\":\"\u4eba\u6c14\",\"v\":\"hits\"},{\"a\":\"\u8bc4\u5206\",\"v\":\"score\"}]}]"
+        }
+      ],
+      "sign": "\u8fde\u7eed\u5267",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.zxzj.me/vodsearch/%key%----------%pn%---.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h4 a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(h4 a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.pic-text).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u641c\u7d22",
+      "type": 1
+    }
+  ],
+  "name": "\u5728\u7ebf\u4e4b\u5bb6",
+  "sign": "90ccb731c92c1623ebb5e232f3f8316f",
+  "sqlId": 195,
+  "vars": [],
+  "version": 1
+}

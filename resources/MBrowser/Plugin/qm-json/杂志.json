@@ -1,0 +1,170 @@
+{
+  "coreVersion": 3,
+  "ine": "\u6742\u5fd7",
+  "info": "",
+  "inq": "",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u65f6\u95f4\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://qikan.fun/s.php?s\\u003d%key%\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.layui-container)"
+            },
+            {
+              "a": "name",
+              "v": ".get(b).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(img).a(src)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6742\u5fd7",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u76ee\u5f55\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740_Jsoup"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.layui-container)"
+            },
+            {
+              "a": "name",
+              "v": ".get(b).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(img).a(src)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u65f6\u95f4",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":2}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740_Jsoup"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(a)"
+            },
+            {
+              "a": "name",
+              "v": ".get(div.layui-card-title).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg",
+              "v": ""
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u76ee\u5f55",
+      "type": 1
+    },
+    {
+      "attr": "{\"type\":0}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740_Jsoup"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "name",
+              "v": ""
+            },
+            {
+              "a": "cont",
+              "v": ".get(div.layui-field-box)"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9605\u8bfb\u5668",
+      "type": 13
+    }
+  ],
+  "name": "\u6742\u5fd7",
+  "sign": "f92b5d09391c66b483298a7bde576cc0",
+  "sqlId": 6,
+  "vars": [],
+  "version": 0
+}

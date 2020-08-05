@@ -1,0 +1,217 @@
+{
+  "coreVersion": 3,
+  "ine": "\u6851\u821e\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u6851\u821e"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.l div.l_2)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h2 a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(h2 a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(div.l_4).t()"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"mtype\",\"s\":[{\"a\":\"\u7384\u5e7b\",\"v\":\"1\"},{\"a\":\"\u6b66\u4fa0\",\"v\":\"2\"},{\"a\":\"\u90fd\u5e02\",\"v\":\"3\"},{\"a\":\"\u7f51\u6e38\",\"v\":\"4\"},{\"a\":\"\u79d1\u5e7b\",\"v\":\"5\"},{\"a\":\"\u6050\u6016\",\"v\":\"6\"}]}]"
+        }
+      ],
+      "sign": "\u6851\u821e\u5217\u8868",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.main dd)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "pagecount"
+            }
+          ]
+        },
+        {
+          "a": "text",
+          "s": [
+            {
+              "a": "text",
+              "v": ".get(div.centent)"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9605\u8bfb\u5668",
+      "type": 25
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u6851\u821e\u641c\u7d22"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.l div.l_2)"
+            },
+            {
+              "a": "name",
+              "v": ".get(div.l_4 a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(div.l_4 a).a(href).tz(index)"
+            },
+            {
+              "a": "img",
+              "v": ".get(div.l_3 img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(div.l_4).t().c().get(div.l_5).t()"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6851\u821e\u641c\u7d22\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u6392\u884c\u699c"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.paihang_ul li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ".get(span).t().c(_\u4f5c\u8005:).get(em).t()"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6392\u884c\u699c\u5217\u8868",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u6851\u821e\u5217\u8868\",\"\u6392\u884c\u699c\u5217\u8868\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    }
+  ],
+  "name": "\u6851\u821e\u5c0f\u8bf4-1.14",
+  "sign": "08c91df3d1d9ec748f4d7f75fe981b35",
+  "sqlId": 6,
+  "vars": [
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u6851\u821e",
+      "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"http://www.sangwu8.com/class/mtype_%pn%.htm\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u6851\u821e\u641c\u7d22",
+      "v": "{\"code\":\"gbk\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"http://www.sangwu8.com/modules/article/search.php?searchtype\\u003darticlename\\u0026searchkey\\u003d%key%\\u0026page\\u003d%pn%\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u6392\u884c\u699c",
+      "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"http://www.sangwu8.com/paihang/\"}"
+    }
+  ],
+  "version": 3
+}

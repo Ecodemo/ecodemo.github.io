@@ -1,0 +1,245 @@
+{
+  "coreVersion": 3,
+  "ine": "\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://1090ys.com/whole/\u5206\u7c7b__\u7c7b\u578b_____0_\u6392\u5e8f_%pn%.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist.clearfix li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.pic-tag).t().c(_).get(span.pic-text).t().c(_).get(p.text).t()"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u7535\u5f71\",\"v\":\"1\"},{\"a\":\"\u7f8e\u5267\",\"v\":\"2\"},{\"a\":\"\u97e9\u5267\",\"v\":\"3\"},{\"a\":\"\u65e5\u5267\",\"v\":\"4\"},{\"a\":\"\u56fd\u4ea7\u5267\",\"v\":\"7\"},{\"a\":\"\u52a8\u6f2b\",\"v\":\"8\"}]},{\"a\":\"\u7c7b\u578b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"\"},{\"a\":\"\u52a8\u4f5c\",\"v\":\"\u52a8\u4f5c\"},{\"a\":\"\u5267\u60c5\",\"v\":\"\u5267\u60c5\"},{\"a\":\"\u559c\u5267\",\"v\":\"\u559c\u5267\"},{\"a\":\"\u7231\u60c5\",\"v\":\"\u7231\u60c5\"},{\"a\":\"\u79d1\u5e7b\",\"v\":\"\u79d1\u5e7b\"},{\"a\":\"\u60ca\u609a\",\"v\":\"\u60ca\u609a\"},{\"a\":\"\u6050\u6016\",\"v\":\"\u6050\u6016\"},{\"a\":\"\u60ac\u7591\",\"v\":\"\u60ac\u7591\"},{\"a\":\"\u5192\u9669\",\"v\":\"\u5192\u9669\"},{\"a\":\"\u9b54\u5e7b\",\"v\":\"\u9b54\u5e7b\"},{\"a\":\"\u5947\u5e7b\",\"v\":\"\u5947\u5e7b\"},{\"a\":\"\u5386\u53f2\",\"v\":\"\u5386\u53f2\"},{\"a\":\"\u72af\u7f6a\",\"v\":\"\u72af\u7f6a\"},{\"a\":\"\u52a8\u753b\",\"v\":\"\u52a8\u753b\"},{\"a\":\"\u5076\u50cf\",\"v\":\"\u5076\u50cf\"},{\"a\":\"\u7eaa\u5f55\",\"v\":\"\u7eaa\u5f55\"},{\"a\":\"\u9752\u6625\",\"v\":\"\u9752\u6625\"},{\"a\":\"\u53e4\u88c5\",\"v\":\"\u53e4\u88c5\"},{\"a\":\"\u6b66\u4fa0\",\"v\":\"\u6b66\u4fa0\"},{\"a\":\"\u707e\u96be\",\"v\":\"\u707e\u96be\"},{\"a\":\"\u8c0d\u6218\",\"v\":\"\u8c0d\u6218\"},{\"a\":\"\u4f20\u8bb0\",\"v\":\"\u4f20\u8bb0\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6309\u65f6\u95f4\",\"v\":\"id\"},{\"a\":\"\u6309\u4eba\u6c14\",\"v\":\"hits\"}]}]"
+        }
+      ],
+      "sign": "\u5206\u7c7b",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://1090ys.com/?c\\u003dopt\\u0026id\\u003dnew\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist__media li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(div.detail).t()"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6700\u8fd1\u66f4\u65b0",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://1090ys.com/\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.pic-tag).t().c(_).get(span.pic-text).t().c(_).get(p.text).t()"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9996\u9875\u63a8\u8350",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u9996\u9875\u63a8\u8350\",\"\u5206\u7c7b\",\"\u6700\u8fd1\u66f4\u65b0\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info",
+              "v": ".get(div.stui-content__detail).t()"
+            }
+          ]
+        },
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(div.stui-pannel-box ul.stui-content__playlist)"
+            },
+            {
+              "a": "s_name",
+              "v": ""
+            },
+            {
+              "a": "list",
+              "v": ".get(li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://1090ys.com/?c\\u003dsearch\\u0026wd\\u003d%key%\\u0026sort\\u003daddtime\\u0026order\\u003ddesc\\u0026page\\u003d%pn%\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist__media li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(div.detail).t()"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u641c\u7d22\u5217\u8868",
+      "type": 1
+    }
+  ],
+  "name": "1090\u5f71\u89c6(\u65e0\u5e7f\u544a)",
+  "sign": "b08db472d8fc357dde7362751d95a448",
+  "sqlId": 132,
+  "vars": [],
+  "version": 1
+}

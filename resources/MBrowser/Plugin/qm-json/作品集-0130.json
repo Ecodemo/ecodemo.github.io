@@ -1,0 +1,332 @@
+{
+  "coreVersion": 3,
+  "ine": "\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u4f5c\u54c1\u96c6\u5206\u7c7b\u5217\u8868\",\"\u6392\u884c\u699c\u5217\u8868\",\"\u4f5c\u8005\u5206\u7c7b\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":true,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":2,\"type\":1}",
+      "host": {
+        "a": "\u4f5c\u54c1\u96c6\u5206\u7c7b"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.catelist a)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".a(href)"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ".a(title)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"mtype\",\"s\":[{\"a\":\"\u6821\u56ed\u5c0f\u8bf4\",\"v\":\"xy\"},{\"a\":\"\u6b66\u4fa0\u5c0f\u8bf4\",\"v\":\"wx\"},{\"a\":\"\u8a00\u60c5\u5c0f\u8bf4\",\"v\":\"yq\"},{\"a\":\"\u6050\u6016\u5c0f\u8bf4\",\"v\":\"kb\"},{\"a\":\"\u5386\u53f2\u519b\u4e8b\",\"v\":\"ls\"},{\"a\":\"\u73b0\u4ee3\u6587\u5b66\",\"v\":\"xd\"},{\"a\":\"\u7384\u5e7b\u5c0f\u8bf4\",\"v\":\"xh\"},{\"a\":\"\u5916\u56fd\u6587\u5b66\",\"v\":\"wgxs\"}]}]"
+        }
+      ],
+      "sign": "\u4f5c\u54c1\u96c6\u5206\u7c7b\u5217\u8868",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.book_list li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "pagecount"
+            }
+          ]
+        },
+        {
+          "a": "text",
+          "s": [
+            {
+              "a": "text",
+              "v": ".get(div.contentbox)"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9605\u8bfb\u5668",
+      "type": 25
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u6392\u884c\u699c"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.listbox li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(div.s).t().c(_).get(div.u).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"mtype\",\"s\":[{\"a\":\"\u603b\u6392\u884c\",\"v\":\"alltotal\"},{\"a\":\"\u603b\u63a8\u8350\",\"v\":\"allisgood\"},{\"a\":\"\u603b\u4e0b\u8f7d\",\"v\":\"alldown\"},{\"a\":\"\u5468\u6392\u884c\",\"v\":\"weektotal\"},{\"a\":\"\u6708\u6392\u884c\",\"v\":\"monthtotal\"},{\"a\":\"\u5468\u63a8\u8350\",\"v\":\"weekisgood\"},{\"a\":\"\u6708\u63a8\u8350\",\"v\":\"monthisgood\"},{\"a\":\"\u5468\u4e0b\u8f7d\",\"v\":\"weekdown\"},{\"a\":\"\u6708\u4e0b\u8f7d\",\"v\":\"monthdown\"},{\"a\":\"\u6700\u65b0\u66f4\u65b0\",\"v\":\"newupdate\"}]}]"
+        }
+      ],
+      "sign": "\u6392\u884c\u699c\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u4f5c\u8005\u4f5c\u54c1\u5217\u8868\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u4f5c\u8005\u5927\u5168"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.items li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ".t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"mtype\",\"s\":[{\"a\":\"\u6b66\u4fa0\",\"v\":\"wuxia\"},{\"a\":\"\u7384\u5e7b\",\"v\":\"xuanhuan\"},{\"a\":\"\u8a00\u60c5\",\"v\":\"yanqing\"},{\"a\":\"\u6821\u56ed\",\"v\":\"xiaoyuan\"},{\"a\":\"\u534e\u4eba\",\"v\":\"huaren\"},{\"a\":\"\u7f51\u7edc\",\"v\":\"net\"},{\"a\":\"\u79d1\u5e7b\",\"v\":\"kehuan\"},{\"a\":\"\u6050\u6016\",\"v\":\"kongbu\"},{\"a\":\"\u5916\u56fd\",\"v\":\"guowai\"}]}]"
+        }
+      ],
+      "sign": "\u4f5c\u8005\u5206\u7c7b",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.books div.bk)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h3 a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(h3 a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(div.pic img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(p).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u4f5c\u8005\u4f5c\u54c1\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u641c\u7d22"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.search-bookele)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a h3).t()"
+            },
+            {
+              "a": "url",
+              "v": ".c(http://).get(a).a(href).ty(http://m)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(a p).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next",
+              "v": ".get(section.ui-pages).bytt(\u4e0b\u4e00\u9875).a(href)"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u641c\u7d22\u5217\u8868",
+      "type": 1
+    }
+  ],
+  "name": "\u4f5c\u54c1\u96c6-0130",
+  "sign": "675d688267782fc5fed2ddb590af0563",
+  "sqlId": 8,
+  "vars": [
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u4f5c\u54c1\u96c6\u5206\u7c7b",
+      "v": "{\"code\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"#PC\",\"url\":\"http://zuopinj.com/mtype/\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u6392\u884c\u699c",
+      "v": "{\"code\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"#PC\",\"url\":\"http://zuopinj.com/mtype/\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u4f5c\u8005\u5927\u5168",
+      "v": "{\"code\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"#PC\",\"url\":\"http://zuopinj.com/writer/mtype.html\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u641c\u7d22",
+      "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"keyboard\\u003d%key%\\u0026tbname\\u003dbookname\\u0026show\\u003dtitle\\u0026tempid\\u003d2\",\"ua\":\"#PC\",\"url\":\"http://so.zuopinj.com/search/index.php\"}"
+    }
+  ],
+  "version": 2
+}

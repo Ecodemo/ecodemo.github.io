@@ -1,0 +1,176 @@
+{
+  "coreVersion": 3,
+  "ine": "5w\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "5w\u5217\u8868",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "5w"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.channel li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span).t()"
+            },
+            {
+              "a": "img",
+              "v": ".get(div.img img).a(data-original)"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"mtype\",\"s\":[{\"a\":\"\u7535\u5f71\",\"v\":\"1\"},{\"a\":\"\u52a8\u6f2b\",\"v\":\"2\"},{\"a\":\"\u7535\u89c6\u5267\",\"v\":\"3\"},{\"a\":\"\u7efc\u827a\",\"v\":\"4\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6700\u65b0\",\"v\":\"addtime\"},{\"a\":\"\u6700\u70ed\",\"v\":\"hits\"},{\"a\":\"\u597d\u8bc4\",\"v\":\"gold\"}]}]"
+        }
+      ],
+      "sign": "5w\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.stab_list li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6",
+      "type": 2
+    },
+    {
+      "attr": "{\"childmou\":\"\u9009\u96c6\"}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "a",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(div.playlist)"
+            },
+            {
+              "a": "s_name",
+              "v": ".get(div.from h3).t()"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6\u5217\u8868",
+      "type": 5
+    },
+    {
+      "attr": "{\"m_info\":\"\",\"m_list\":\"\u9009\u96c6\u5217\u8868\"}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 11
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "5w\u641c\u7d22"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.sul.clearfix li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(div.stext).t()"
+            },
+            {
+              "a": "img",
+              "v": ".get(div.simg img).a(data-original)"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[]"
+        }
+      ],
+      "sign": "5w\u641c\u7d22\u5217\u8868",
+      "type": 1
+    }
+  ],
+  "name": "5W\u7535\u5f71\u5929\u5802",
+  "sign": "8e66d93d053a1ccb2213b7a8c4d7e477",
+  "sqlId": 64,
+  "vars": [
+    {
+      "a": "#\u722c\u866b",
+      "sign": "5w",
+      "v": "{\"code\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"\",\"url\":\"http://w.5wby.com/typemtype/-----\u6392\u5e8f-%pn%.html\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "5w\u641c\u7d22",
+      "v": "{\"code\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"\",\"url\":\"http://w.5wby.com/vod-search-wd-%key%-p-%pn%.html\"}"
+    }
+  ],
+  "version": 0
+}

@@ -1,0 +1,680 @@
+{
+  "coreVersion": 4,
+  "ine": "\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u6b4c\u5355\u5217\u8868\",\"max\":0,\"row\":4,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://gitee.com/egwang186/iptv/raw/master/\u7f51\u6613\u4e91\u97f3\u4e50\u5206\u7c7b.txt\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".z([\\S]*?,.*?[\\s])"
+            },
+            {
+              "a": "name",
+              "v": ".z2(\\(.*?\\),)"
+            },
+            {
+              "a": "url",
+              "v": ".z2(,\\(.*?\\)[\\s])"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6b4c\u5355\u5206\u7c7b",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u6b4c\u5355\",\"max\":0,\"row\":2,\"type\":5}",
+      "host": {
+        "a": "#UOkHttp"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul#m-pl-container li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(img).a(src).tz(?)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(p).st().t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next",
+              "v": ".get(div.u-page).bytt(\u4e0b\u4e00\u9875).a(href)"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6b4c\u5355\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u97f3\u8d28tab\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://music.163.com/api/search/get/web?csrf_token\\u003d\\u0026lpretag\\u003d\\u0026hlposttag\\u003d\\u0026s\\u003d%key%\\u0026type\\u003d1\\u0026offset\\u003d0\\u0026total\\u003dtrue\\u0026limit\\u003d100\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(result).json(songs)"
+            },
+            {
+              "a": "name",
+              "v": ".json(name)"
+            },
+            {
+              "a": "url",
+              "v": ".c(http://140.143.30.148/music/api/163.php?ID=).json(id).ct(&k=2000)"
+            },
+            {
+              "a": "img",
+              "v": ".json(artists).json(img1v1Url)"
+            },
+            {
+              "a": "msg",
+              "v": ".c(\u6b4c\u624b:).json(artists).json(name).c(_).c(\u4e13\u8f91:).json(album).json(name)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u641c\u7d22\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u97f3\u8d28tab\",\"max\":0,\"row\":2,\"type\":1}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.f-hide li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".c(http://140.143.30.148/music/api/163.php?ID=).get(a).a(href).ty(id=).ct(&k=\u97f3\u8d28)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6b4c\u5355",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort"
+            },
+            {
+              "a": "s_name"
+            },
+            {
+              "a": "list",
+              "v": ".t()"
+            },
+            {
+              "a": "name",
+              "v": "\u5728\u7ebf\u64ad\u653e"
+            },
+            {
+              "a": "url",
+              "v": ".t().z(http.*)"
+            }
+          ]
+        },
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl"
+            },
+            {
+              "a": "playurl_regex"
+            },
+            {
+              "a": "putjs"
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u6b4c\u5355\u5206\u7c7b\",\"\u6392\u884c\u699c\",\"\u4e3b\u64ad\u7535\u53f0\u5206\u7c7b\",\"\u6b4c\u624b\u5206\u7c7b\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u6b4c\u5355\",\"max\":0,\"row\":2,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://music.163.com/discover/toplist\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.n-minelst li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(p.name).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a img).a(src)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6392\u884c\u699c",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u7535\u53f0\u5217\u8868\",\"max\":0,\"row\":2,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://music.163.com/discover/djradio\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div#id-category-box li).i(,-2)"
+            },
+            {
+              "a": "name",
+              "v": ".get(em).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(div.icon).a(style).z(https.*?.jpg)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u4e3b\u64ad\u7535\u53f0\u5206\u7c7b",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u7535\u53f0\u6b4c\u5355\",\"max\":0,\"row\":2,\"type\":1}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div#allradios li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h3).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ".c(\u4e3b\u64ad:).get(a.sep.f-brk).t().c(_).get(p.s-fc4).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next",
+              "v": ".get(div.u-page).bytt(\u4e0b\u4e00\u9875).a(href)"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u7535\u53f0\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(table.m-table.m-table-program tr)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next",
+              "v": ".get(div.u-page).bytt(\u4e0b\u4e00\u9875).a(href)"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u7535\u53f0\u6b4c\u5355",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u6b4c\u624b\u5217\u8868\",\"max\":0,\"row\":2,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://music.163.com/discover/artist\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div#singer-cat-nav li).i(2,)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6b4c\u624b\u5206\u7c7b",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u6b4c\u5355\",\"max\":0,\"row\":3,\"type\":1}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.m-cvrlst li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.nm).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a.nm).a(href).ty( )"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6b4c\u624b\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".t()"
+            },
+            {
+              "a": "name",
+              "v": "\u70b9\u51fb\u64ad\u653e"
+            },
+            {
+              "a": "url",
+              "v": ".t().z(http.*)"
+            },
+            {
+              "a": "img",
+              "v": "https://s1.music.126.net/style/favicon.ico?v20180823"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "screen",
+          "v": "\u97f3\u8d28+\u65e0\u635f=2000\n"
+        }
+      ],
+      "sign": "\u65e0\u635f",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".t()"
+            },
+            {
+              "a": "name",
+              "v": "\u70b9\u51fb\u64ad\u653e"
+            },
+            {
+              "a": "url",
+              "v": ".t().z(http.*)"
+            },
+            {
+              "a": "img",
+              "v": "https://s1.music.126.net/style/favicon.ico?v20180823"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "screen",
+          "v": "\u97f3\u8d28+\u9ad8\u54c1\u8d28=320\n"
+        }
+      ],
+      "sign": "\u9ad8\u54c1\u8d28",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".t()"
+            },
+            {
+              "a": "name",
+              "v": "\u70b9\u51fb\u64ad\u653e"
+            },
+            {
+              "a": "url",
+              "v": ".t().z(http.*)"
+            },
+            {
+              "a": "img",
+              "v": "https://s1.music.126.net/style/favicon.ico?v20180823"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "screen",
+          "v": "\u97f3\u8d28+\u4f4e\u54c1\u8d28=128\n"
+        }
+      ],
+      "sign": "\u4f4e\u54c1\u8d28",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u65e0\u635f\",\"\u9ad8\u54c1\u8d28\",\"\u4f4e\u54c1\u8d28\"]"
+        }
+      ],
+      "sign": "\u97f3\u8d28tab",
+      "type": 23
+    }
+  ],
+  "name": "\u7f51\u6613\u4e91\u97f3\u4e50-0404",
+  "sign": "38ade8298d305a99b29f65361bedf850",
+  "sqlId": 152,
+  "vars": [],
+  "version": 5
+}

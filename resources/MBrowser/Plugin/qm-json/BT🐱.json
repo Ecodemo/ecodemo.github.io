@@ -1,0 +1,330 @@
+{
+  "coreVersion": 5,
+  "ine": "\u641c\u7d22",
+  "info": "",
+  "inq": "tab",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":2,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://m.btmao.cc/list/s-\u7c7b\u578b-wd--letter--year-\u5e74\u4efd-area-\u5730\u533a-order-addtime-p-#PN#.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist.clearfix li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h4.title.text-overflow a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(h4.title.text-overflow a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.stui-vodlist__thumb.lazyload).a(data-original)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "screen",
+          "v": "\u7c7b\u578b+\u5168\u90e8=2+\u56fd\u4ea7\u5267=15+\u6e2f\u53f0\u5267=16+\u6b27\u7f8e\u5267=17+\u65e5\u97e9\u5267=18+\u6d77\u5916\u5267=19\n\u5730\u533a+\u5168\u90e8=+\u5927\u9646=\u5927\u9646+\u9999\u6e2f=\u9999\u6e2f+\u53f0\u6e7e=\u53f0\u6e7e+\u7f8e\u56fd=\u7f8e\u56fd+\u97e9\u56fd=\u97e9\u56fd+\u65e5\u672c=\u65e5\u672c+\u6cf0\u56fd=\u6cf0\u56fd+\u65b0\u52a0\u5761=\u65b0\u52a0\u5761+\u9a6c\u6765\u897f\u4e9a=\u9a6c\u6765\u897f\u4e9a+\u5370\u5ea6=\u5370\u5ea6+\u82f1\u56fd=\u82f1\u56fd+\u6cd5\u56fd=\u6cd5\u56fd+\u52a0\u62ff\u5927=\u52a0\u62ff\u5927+\u897f\u73ed\u7259=\u897f\u73ed\u7259+\u4fc4\u7f57\u65af=\u4fc4\u7f57\u65af\n\u5e74\u4efd+\u5168\u90e8=+2022=2022+2021=2021+2020=2020+2019=2019+2018=2018+2017=2017+2016=2016+2015=2015+2014=2014+2013=2013+2012=2012+2011=2011+2010=2010+2009=2009+2008=2008+2007=2007+90\u5e74\u4ee3=19901999+80\u5e74\u4ee3=19801989+\u66f4\u65e9=19001980"
+        }
+      ],
+      "sign": "\u7535\u89c6\u5267",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(div.top-list-ji)"
+            },
+            {
+              "a": "s_name",
+              "v": ".get(ul.js-list li.current span.ea-site.ea-site-1).t()"
+            },
+            {
+              "a": "list",
+              "v": ".get(div.num-tab-main.js-tab.g-clear.stui-content__playlist.column10.clearfix.d-play-list.looplist li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(li a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(li a).a(href)"
+            }
+          ]
+        },
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info",
+              "v": ".get(div.stui-content__detail).t()"
+            }
+          ]
+        },
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl"
+            },
+            {
+              "a": "playurl_regex"
+            },
+            {
+              "a": "putjs"
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":2,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://m.btmao.cc/list/s-\u7c7b\u578b-wd--letter--year-\u5e74\u4efd-area-\u5730\u533a-order-addtime-p-#PN#.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist.clearfix li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h4.title.text-overflow a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(h4.title.text-overflow a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.stui-vodlist__thumb.lazyload).a(data-original)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "screen",
+          "v": "\u7c7b\u578b+\u5168\u90e8=1+\u52a8\u4f5c\u7247=8+\u559c\u5267\u7247=9+\u7231\u60c5\u7247=10+\u79d1\u5e7b\u7247=11+\u6050\u6016\u7247=12+\u6218\u4e89\u7247=13+\u5267\u60c5\u7247=14\n\u5730\u533a+\u5168\u90e8=+\u5927\u9646=\u5927\u9646+\u9999\u6e2f=\u9999\u6e2f+\u53f0\u6e7e=\u53f0\u6e7e+\u7f8e\u56fd=\u7f8e\u56fd+\u97e9\u56fd=\u97e9\u56fd+\u65e5\u672c=\u65e5\u672c+\u6cf0\u56fd=\u6cf0\u56fd+\u65b0\u52a0\u5761=\u65b0\u52a0\u5761+\u9a6c\u6765\u897f\u4e9a=\u9a6c\u6765\u897f\u4e9a+\u5370\u5ea6=\u5370\u5ea6+\u82f1\u56fd=\u82f1\u56fd+\u6cd5\u56fd=\u6cd5\u56fd+\u52a0\u62ff\u5927=\u52a0\u62ff\u5927+\u897f\u73ed\u7259=\u897f\u73ed\u7259+\u4fc4\u7f57\u65af=\u4fc4\u7f57\u65af\n\u5e74\u4efd+\u5168\u90e8=+2022=2022+2021=2021+2020=2020+2019=2019+2018=2018+2017=2017+2016=2016+2015=2015+2014=2014+2013=2013+2012=2012+2011=2011+2010=2010+2009=2009+2008=2008+2007=2007+90\u5e74\u4ee3=19901999+80\u5e74\u4ee3=19801989+\u66f4\u65e9=19001980"
+        }
+      ],
+      "sign": "\u7535\u5f71",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":2,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://m.btmao.cc/list/s-3-wd--letter--year-\u5e74\u4efd-area-\u5730\u533a-order-addtime-p-#PN#.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist.clearfix li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h4.title.text-overflow a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(h4.title.text-overflow a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.stui-vodlist__thumb.lazyload).a(data-original)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "screen",
+          "v": "\u5730\u533a+\u5168\u90e8=+\u5927\u9646=\u5927\u9646+\u9999\u6e2f=\u9999\u6e2f+\u53f0\u6e7e=\u53f0\u6e7e+\u7f8e\u56fd=\u7f8e\u56fd+\u97e9\u56fd=\u97e9\u56fd+\u65e5\u672c=\u65e5\u672c+\u6cf0\u56fd=\u6cf0\u56fd+\u65b0\u52a0\u5761=\u65b0\u52a0\u5761+\u9a6c\u6765\u897f\u4e9a=\u9a6c\u6765\u897f\u4e9a+\u5370\u5ea6=\u5370\u5ea6+\u82f1\u56fd=\u82f1\u56fd+\u6cd5\u56fd=\u6cd5\u56fd+\u52a0\u62ff\u5927=\u52a0\u62ff\u5927+\u897f\u73ed\u7259=\u897f\u73ed\u7259+\u4fc4\u7f57\u65af=\u4fc4\u7f57\u65af\n\u5e74\u4efd+\u5168\u90e8=+2022=2022+2021=2021+2020=2020+2019=2019+2018=2018+2017=2017+2016=2016+2015=2015+2014=2014+2013=2013+2012=2012+2011=2011+2010=2010+2009=2009+2008=2008+2007=2007+90\u5e74\u4ee3=19901999+80\u5e74\u4ee3=19801989+\u66f4\u65e9=19001980"
+        }
+      ],
+      "sign": "\u52a8\u6f2b",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":2,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://m.btmao.cc/list/s-4-wd--letter--year-\u5e74\u4efd-area-\u5730\u533a-order-addtime-p-#PN#.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist.clearfix li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h4.title.text-overflow a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(h4.title.text-overflow a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.stui-vodlist__thumb.lazyload).a(data-original)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "screen",
+          "v": "\u5730\u533a+\u5168\u90e8=+\u5927\u9646=\u5927\u9646+\u9999\u6e2f=\u9999\u6e2f+\u53f0\u6e7e=\u53f0\u6e7e+\u7f8e\u56fd=\u7f8e\u56fd+\u97e9\u56fd=\u97e9\u56fd+\u65e5\u672c=\u65e5\u672c+\u6cf0\u56fd=\u6cf0\u56fd+\u65b0\u52a0\u5761=\u65b0\u52a0\u5761+\u9a6c\u6765\u897f\u4e9a=\u9a6c\u6765\u897f\u4e9a+\u5370\u5ea6=\u5370\u5ea6+\u82f1\u56fd=\u82f1\u56fd+\u6cd5\u56fd=\u6cd5\u56fd+\u52a0\u62ff\u5927=\u52a0\u62ff\u5927+\u897f\u73ed\u7259=\u897f\u73ed\u7259+\u4fc4\u7f57\u65af=\u4fc4\u7f57\u65af\n\u5e74\u4efd+\u5168\u90e8=+2022=2022+2021=2021+2020=2020+2019=2019+2018=2018+2017=2017+2016=2016+2015=2015+2014=2014+2013=2013+2012=2012+2011=2011+2010=2010+2009=2009+2008=2008+2007=2007+90\u5e74\u4ee3=19901999+80\u5e74\u4ee3=19801989+\u66f4\u65e9=19001980"
+        }
+      ],
+      "sign": "\u7efc\u827a",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u7535\u89c6\u5267\",\"\u7535\u5f71\",\"\u52a8\u6f2b\",\"\u7efc\u827a\"]"
+        }
+      ],
+      "sign": "tab",
+      "type": 8
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://m.btmao.cc/s/#key#-#pn#.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.stui-pannel_bd).i(1).c().get(ul li.activeclearfix)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h3.title a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(h3.title a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.v-thumb.stui-vodlist__thumb.lazyload).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(div.detail).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u641c\u7d22",
+      "type": 1
+    }
+  ],
+  "name": "BT\ud83d\udc31",
+  "sign": "5c8d63d79d0976109a95ab7edfabe869",
+  "sqlId": 17,
+  "vars": [],
+  "version": 0
+}

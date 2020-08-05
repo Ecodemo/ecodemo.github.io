@@ -1,0 +1,291 @@
+{
+  "coreVersion": 3,
+  "img": "57d3c6eb4bd38e99e1ba33e22a49ef46",
+  "ine": "\u641c\u7d22",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://53ys.cc/vodshow/\u5206\u7c7b/by/\u6392\u5e8f/page/%pn%.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-list-info li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.fed-list-title).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a.fed-list-title).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-score).t().c(_).get(span.fed-list-remarks).t().c(_).get(span.fed-list-desc).t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"1\"},{\"a\":\"\u52a8\u4f5c\u7247\",\"v\":\"5\"},{\"a\":\"\u559c\u5267\u7247\",\"v\":\"6\"},{\"a\":\"\u7231\u60c5\u7247\",\"v\":\"7\"},{\"a\":\"\u79d1\u5e7b\u7247\",\"v\":\"8\"},{\"a\":\"\u6050\u6016\u7247\",\"v\":\"9\"},{\"a\":\"\u5267\u60c5\u7247\",\"v\":\"10\"},{\"a\":\"\u6218\u4e89\u7247\",\"v\":\"11\"},{\"a\":\"\u60ca\u609a\u7247\",\"v\":\"16\"},{\"a\":\"\u9b54\u5e7b\u7247\",\"v\":\"17\"},{\"a\":\"\u5192\u9669\u7247\",\"v\":\"19\"},{\"a\":\"\u60ac\u7591\u7247\",\"v\":\"20\"},{\"a\":\"\u7eaa\u5f55\u7247\",\"v\":\"22\"},{\"a\":\"\u72af\u7f6a\u7247\",\"v\":\"23\"},{\"a\":\"\u5fae\u7535\u5f71\",\"v\":\"25\"},{\"a\":\"\u9752\u6625\u7247\",\"v\":\"21\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6309\u65f6\u95f4\",\"v\":\"time\"},{\"a\":\"\u6309\u4eba\u6c14\",\"v\":\"hits\"},{\"a\":\"\u6309\u8bc4\u5206\",\"v\":\"score\"}]}]"
+        }
+      ],
+      "sign": "\u7535\u5f71",
+      "type": 1
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://53ys.cc/vodshow/\u5206\u7c7b/by/\u6392\u5e8f/page/%pn%.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-list-info li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.fed-list-title).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a.fed-list-title).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-score).t().c(_).get(span.fed-list-remarks).t().c(_).get(span.fed-list-desc).t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"2\"},{\"a\":\"\u56fd\u4ea7\",\"v\":\"12\"},{\"a\":\"\u6e2f\u53f0\",\"v\":\"13\"},{\"a\":\"\u65e5\u97e9\",\"v\":\"14\"},{\"a\":\"\u6b27\u7f8e\",\"v\":\"15\"},{\"a\":\"\u5176\u4ed6\",\"v\":\"26\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6309\u65f6\u95f4\",\"v\":\"time\"},{\"a\":\"\u6309\u4eba\u6c14\",\"v\":\"hits\"},{\"a\":\"\u6309\u8bc4\u5206\",\"v\":\"score\"}]}]"
+        }
+      ],
+      "sign": "\u7535\u89c6\u5267",
+      "type": 1
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://53ys.cc/vodshow/\u5206\u7c7b/by/\u6392\u5e8f/page/%pn%.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-list-info li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.fed-list-title).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a.fed-list-title).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-score).t().c(_).get(span.fed-list-remarks).t().c(_).get(span.fed-list-desc).t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"3\"},{\"a\":\"\u5927\u9646\",\"v\":\"27\"},{\"a\":\"\u6e2f\u53f0\",\"v\":\"29\"},{\"a\":\"\u65e5\u97e9\",\"v\":\"30\"},{\"a\":\"\u6b27\u7f8e\",\"v\":\"28\"},{\"a\":\"\u5176\u4ed6\",\"v\":\"31\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6309\u65f6\u95f4\",\"v\":\"time\"},{\"a\":\"\u6309\u4eba\u6c14\",\"v\":\"hits\"},{\"a\":\"\u6309\u8bc4\u5206\",\"v\":\"score\"}]}]"
+        }
+      ],
+      "sign": "\u7efc\u827a",
+      "type": 1
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://53ys.cc/vodshow/\u5206\u7c7b/by/\u6392\u5e8f/page/%pn%.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-list-info li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.fed-list-title).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a.fed-list-title).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-score).t().c(_).get(span.fed-list-remarks).t().c(_).get(span.fed-list-desc).t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"4\"},{\"a\":\"\u56fd\u4ea7\",\"v\":\"32\"},{\"a\":\"\u65e5\u672c\",\"v\":\"33\"},{\"a\":\"\u6b27\u7f8e\",\"v\":\"34\"},{\"a\":\"\u5176\u4ed6\",\"v\":\"35\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6309\u65f6\u95f4\",\"v\":\"time\"},{\"a\":\"\u6309\u4eba\u6c14\",\"v\":\"hits\"},{\"a\":\"\u6309\u8bc4\u5206\",\"v\":\"score\"}]}]"
+        }
+      ],
+      "sign": "\u52a8\u6f2b",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u7535\u5f71\",\"\u7535\u89c6\u5267\",\"\u7efc\u827a\",\"\u52a8\u6f2b\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info",
+              "v": ".get(div.fed-tabs-item p).t()"
+            }
+          ]
+        },
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(div.fed-play-item)"
+            },
+            {
+              "a": "s_name",
+              "v": ".get(ul.fed-drop-head li.fed-col-xs4).t()"
+            },
+            {
+              "a": "list",
+              "v": ".get(ul.fed-part-rows a.fed-btns-info)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".a(href)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://53ys.cc/vodsearch/so%key%/page/%pn%.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.fed-part-layout dl)"
+            },
+            {
+              "a": "name",
+              "v": ".get(dd h1 a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(dd h1 a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(dt a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-score).t().c(_).get(span.fed-list-remarks).t().c(_).get(ul.fed-part-rows).t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u641c\u7d22",
+      "type": 1
+    }
+  ],
+  "name": "\u65e0\u53cc\u5f71\u89c6",
+  "sign": "57d3c6eb4bd38e99e1ba33e22a49ef46",
+  "sqlId": 25,
+  "vars": [],
+  "version": 0
+}

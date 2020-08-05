@@ -1,0 +1,572 @@
+{
+  "coreVersion": 3,
+  "ine": "\u641c\u7d22TAB",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5355\u9879\u5217\u8868\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.douyu.com/directory\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".z(DATA =[\\s\\S]*?</script>).z(\\{.*\\}).json(firstCategory).i(0).json(secondCategory)"
+            },
+            {
+              "a": "name",
+              "v": ".json(cate2Name)"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://www.douyu.com/gapi/rkc/directory/2_).json(cate2Id).ct(/%pn%)"
+            },
+            {
+              "a": "img",
+              "v": ".json(cate2Icon)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u7f51\u6e38\u7ade\u6280",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5355\u9879\u5217\u8868\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.douyu.com/directory\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".z(DATA =[\\s\\S]*?</script>).z(\\{.*\\}).json(firstCategory).i(1).json(secondCategory)"
+            },
+            {
+              "a": "name",
+              "v": ".json(cate2Name)"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://www.douyu.com/gapi/rkc/directory/2_).json(cate2Id).ct(/%pn%)"
+            },
+            {
+              "a": "img",
+              "v": ".json(cate2Icon)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5355\u673a\u70ed\u6e38",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5355\u9879\u5217\u8868\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.douyu.com/directory\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".z(DATA =[\\s\\S]*?</script>).z(\\{.*\\}).json(firstCategory).i(2).json(secondCategory)"
+            },
+            {
+              "a": "name",
+              "v": ".json(cate2Name)"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://www.douyu.com/gapi/rkc/directory/2_).json(cate2Id).ct(/%pn%)"
+            },
+            {
+              "a": "img",
+              "v": ".json(cate2Icon)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u624b\u6e38\u4f11\u95f2",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5355\u9879\u5217\u8868\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.douyu.com/directory\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".z(DATA =[\\s\\S]*?</script>).z(\\{.*\\}).json(firstCategory).i(3).json(secondCategory)"
+            },
+            {
+              "a": "name",
+              "v": ".json(cate2Name)"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://www.douyu.com/gapi/rkc/directory/2_).json(cate2Id).ct(/%pn%)"
+            },
+            {
+              "a": "img",
+              "v": ".json(cate2Icon)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5a31\u4e50\u5929\u5730",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5355\u9879\u5217\u8868\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.douyu.com/directory\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".z(DATA =[\\s\\S]*?</script>).z(\\{.*\\}).json(firstCategory).i(4).json(secondCategory)"
+            },
+            {
+              "a": "name",
+              "v": ".json(cate2Name)"
+            },
+            {
+              "a": "url",
+              "v": "https://www.douyu.com/gapi/rknc/directory/yzRec/%pn%"
+            },
+            {
+              "a": "img",
+              "v": ".json(cate2Icon)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u989c\u503c",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5355\u9879\u5217\u8868\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.douyu.com/directory\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".z(DATA =[\\s\\S]*?</script>).z(\\{.*\\}).json(firstCategory).i(5).json(secondCategory)"
+            },
+            {
+              "a": "name",
+              "v": ".json(cate2Name)"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://www.douyu.com/gapi/rkc/directory/2_).json(cate2Id).ct(/%pn%)"
+            },
+            {
+              "a": "img",
+              "v": ".json(cate2Icon)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u79d1\u6280\u6559\u80b2",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5355\u9879\u5217\u8868\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.douyu.com/directory\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".z(DATA =[\\s\\S]*?</script>).z(\\{.*\\}).json(firstCategory).i(6).json(secondCategory)"
+            },
+            {
+              "a": "name",
+              "v": ".json(cate2Name)"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://www.douyu.com/gapi/rkc/directory/2_).json(cate2Id).ct(/%pn%)"
+            },
+            {
+              "a": "img",
+              "v": ".json(cate2Icon)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u8bed\u97f3\u4e92\u52a8",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5355\u9879\u5217\u8868\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.douyu.com/directory\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".z(DATA =[\\s\\S]*?</script>).z(\\{.*\\}).json(firstCategory).i(7).json(secondCategory)"
+            },
+            {
+              "a": "name",
+              "v": ".json(cate2Name)"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://www.douyu.com/gapi/rkc/directory/2_).json(cate2Id).ct(/%pn%)"
+            },
+            {
+              "a": "img",
+              "v": ".json(cate2Icon)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6b63\u80fd\u91cf",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5355\u9879\u5217\u8868\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.douyu.com/directory\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".z(DATA =[\\s\\S]*?</script>).z(\\{.*\\}).json(firstCategory).i(8).json(secondCategory)"
+            },
+            {
+              "a": "name",
+              "v": ".json(cate2Name)"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://www.douyu.com/gapi/rkc/directory/2_).json(cate2Id).ct(/%pn%)"
+            },
+            {
+              "a": "img",
+              "v": ".json(cate2Icon)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u4eac\u6597\u4e91",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u7f51\u6e38\u7ade\u6280\",\"\u5355\u673a\u70ed\u6e38\",\"\u624b\u6e38\u4f11\u95f2\",\"\u5a31\u4e50\u5929\u5730\",\"\u989c\u503c\",\"\u79d1\u6280\u6559\u80b2\",\"\u8bed\u97f3\u4e92\u52a8\",\"\u6b63\u80fd\u91cf\",\"\u4eac\u6597\u4e91\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u64ad\u653e\u5668\",\"max\":0,\"row\":2,\"type\":5}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740_OkHttp"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(data).json(rl)"
+            },
+            {
+              "a": "name",
+              "v": ".json(rn).c(_\u4eba\u6c14:).json(ol)"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://www.douyu.com).json(url)"
+            },
+            {
+              "a": "img",
+              "v": ".json(rs16)"
+            },
+            {
+              "a": "msg",
+              "v": ".c(\u4e3b\u64ad:).json(nn)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5355\u9879\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.douyu.com/japi/search/api/searchShow?kw\\u003d%key%\\u0026page\\u003d%pn%\\u0026pageSize\\u003d20\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(data).json(relateShow)"
+            },
+            {
+              "a": "name",
+              "v": ".json(roomName).c(_\u7c7b\u578b:).json(cateName).c(_\u4eba\u6c14:).json(hot)"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://www.douyu.com/).json(rid)"
+            },
+            {
+              "a": "img",
+              "v": ".json(roomSrc)"
+            },
+            {
+              "a": "msg",
+              "v": ".c(\u4e3b\u64ad:).json(nickName)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u76f4\u64ad\u641c\u7d22",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.douyu.com/japi/search/api/searchVideo?kw\\u003d%key%\\u0026page\\u003d%pn%\\u0026pageSize\\u003d20\\u0026filterType\\u003d0\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(data).json(relateVideo)"
+            },
+            {
+              "a": "name",
+              "v": ".json(title)"
+            },
+            {
+              "a": "url",
+              "v": ".json(url)"
+            },
+            {
+              "a": "img",
+              "v": ".json(cover)"
+            },
+            {
+              "a": "msg",
+              "v": ".c(\u4e3b\u64ad:).json(owner).c(_\u4eba\u6c14:).json(viewCount).c(_\u65f6\u957f:).json(duration)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u89c6\u9891\u641c\u7d22",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u76f4\u64ad\u641c\u7d22\",\"\u89c6\u9891\u641c\u7d22\"]"
+        }
+      ],
+      "sign": "\u641c\u7d22TAB",
+      "type": 8
+    }
+  ],
+  "name": "\u6597\u9c7c\u76f4\u64ad",
+  "sign": "3e73f8d2663fb36adc29f8770760bb33",
+  "sqlId": 160,
+  "vars": [],
+  "version": 1
+}

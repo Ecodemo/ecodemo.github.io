@@ -1,0 +1,564 @@
+{
+  "coreVersion": 5,
+  "ine": "\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9009\u96c6\u5217\u8868\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":0,\"url\":\"http://api.wolong.tv/wolong/gae/video/list?size\\u003d20\\u0026page\\u003d%pn%\\u0026type\\u003d\u5206\u7c7b\\u0026area\\u003d\u5730\u533a\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(data).json(items)"
+            },
+            {
+              "a": "name",
+              "v": ".json(title)"
+            },
+            {
+              "a": "url",
+              "v": ".c(http://api.wolong.tv/wolong/gae/video/plays?videoId=).json(videoId)"
+            },
+            {
+              "a": "img",
+              "v": ".json(imgUrl)"
+            },
+            {
+              "a": "msg",
+              "v": ".json(updateText).c(_).json(area).c(_).json(year).c(_).json(director).c(_).json(actor).c(_).json(introduction)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "screen",
+          "v": "\u5206\u7c7b+\u7535\u5f71=3+\u7535\u89c6\u5267=1\n\u5730\u533a+\u5168\u90e8+\u5927\u9646=\u5927\u9646+\u9999\u6e2f=\u9999\u6e2f+\u53f0\u6e7e=\u53f0\u6e7e+\u97e9\u56fd=\u97e9\u56fd+\u65e5\u672c=\u65e5\u672c+\u7f8e\u56fd=\u7f8e\u56fd\n"
+        }
+      ],
+      "sign": "\u7535\u5f71\u7535\u89c6\u5267",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9009\u96c6\u5217\u8868\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":0,\"url\":\"http://api.wolong.tv/wolong/gae/video/list?size\\u003d20\\u0026page\\u003d%pn%\\u0026type\\u003d\u5206\u7c7b\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(data).json(items)"
+            },
+            {
+              "a": "name",
+              "v": ".json(title)"
+            },
+            {
+              "a": "url",
+              "v": ".c(http://api.wolong.tv/wolong/gae/video/plays?videoId=).json(videoId)"
+            },
+            {
+              "a": "img",
+              "v": ".json(imgUrl)"
+            },
+            {
+              "a": "msg",
+              "v": ".json(updateText).c(_).json(area).c(_).json(year).c(_).json(director).c(_).json(actor).c(_).json(introduction)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "screen",
+          "v": "\u5206\u7c7b+\u7efc\u827a=4+\u52a8\u6f2b=5+\u7f8e\u5267=6+\u97e9\u5267=7\n"
+        }
+      ],
+      "sign": "\u7efc\u827a\u52a8\u6f2b",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u9996\u9875\u63a8\u8350\",\"\u7535\u5f71\u7535\u89c6\u5267\",\"\u7efc\u827a\u52a8\u6f2b\",\"\u53d1\u73b0\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740_OkHttp"
+      },
+      "ins": [
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".z(\\{.*\\})"
+            },
+            {
+              "a": "s_name",
+              "v": ".json(title)"
+            },
+            {
+              "a": "list",
+              "v": ".json(players)"
+            },
+            {
+              "a": "name",
+              "v": ".json(title)"
+            },
+            {
+              "a": "url",
+              "v": ".json(url)"
+            }
+          ]
+        },
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl"
+            },
+            {
+              "a": "playurl_regex"
+            },
+            {
+              "a": "putjs",
+              "v": "var data = document.body.innerHTML;\nvar dizhi = data.match(/\"Player__Url\":\"(.*?)\"/)[1];\nurl = dizhi.replace(/\\\\/g, '');\nurl = url.replace(/&amp;/g, '&')\nvar iframe = document.createElement('iframe');\niframe.src = url;\ndocument.body.appendChild(iframe);"
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9009\u96c6\u5217\u8868\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":0,\"url\":\"http://api.wolong.tv/wolong/gae/video/search?keyword\\u003d%key%\\u0026page\\u003d%pn%\\u0026size\\u003d20\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(data).json(items)"
+            },
+            {
+              "a": "name",
+              "v": ".json(title)"
+            },
+            {
+              "a": "url",
+              "v": ".c(http://api.wolong.tv/wolong/gae/video/plays?videoId=).json(videoId)"
+            },
+            {
+              "a": "img",
+              "v": ".json(imgUrl)"
+            },
+            {
+              "a": "msg",
+              "v": ".json(updateText).c(_).json(area).c(_).json(year).c(_).json(director).c(_).json(actor)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u641c\u7d22\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9009\u96c6\u5217\u8868\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740_OkHttp"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(data).json(videoList)"
+            },
+            {
+              "a": "name",
+              "v": ".json(title)"
+            },
+            {
+              "a": "url",
+              "v": ".c(http://api.wolong.tv/wolong/gae/video/plays?videoId=).json(videoId)"
+            },
+            {
+              "a": "img",
+              "v": ".json(imgUrl)"
+            },
+            {
+              "a": "msg",
+              "v": ".json(updatetext)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u53d1\u73b0\u8be6\u5355",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u53d1\u73b0\u8be6\u5355\",\"max\":0,\"row\":2,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":0,\"url\":\"http://api.wolong.tv/wolong/gae/video/discovery?ver\\u003d1.2.9\\u0026size\\u003d5\\u0026appkey\\u003dwolong001\\u0026page\\u003d%pn%\\u0026platform\\u003dandroid\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(data).json(items)"
+            },
+            {
+              "a": "name",
+              "v": ".json(albumTitle)"
+            },
+            {
+              "a": "url",
+              "v": ".c(http://api.wolong.tv/wolong/gae/video/album?albumId=).json(albumId)"
+            },
+            {
+              "a": "img",
+              "v": ".json(videoList).json(imgUrl)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u53d1\u73b0",
+      "type": 1
+    },
+    {
+      "attr": "{\"childmou\":\"\u63a8\u8350\u9879\u76ee\"}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://api.wolong.tv/wolong/gae/video/home?ver\\u003d1.2.9\\u0026appkey\\u003dwolong001\\u0026platform\\u003dandroid\"}"
+      },
+      "ins": [
+        {
+          "a": "a",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".json(data)"
+            },
+            {
+              "a": "s_name",
+              "v": ".json(albumTitle)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9996\u9875\u63a8\u8350",
+      "type": 5
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9009\u96c6\u5217\u8868\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(videoList)"
+            },
+            {
+              "a": "name",
+              "v": ".json(title)"
+            },
+            {
+              "a": "url",
+              "v": ".c(http://api.wolong.tv/wolong/gae/video/plays?videoId=).json(videoId)"
+            },
+            {
+              "a": "img",
+              "v": ".json(imgUrl)"
+            },
+            {
+              "a": "msg",
+              "v": ".json(updatetext)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u63a8\u8350\u9879\u76ee",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#UOkHttp"
+      },
+      "ins": [
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".json(data)"
+            },
+            {
+              "a": "s_name"
+            },
+            {
+              "a": "list",
+              "v": ".json(plays)"
+            },
+            {
+              "a": "name",
+              "v": ".json(episode)"
+            },
+            {
+              "a": "url",
+              "v": ".c(http://api.wolong.tv/wolong/parse/video/play?url=).json(playUrl).c(&source=).json(source)"
+            }
+          ]
+        },
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl"
+            },
+            {
+              "a": "playurl_regex"
+            },
+            {
+              "a": "putjs",
+              "v": "var a1 = window.location.href;\nvar a = a1.match(/url=(.*)/)[1];\nvar URL = \"http://api.wolong.com/wolong/parse/video/play\";\nvar aaa = new XMLHttpRequest();\naaa.open(\"POST\",URL,false);\naaa.setRequestHeader(\"Content-Type\",\"application/x-www-form-urlencoded;\");\naaa.send(\"timestamp=\" + Math.round(new Date()/1000) + \"&sign=852772226371378&deviceid=852772226371378&url=\" + a);\r\nvar Json = aaa.responseText;\ndocument.querySelector('h1').innerHTML = Json;\nvar b = document.body.innerHTML;\nvar c = b.match(/\"mediaUrl\":\"(.*?)\"/)[1];\nvar iframe = document.createElement('iframe');\niframe.src = c;\ndocument.body.appendChild(iframe);\n}\n}\n}"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6d4b\u8bd5\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"post\":\"url\\u003d#url#\\u0026timestamp\\u003d#TIME_#\\u0026sign\\u003d0000000000\\u0026deviceid\\u003d0000000000\",\"ua\":\"#PC\",\"url\":\"http://api.wolong.tv/wolong/parse/video/play\"}"
+      },
+      "ins": [
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".json(data)"
+            },
+            {
+              "a": "s_name"
+            },
+            {
+              "a": "list",
+              "v": ".json(items)"
+            },
+            {
+              "a": "name",
+              "v": ".json(resolution)"
+            },
+            {
+              "a": "url",
+              "v": ".json(mediaUrl)"
+            }
+          ]
+        },
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl"
+            },
+            {
+              "a": "playurl_regex"
+            },
+            {
+              "a": "putjs"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5b98\u65b9\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"childmou\":\"\u9009\u96c6\"}",
+      "host": {
+        "a": "#UOkHttp"
+      },
+      "ins": [
+        {
+          "a": "a",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".json(data)"
+            },
+            {
+              "a": "s_name"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6\u5217\u8868",
+      "type": 5
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5b98\u65b9\u64ad\u653e\u5668\",\"max\":0,\"row\":5,\"type\":1}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(plays)"
+            },
+            {
+              "a": "name",
+              "v": ".json(episode)"
+            },
+            {
+              "a": "url",
+              "v": ".json(playUrl).c(&source=).json(source)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6",
+      "type": 1
+    }
+  ],
+  "name": "\u5367\u9f99\u5f71\u89c6(\u5b98\u65b9\u7248)-0406",
+  "sign": "a4253c55d423ec3383e35077bee76d35",
+  "sqlId": 210,
+  "vars": [],
+  "version": 5
+}

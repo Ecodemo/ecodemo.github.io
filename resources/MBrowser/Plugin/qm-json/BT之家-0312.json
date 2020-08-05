@@ -1,0 +1,319 @@
+{
+  "coreVersion": 3,
+  "ine": "\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u4e0b\u8f7d\u5730\u5740\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://www.2btjia.com/forum-index-fid-1-typeid1-\u5730\u533a-typeid2-0-typeid3-0-typeid4-0-page-%pn%.htm\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div#threadlist table)"
+            },
+            {
+              "a": "name",
+              "v": ".get(td.subject).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.small).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next",
+              "v": ".get(div.page a).i(-1).a(href)"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5730\u533a\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"0\"},{\"a\":\"\u5927\u9646\",\"v\":\"9\"},{\"a\":\"\u9999\u6e2f\",\"v\":\"3\"},{\"a\":\"\u53f0\u6e7e\",\"v\":\"10\"},{\"a\":\"\u6b27\u7f8e\",\"v\":\"1\"},{\"a\":\"\u97e9\u56fd\",\"v\":\"2\"},{\"a\":\"\u65e5\u672c\",\"v\":\"8\"},{\"a\":\"\u6cf0\u56fd\",\"v\":\"4\"},{\"a\":\"\u5370\u5ea6\",\"v\":\"6\"},{\"a\":\"\u65b0\u9a6c\",\"v\":\"5\"},{\"a\":\"\u5408\u62cd\",\"v\":\"7\"}]}]"
+        }
+      ],
+      "sign": "\u7535\u5f71",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u94fe\u63a5\u7ba1\u7406\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.attachlist a).i(1)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".a(href).th(dialog##download).th(-ajax-1.htm##.htm)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u4e0b\u8f7d\u5730\u5740",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u4e0b\u8f7d\u5730\u5740\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://www.2btjia.com/forum-index-fid-10-typeid1-\u5730\u533a-typeid2-0-typeid3-0-typeid4-0-page-%pn%.htm\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div#threadlist table)"
+            },
+            {
+              "a": "name",
+              "v": ".get(td.subject).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.small).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next",
+              "v": ".get(div.page a).i(-1).a(href)"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5730\u533a\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"0\"},{\"a\":\"\u5927\u9646\",\"v\":\"41\"},{\"a\":\"\u9999\u6e2f\",\"v\":\"82\"},{\"a\":\"\u53f0\u6e7e\",\"v\":\"123\"},{\"a\":\"\u7f8e\u56fd\",\"v\":\"164\"},{\"a\":\"\u97e9\u56fd\",\"v\":\"205\"},{\"a\":\"\u65e5\u672c\",\"v\":\"246\"},{\"a\":\"\u82f1\u56fd\",\"v\":\"287\"},{\"a\":\"\u52a0\u5267\",\"v\":\"328\"},{\"a\":\"\u6cd5\u56fd\",\"v\":\"369\"},{\"a\":\"\u6cf0\u56fd\",\"v\":\"410\"},{\"a\":\"\u897f\u5267\",\"v\":\"451\"},{\"a\":\"\u5370\u5ea6\",\"v\":\"492\"},{\"a\":\"\u610f\u5267\",\"v\":\"533\"},{\"a\":\"\u6fb3\u5267\",\"v\":\"574\"},{\"a\":\"\u5fb7\u56fd\",\"v\":\"615\"},{\"a\":\"\u65b0\u9a6c\",\"v\":\"656\"},{\"a\":\"\u5176\u4ed6\",\"v\":\"697\"}]}]"
+        }
+      ],
+      "sign": "\u7535\u89c6\u5267",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u7535\u5f71\",\"\u7535\u89c6\u5267\",\"\u798f\u5229\u7247\",\"\u7f8e\u5973\u56fe\u7247\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u4e0b\u8f7d\u5730\u5740\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://www.2btjia.com/forum-index-fid-9-typeid1-0-typeid2-\u5730\u533a-typeid3-0-typeid4-0-page-%pn%.htm\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div#threadlist table)"
+            },
+            {
+              "a": "name",
+              "v": ".get(td.subject).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.small).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next",
+              "v": ".get(div.page a).i(-1).a(href)"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5730\u533a\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"0\"},{\"a\":\"\u5927\u9646\",\"v\":\"82\"},{\"a\":\"\u9999\u6e2f\",\"v\":\"164\"},{\"a\":\"\u53f0\u6e7e\",\"v\":\"123\"},{\"a\":\"\u6b27\u7f8e\",\"v\":\"205\"},{\"a\":\"\u97e9\u56fd\",\"v\":\"41\"},{\"a\":\"\u65e5\u672c\",\"v\":\"287\"},{\"a\":\"\u5176\u4ed6\",\"v\":\"246\"}]}]"
+        }
+      ],
+      "sign": "\u798f\u5229\u7247",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u4e0b\u8f7d\u5730\u5740\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://www.2btjia.com/forum-index-fid-8-page-%pn%.htm\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div#threadlist table)"
+            },
+            {
+              "a": "name",
+              "v": ".get(td.subject).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.small).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next",
+              "v": ".get(div.page a).i(-1).a(href)"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"0\"}]}]"
+        }
+      ],
+      "sign": "\u7f8e\u5973\u56fe\u7247",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u4e0b\u8f7d\u5730\u5740\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://www.2btjia.com/search-index-fid-0-orderby-timedesc-daterage-0-keyword-%key%-page-%pn%.htm\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div#threadlist table)"
+            },
+            {
+              "a": "name",
+              "v": ".get(td.subject).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.small).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next",
+              "v": ".get(div.page a).i(-1).a(href)"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u641c\u7d22\u5217\u8868",
+      "type": 1
+    }
+  ],
+  "name": "BT\u4e4b\u5bb6-0312",
+  "sign": "0dcfdc420bf9e9eaf947d94295af60b5",
+  "sqlId": 98,
+  "vars": [],
+  "version": 2
+}

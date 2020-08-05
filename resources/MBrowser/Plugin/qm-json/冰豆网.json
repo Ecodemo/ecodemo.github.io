@@ -1,0 +1,335 @@
+{
+  "coreVersion": 3,
+  "ine": "",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":2,\"type\":5}",
+      "host": {
+        "a": "\u51b0\u8c46\u89c6\u9891"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(li.clearfix)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a div.name).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a div.img img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(a div.info).t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"mtype\",\"s\":[{\"a\":\"\u5fae\u7535\u5f71\",\"v\":\"film\"},{\"a\":\"\u77ed\u89c6\u9891\",\"v\":\"vod\"},{\"a\":\"\u7eaa\u5f55\u7247\",\"v\":\"record\"},{\"a\":\"\u97f3\u4e50MV\",\"v\":\"mv\"}]}]"
+        }
+      ],
+      "sign": "\u89c6\u9891\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.playlist.clearfix li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6",
+      "type": 2
+    },
+    {
+      "attr": "{\"childmou\":\"\u9009\u96c6\"}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "a",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(div.list.full)"
+            },
+            {
+              "a": "s_name",
+              "v": ".get(span).t()"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6\u5217\u8868",
+      "type": 5
+    },
+    {
+      "attr": "{\"m_info\":\"\",\"m_list\":\"\u9009\u96c6\u5217\u8868\"}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 11
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u89c6\u9891\u5217\u8868\",\"\u9605\u8bfb\u5217\u8868\",\"\u76f4\u64ad\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u51b0\u8c46\u9605\u8bfb"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.listbox li)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ""
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"mtype\",\"s\":[{\"a\":\"\u7cbe\u9009\u9605\u8bfb\",\"v\":\"reading\"},{\"a\":\"\u6280\u672f\u6559\u7a0b\",\"v\":\"news\"}]}]"
+        }
+      ],
+      "sign": "\u9605\u8bfb\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{\"m_sort\":\"\",\"type\":0}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "name",
+              "v": ".get(div.content h1).t()"
+            },
+            {
+              "a": "cont",
+              "v": ".get(div.newscontent).html()"
+            },
+            {
+              "a": "next",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "sign": "\u9605\u8bfb\u5668",
+      "type": 13
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u76f4\u64ad\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u51b0\u8c46\u76f4\u64ad"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.return.headin)"
+            },
+            {
+              "a": "name",
+              "v": "\u51b0\u8c46\u7535\u89c6\u76f4\u64ad"
+            },
+            {
+              "a": "url",
+              "v": "https://m.tv.bingdou.net/list.html"
+            },
+            {
+              "a": "img",
+              "v": ".get(a img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ""
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u76f4\u64ad",
+      "type": 1
+    },
+    {
+      "attr": "{}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.list-item a)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".a(href)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u76f4\u64ad\u6e90",
+      "type": 2
+    },
+    {
+      "attr": "{\"childmou\":\"\u76f4\u64ad\u6e90\"}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "a",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(ul#J_navlist li)"
+            },
+            {
+              "a": "s_name",
+              "v": ".get(h4).t()"
+            }
+          ]
+        }
+      ],
+      "sign": "\u76f4\u64ad\u6e90\u5217\u8868",
+      "type": 5
+    },
+    {
+      "attr": "{\"m_info\":\"\",\"m_list\":\"\u76f4\u64ad\u6e90\u5217\u8868\"}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "sign": "\u76f4\u64ad\u64ad\u653e\u5668",
+      "type": 11
+    }
+  ],
+  "name": "\u51b0\u8c46\u7f51",
+  "sign": "df59b904a55fde45261fb3c26e4c4ee5",
+  "sqlId": 51,
+  "vars": [
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u51b0\u8c46\u89c6\u9891",
+      "v": "{\"code\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"\",\"url\":\"http://m.bingdou.net/video/mtype/\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u51b0\u8c46\u9605\u8bfb",
+      "v": "{\"code\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"\",\"url\":\"http://m.bingdou.net/mtype/\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u51b0\u8c46\u76f4\u64ad",
+      "v": "{\"code\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"\",\"url\":\"http://m.bingdou.net/\"}"
+    }
+  ],
+  "version": 1
+}

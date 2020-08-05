@@ -1,0 +1,89 @@
+{
+  "coreVersion": 5,
+  "ine": "",
+  "info": "",
+  "inq": "\u56fe\u7247\u5217\u8868",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u56fe\u7247\u9605\u8bfb\u5668\",\"max\":0,\"row\":0,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"Mozilla/5.0 (Linux; Android 10; YAL-AL00 Build/HUAWEIYAL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.162 Mobile Safari/537.36\",\"url\":\"http://bbs.vpappk.site/2048/thread.php?fid-\u5206\u7c7b-page-#PN#.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.list-unstyled.threadlist.mb-0 li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(div.subject.break-all a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".c(http://jd.kb5v.site/2048/).get(div.subject.break-all a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.text-grey).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "screen",
+          "v": "\u5206\u7c7b+\u7f51\u53cb\u81ea\u62cd=23+\u4e9a\u6d32\u6fc0\u60c5=24+\u6b27\u7f8e\u6fc0\u60c5=25+\u9732\u51fa\u5077\u7aa5=26+\u9ad8\u8ddf\u4e1d\u889c=27+\u5361\u901a\u52a8\u6f2b=28+\u539f\u521b\u81ea\u62cd=135"
+        }
+      ],
+      "sign": "\u56fe\u7247\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{\"type\":0}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "name"
+            },
+            {
+              "a": "cont",
+              "v": ".get(div.f14)"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u56fe\u7247\u9605\u8bfb\u5668",
+      "type": 13
+    }
+  ],
+  "name": "\u7f8e\u56fe",
+  "sign": "3621fa82558814945fd080db1f65d953",
+  "sqlId": 5,
+  "vars": [],
+  "version": 1
+}

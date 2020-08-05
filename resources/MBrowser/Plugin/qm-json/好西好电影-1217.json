@@ -1,0 +1,330 @@
+{
+  "coreVersion": 3,
+  "ine": "\u597d\u897f\u597d\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u597d\u897f\u597d\u5355\u9879\u5217\u8868\",\"max\":0,\"row\":3,\"type\":1}",
+      "host": {
+        "a": "\u597d\u897f\u597d"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div#sj-nav-1 li).i(3,-1)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ""
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u597d\u897f\u597d\u5206\u7c7b",
+      "type": 1
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(li.p1.m1)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a img).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(a p.other).t()"
+            },
+            {
+              "a": "next",
+              "v": ".get(div.page.mb).bytt(\u4e0b\u4e00\u9875).a(href)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u597d\u897f\u597d\u5355\u9879\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.videourl.clearfix li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6",
+      "type": 2
+    },
+    {
+      "attr": "{\"childmou\":\"\u9009\u96c6\"}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "a",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(div.playlist.clearfix)"
+            },
+            {
+              "a": "s_name",
+              "v": ".get(p.intro).t()"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6\u5217\u8868",
+      "type": 5
+    },
+    {
+      "attr": "{\"m_info\":\"\",\"m_list\":\"\u9009\u96c6\u5217\u8868\"}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 11
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u597d\u897f\u597d\u5206\u7c7b\",\"\u597d\u897f\u597d\u7535\u89c6\u76f4\u64ad\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u7535\u89c6\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u597d\u897f\u597d"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div#sj-nav-1 li).i(2)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": "https://m.tv.bingdou.net/list.html"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ""
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u597d\u897f\u597d\u7535\u89c6\u76f4\u64ad",
+      "type": 1
+    },
+    {
+      "attr": "{}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(a)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".a(href)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u7535\u89c6\u5217\u8868",
+      "type": 2
+    },
+    {
+      "attr": "{\"childmou\":\"\u7535\u89c6\u5217\u8868\"}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "a",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(ul#J_navlist li)"
+            },
+            {
+              "a": "s_name",
+              "v": ".get(h4).t()"
+            }
+          ]
+        }
+      ],
+      "sign": "\u7535\u89c6\u5206\u7c7b",
+      "type": 5
+    },
+    {
+      "attr": "{\"m_info\":\"\",\"m_list\":\"\u7535\u89c6\u5206\u7c7b\"}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "sign": "\u7535\u89c6\u64ad\u653e\u5668",
+      "type": 11
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "\u597d\u897f\u597d\u641c\u7d22"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(li.p1.m1)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a img).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u597d\u897f\u597d\u641c\u7d22\u5217\u8868",
+      "type": 1
+    }
+  ],
+  "name": "\u597d\u897f\u597d\u7535\u5f71-1217",
+  "sign": "780906d9c6e788bd02b5509cced3c33a",
+  "sqlId": 56,
+  "vars": [
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u597d\u897f\u597d",
+      "v": "{\"code\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"\",\"url\":\"http://www.okoook.com/\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u597d\u897f\u597d\u641c\u7d22",
+      "v": "{\"code\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"wd\\u003d%key%\",\"ua\":\"\",\"url\":\"http://www.okoook.com/index.php?m\\u003dvod-search\"}"
+    }
+  ],
+  "version": 1
+}

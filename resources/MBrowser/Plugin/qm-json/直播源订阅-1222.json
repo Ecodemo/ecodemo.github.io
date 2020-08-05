@@ -1,0 +1,91 @@
+{
+  "coreVersion": 3,
+  "ine": "",
+  "info": "",
+  "inq": "\u76f4\u64ad\u5206\u7c7b\u5217\u8868",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u6587\u672c",
+        "v": "<div class=\"playlist\"> \n      <p class=\"intro\">\u76d2\u5b50\u6293\u53d6\uff0c\u6613\u5931\u6548</p> \n     <ul> \n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/7203.m3u\">\u76f4\u64ad7203</a></li>\n      </ul>\n    </div> \n<div class=\"playlist\"> \n      <p class=\"intro\">\u7f51\u7edc\u8ba2\u9605\uff0c\u5b9a\u671f\u7ef4\u62a4</p> \n     <ul>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/122.m3u\">\u76f4\u64ad122</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/123.m3u\">\u76f4\u64ad123</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/lt.m3u\">\u9a86\u9a7c\u76f4\u64ad(\u9700\u957f\u6309\uff0c\u7f51\u9875\u6253\u5f00\u624d\u80fd\u64ad\u653e)</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/movie.m3u\">\u76f4\u64admovie</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/migu1.m3u\">\u54aa\u5495\u76f4\u64ad(\u9700\u957f\u6309\uff0c\u7f51\u9875\u6253\u5f00\u624d\u80fd\u64ad\u653e)</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/qinyunian.m3u8\">\u5e86\u4f59\u5e74</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tvheizi/raw/master/\u536b\u89c6\u9891\u9053.m3u\">\u536b\u89c6\u9891\u9053</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tvheizi/raw/master/\u5730\u65b9\u53f0.m3u\">\u5730\u65b9\u53f0</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tvheizi/raw/master/\u592e\u89c6\u9891\u9053.m3u\">\u592e\u89c6\u9891\u9053</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tvheizi/raw/master/\u6e2f\u6fb3\u9891\u9053.m3u\">\u6e2f\u6fb3\u9891\u9053</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tvheizi/raw/master/\u7535\u5f71\u9891\u9053.m3u\">\u7535\u5f71\u9891\u9053</a></li>\n      </ul>\n    </div>"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul li)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u76f4\u64ad\u5206\u7c7b\u5217\u8868",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort"
+            },
+            {
+              "a": "s_name"
+            },
+            {
+              "a": "list",
+              "v": ".z(#EXTINF[\\s\\S]*?,.*?[r|h]t[s|t]p.*?[\\s])"
+            },
+            {
+              "a": "name",
+              "v": ".z2(,\\(.*?\\)[r|h]t[s|t]p)"
+            },
+            {
+              "a": "url",
+              "v": ".z2(,.*?\\([r|h]t[s|t]p.*?\\)[\\s])"
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 22
+    }
+  ],
+  "name": "\u76f4\u64ad\u6e90\u8ba2\u9605-1222",
+  "sign": "cd80fa7775868bbbf276fe24da13a0e3",
+  "sqlId": 123,
+  "vars": [],
+  "version": 1
+}

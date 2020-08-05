@@ -1,0 +1,127 @@
+{
+  "coreVersion": 3,
+  "ine": "",
+  "info": "",
+  "inq": "\u6613\u89c6TV",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":5}",
+      "host": {
+        "a": "\u6613\u89c6"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.logo a)"
+            },
+            {
+              "a": "name",
+              "v": ".get(img).a(alt)"
+            },
+            {
+              "a": "url",
+              "v": "http://www.cietv.com/shoujidianshi/"
+            },
+            {
+              "a": "img",
+              "v": ".get(img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ""
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6613\u89c6TV",
+      "type": 1
+    },
+    {
+      "attr": "{}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(div.hui-list-text).t()"
+            },
+            {
+              "a": "url",
+              "v": ".z2(\"\\(.*?\\)\")"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6",
+      "type": 2
+    },
+    {
+      "attr": "{\"childmou\":\"\u9009\u96c6\"}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "a",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(div.hui-list ul)"
+            },
+            {
+              "a": "s_name",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6\u5217\u8868",
+      "type": 5
+    },
+    {
+      "attr": "{\"m_info\":\"\",\"m_list\":\"\u9009\u96c6\u5217\u8868\"}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 11
+    }
+  ],
+  "name": "\u6613\u89c6TV",
+  "sign": "3ed196847695530a40cc0698432ad375",
+  "sqlId": 47,
+  "vars": [
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u6613\u89c6",
+      "v": "{\"code\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"\",\"url\":\"http://www.cietv.com/\"}"
+    }
+  ],
+  "version": 0
+}

@@ -1,0 +1,233 @@
+{
+  "coreVersion": 3,
+  "ine": "\u65b0\u7b14\u8da3\u9601\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u65b0\u7b14\u8da3\u9601"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.booklist)"
+            },
+            {
+              "a": "name",
+              "v": ".get(p.title).t().c(_).get(p.author).t()"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://www.xsbiquge.com).get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ".t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"mtype\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"0\"},{\"a\":\"\u7384\u5e7b\u5947\u5e7b\",\"v\":\"1\"},{\"a\":\"\u6b66\u4fa0\u4ed9\u4fa0\",\"v\":\"2\"},{\"a\":\"\u90fd\u5e02\u8a00\u60c5\",\"v\":\"3\"},{\"a\":\"\u5386\u53f2\u519b\u4e8b\",\"v\":\"4\"},{\"a\":\"\u79d1\u5e7b\u7075\u5f02\",\"v\":\"5\"},{\"a\":\"\u7f51\u6e38\u7ade\u6280\",\"v\":\"6\"},{\"a\":\"\u5973\u751f\u9891\u9053\",\"v\":\"7\"}]}]"
+        }
+      ],
+      "sign": "\u65b0\u7b14\u8da3\u9601\u5217\u8868",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740_OkHttp"
+      },
+      "ins": [
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div#list dd)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://www.xsbiquge.com).get(a).a(href)"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "pagecount"
+            }
+          ]
+        },
+        {
+          "a": "text",
+          "s": [
+            {
+              "a": "text",
+              "v": ".get(div#content)"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9605\u8bfb\u5668",
+      "type": 25
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u65b0\u7b14\u8da3\u9601\u641c\u7d22"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.result-item)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h3.result-item-title a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(h3.result-item-title a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(div.result-game-item-pic img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(div.result-game-item-info).t().c(_).get(p.result-game-item-desc).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next",
+              "v": ".get(div.search-result-page).bytt(\u4e0b\u4e00\u9875).a(href)"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u65b0\u7b14\u8da3\u9601\u641c\u7d22\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u65b0\u7b14\u8da3\u9601\u6392\u884c\u699c"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.booklist)"
+            },
+            {
+              "a": "name",
+              "v": ".get(p.title).t().c(_).get(p.author).t()"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://www.xbiquge6.com).get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ".t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"mtype\",\"s\":[{\"a\":\"\u6392\u884c\u603b\u699c\",\"v\":\"\"},{\"a\":\"\u6708\u6392\u884c\u699c\",\"v\":\"month_\"},{\"a\":\"\u5468\u6392\u884c\u699c\",\"v\":\"week_\"}]}]"
+        }
+      ],
+      "sign": "\u6392\u884c\u699c",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u65b0\u7b14\u8da3\u9601\u5217\u8868\",\"\u6392\u884c\u699c\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    }
+  ],
+  "name": "\u65b0\u7b14\u8da3\u9601-0130",
+  "sign": "f176fd13d110c1ff6cee8de0041cc7bf",
+  "sqlId": 9,
+  "vars": [
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u65b0\u7b14\u8da3\u9601",
+      "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://wap.xsbiquge.com/xclass/mtype/%pn%.html\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u65b0\u7b14\u8da3\u9601\u641c\u7d22",
+      "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://www.xsbiquge.com/search.php?keyword\\u003d%key%\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u65b0\u7b14\u8da3\u9601\u6392\u884c\u699c",
+      "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://wap.xsbiquge.com/xbqgph/mtype%pn%.html\"}"
+    }
+  ],
+  "version": 2
+}

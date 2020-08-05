@@ -1,0 +1,418 @@
+{
+  "coreVersion": 3,
+  "img": "5191bb3a22dbe357166e9ccf1beb2efc",
+  "ine": "\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "4k\u5929\u5802"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.pic-text).t().c(_).get(p.text).t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"1\"},{\"a\":\"\u52a8\u4f5c\u7247\",\"v\":\"6\"},{\"a\":\"\u559c\u5267\u7247\",\"v\":\"7\"},{\"a\":\"\u7231\u60c5\u7247\",\"v\":\"8\"},{\"a\":\"\u79d1\u5e7b\u7247\",\"v\":\"9\"},{\"a\":\"\u6050\u6016\u7247\",\"v\":\"10\"},{\"a\":\"\u5267\u60c5\u7247\",\"v\":\"11\"},{\"a\":\"\u6218\u4e89\u7247\",\"v\":\"12\"},{\"a\":\"\u4f26\u7406\u7247\",\"v\":\"13\"},{\"a\":\"\u5176\u4ed6\u7247\",\"v\":\"14\"}]}]"
+        }
+      ],
+      "sign": "\u7535\u5f71",
+      "type": 1
+    },
+    {
+      "attr": "{\"itemtarget\":\"\u64ad\u653e\u5668\"}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-content__playlist li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6",
+      "type": 2
+    },
+    {
+      "attr": "{\"childmou\":\"\u9009\u96c6\"}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "a",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(div.stui-pannel-box.b.playlist)"
+            },
+            {
+              "a": "s_name",
+              "v": ".get(h3.title).t()"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6\u5217\u8868",
+      "type": 5
+    },
+    {
+      "attr": "{\"childmou\":\"\u6e90\"}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "a",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".z(var player_data[\\s\\S]*?</script>)"
+            },
+            {
+              "a": "s_name",
+              "v": ".z2(\"from\":\"\\(.*?\\)\")"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6e90\u5217\u8868",
+      "type": 5
+    },
+    {
+      "attr": "{}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".z(\"url.*?\":\".*?\")"
+            },
+            {
+              "a": "name",
+              "v": "\u5728\u7ebf\u64ad\u653e"
+            },
+            {
+              "a": "url",
+              "v": ".z2(\"url.*?\":\"\\(.*?\\)\").th(\\/##/)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6e90",
+      "type": 2
+    },
+    {
+      "attr": "{\"m_info\":\"\",\"m_list\":\"\u9009\u96c6\u5217\u8868\"}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 11
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u641c\u7d22"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist__media li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h3.title a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(h3.title a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(div.thumb a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(div.detail).t()"
+            },
+            {
+              "a": "next",
+              "v": ".get(ul.stui-page-text).bytt(\u4e0b\u4e00\u9875).a(href)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u641c\u7d22\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "4k\u5929\u5802"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.pic-text).t().c(_).get(p.text).t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"2\"},{\"a\":\"\u56fd\u4ea7\u5267\",\"v\":\"15\"},{\"a\":\"\u9999\u6e2f\u5267\",\"v\":\"16\"},{\"a\":\"\u53f0\u6e7e\u5267\",\"v\":\"17\"},{\"a\":\"\u65e5\u672c\u5267\",\"v\":\"18\"},{\"a\":\"\u97e9\u56fd\u5267\",\"v\":\"19\"},{\"a\":\"\u6b27\u7f8e\u5267\",\"v\":\"20\"},{\"a\":\"\u6cf0\u56fd\u5267\",\"v\":\"21\"},{\"a\":\"\u5176\u4ed6\u5267\",\"v\":\"22\"}]}]"
+        }
+      ],
+      "sign": "\u7535\u89c6\u5267",
+      "type": 1
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "4k\u5929\u5802"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.pic-text).t().c(_).get(p.text).t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"3\"},{\"a\":\"\u56fd\u4ea7\",\"v\":\"23\"},{\"a\":\"\u6e2f\u53f0\",\"v\":\"24\"},{\"a\":\"\u65e5\u97e9\",\"v\":\"25\"},{\"a\":\"\u6b27\u7f8e\",\"v\":\"26\"}]}]"
+        }
+      ],
+      "sign": "\u7efc\u827a",
+      "type": 1
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "4k\u5929\u5802"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.pic-text).t().c(_).get(p.text).t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"4\"},{\"a\":\"\u56fd\u4ea7\",\"v\":\"27\"},{\"a\":\"\u65e5\u97e9\",\"v\":\"28\"},{\"a\":\"\u6b27\u7f8e\",\"v\":\"29\"}]}]"
+        }
+      ],
+      "sign": "\u52a8\u6f2b",
+      "type": 1
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "4k\u5929\u5802"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.stui-vodlist li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.pic-text).t().c(_).get(p.text).t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"5\"}]}]"
+        }
+      ],
+      "sign": "\u798f\u5229",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u7535\u5f71\",\"\u7535\u89c6\u5267\",\"\u7efc\u827a\",\"\u52a8\u6f2b\",\"\u798f\u5229\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    }
+  ],
+  "name": "4k\u5929\u5802\u5f71\u9662-1112",
+  "sign": "5191bb3a22dbe357166e9ccf1beb2efc",
+  "sqlId": 112,
+  "vars": [
+    {
+      "a": "#\u722c\u866b",
+      "sign": "4k\u5929\u5802",
+      "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":0,\"ua\":\"#PC\",\"url\":\"http://www.4k4k.cc/listinfo-\u5206\u7c7b-%pn%.html\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u641c\u7d22",
+      "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"keyboard\\u003d%key%\\u0026show\\u003dtitle,player,ftitle\\u0026tbname\\u003dmovie\\u0026tempid\\u003d1\\u0026submit\\u003d\",\"ua\":\"#PC\",\"url\":\"http://www.4k4k.cc/e/search/index.php\"}"
+    }
+  ],
+  "version": 0
+}

@@ -1,0 +1,164 @@
+{
+  "coreVersion": 3,
+  "ine": "\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "\u5206\u7c7b",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":0,\"ua\":\"#PC\",\"url\":\"https://api.365kqzs.cn:4976/api/programmes?limit\\u003d21\\u0026page\\u003d%pn%\\u0026sort\\u003d\u6392\u5e8f\u5206\u7c7b\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(data).json(programmes)"
+            },
+            {
+              "a": "name",
+              "v": ".json(title)"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://api.365kqzs.cn:4976/api/programmes/).json(id)"
+            },
+            {
+              "a": "img",
+              "v": ".json(verticalCover)"
+            },
+            {
+              "a": "msg",
+              "v": ".c(\u66f4\u65b0\u81f3).json(resourceCount).c(_).json(summary)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"\"},{\"a\":\"\u7535\u89c6\u5267\",\"v\":\"\\u0026category\\u003d5d2d6166eba3e50016617c92\"},{\"a\":\"\u7535\u5f71\",\"v\":\"\\u0026category\\u003d5d2d616aeba3e50016617c93\"},{\"a\":\"\u52a8\u753b\",\"v\":\"\\u0026category\\u003d5e23bced3204300029a2bd22\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6700\u65b0\",\"v\":\"new\"},{\"a\":\"\u6700\u70ed\",\"v\":\"hot\"}]}]"
+        }
+      ],
+      "sign": "\u5206\u7c7b",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740_OkHttp"
+      },
+      "ins": [
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".json(data).json(programme)"
+            },
+            {
+              "a": "s_name",
+              "v": ".json(title)"
+            },
+            {
+              "a": "list",
+              "v": ".json(resources)"
+            },
+            {
+              "a": "name",
+              "v": ".c(\u7b2c).json(episode).ct(\u96c6)"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://ipfs8.365kqzs.cn:9081/ipfs/).json(data).json(hash).ct(?type=.m3u8)"
+            }
+          ]
+        },
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info",
+              "v": ".json(data).json(programme).json(summary)"
+            }
+          ]
+        },
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl"
+            },
+            {
+              "a": "putjs"
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":0,\"ua\":\"#PC\",\"url\":\"https://api.365kqzs.cn:4976/api/programmes?limit\\u003d21\\u0026page\\u003d%pn%\\u0026search\\u003d%key%\\u0026sort\\u003dnew\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(data).json(programmes)"
+            },
+            {
+              "a": "name",
+              "v": ".json(title)"
+            },
+            {
+              "a": "url",
+              "v": ".c(https://api.365kqzs.cn:4976/api/programmes/).json(id)"
+            },
+            {
+              "a": "img",
+              "v": ".json(verticalCover)"
+            },
+            {
+              "a": "msg",
+              "v": ".c(\u66f4\u65b0\u81f3).json(resourceCount).c(_).json(summary)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u641c\u7d22\u5217\u8868",
+      "type": 1
+    }
+  ],
+  "name": "365\u89c6\u9891",
+  "sign": "7f6f9be934c340246cb5d50af5f8fa9e",
+  "sqlId": 168,
+  "vars": [],
+  "version": 2
+}

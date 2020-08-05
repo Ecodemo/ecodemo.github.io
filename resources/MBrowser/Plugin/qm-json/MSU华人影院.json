@@ -1,0 +1,176 @@
+{
+  "coreVersion": 3,
+  "ine": "\u534e\u4eba\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "\u534e\u4eba\u5217\u8868",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "\u534e\u4eba"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(li.fed-list-item)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.fed-list-title).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a.fed-list-title).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(a.fed-list-pics).t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"mtype\",\"s\":[{\"a\":\"\u7535\u5f71\",\"v\":\"1\"},{\"a\":\"\u7535\u89c6\u5267\",\"v\":\"2\"},{\"a\":\"\u7efc\u827a\",\"v\":\"3\"},{\"a\":\"\u52a8\u6f2b\",\"v\":\"4\"}]},{\"a\":\"mfilter\",\"s\":[{\"a\":\"\u6309\u65f6\u95f4\",\"v\":\"time\"},{\"a\":\"\u6309\u4eba\u6c14\",\"v\":\"hits\"},{\"a\":\"\u6309\u8bc4\u5206\",\"v\":\"score\"}]}]"
+        }
+      ],
+      "sign": "\u534e\u4eba\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-part-rows).i(1).get(li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6",
+      "type": 2
+    },
+    {
+      "attr": "{\"childmou\":\"\u9009\u96c6\"}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "a",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(div.fed-play-item.fed-drop-item)"
+            },
+            {
+              "a": "s_name",
+              "v": ".get(ul.fed-drop-head li).t()"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6\u5217\u8868",
+      "type": 5
+    },
+    {
+      "attr": "{\"m_info\":\"\",\"m_list\":\"\u9009\u96c6\u5217\u8868\"}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 11
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u534e\u4eba\u641c\u7d22"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(dl.fed-deta-info)"
+            },
+            {
+              "a": "name",
+              "v": ".get(dd.fed-deta-content h1).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(dt.fed-deta-images a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(dt.fed-deta-images a).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(ul.fed-part-rows).t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u534e\u4eba\u641c\u7d22\u5217\u8868",
+      "type": 1
+    }
+  ],
+  "name": "MSU\u534e\u4eba\u5f71\u9662",
+  "sign": "3e3b370498532a27b09a29a97632d5f4",
+  "sqlId": 89,
+  "vars": [
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u534e\u4eba",
+      "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://tv.msuedu.net/index.php/vod/show/by/mfilter/id/mtype/page/%pn%.html\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u534e\u4eba\u641c\u7d22",
+      "v": "{\"code\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"\",\"url\":\"https://tv.msuedu.net/index.php/vod/search/page/%pn%/wd/%key%.html\"}"
+    }
+  ],
+  "version": 0
+}

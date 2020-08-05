@@ -1,0 +1,176 @@
+{
+  "coreVersion": 3,
+  "ine": "\u9ad8\u6e05\u8d44\u6e90\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "\u9ad8\u6e05\u8d44\u6e90\u5217\u8868",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u9ad8\u6e05\u8d44\u6e90"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.content ul.nr)"
+            },
+            {
+              "a": "name",
+              "v": ".get(li a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(li a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.hours).t().c(_).get(span.btn_span).t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"mtype\",\"s\":[{\"a\":\"\u9996\u9875\",\"v\":\"index\"},{\"a\":\"\u7535\u5f71\",\"v\":\"type-id-21\"},{\"a\":\"\u7535\u89c6\u5267\",\"v\":\"type-id-19\"},{\"a\":\"\u7efc\u827a\",\"v\":\"type-id-28\"},{\"a\":\"\u52a8\u6f2b\",\"v\":\"type-id-16\"}]}]"
+        }
+      ],
+      "sign": "\u9ad8\u6e05\u8d44\u6e90\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul li)"
+            },
+            {
+              "a": "name",
+              "v": ".t().tz($)"
+            },
+            {
+              "a": "url",
+              "v": ".t().ty($)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6",
+      "type": 2
+    },
+    {
+      "attr": "{\"childmou\":\"\u9009\u96c6\"}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "a",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".z(<h3>[\\s\\S]*?</ul>)"
+            },
+            {
+              "a": "s_name",
+              "v": ".get(h3).t()"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6\u5217\u8868",
+      "type": 5
+    },
+    {
+      "attr": "{\"m_info\":\"\",\"m_list\":\"\u9009\u96c6\u5217\u8868\"}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 11
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u9ad8\u6e05\u8d44\u6e90\u641c\u7d22"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.content ul.nr)"
+            },
+            {
+              "a": "name",
+              "v": ".get(li a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(li a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.hours).t().c(_).get(span.btn_span).t()"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9ad8\u6e05\u8d44\u6e90\u641c\u7d22\u5217\u8868",
+      "type": 1
+    }
+  ],
+  "name": "\u9ad8\u6e05\u8d44\u6e90\u7f51",
+  "sign": "89e6f2ddd978d22791062d5587c9262d",
+  "sqlId": 18,
+  "vars": [
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u9ad8\u6e05\u8d44\u6e90",
+      "v": "{\"mode\":2,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://www.gaoqingzy.com/?m\\u003dvod-mtype-pg-%pn%.html\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u9ad8\u6e05\u8d44\u6e90\u641c\u7d22",
+      "v": "{\"mode\":2,\"pn_raise\":1,\"pn_start\":1,\"post\":\"wd\\u003d%key%\",\"url\":\"http://www.gaoqingzy.com/index.php?m\\u003dvod-search\"}"
+    }
+  ],
+  "version": 2
+}

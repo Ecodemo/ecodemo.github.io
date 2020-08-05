@@ -1,0 +1,232 @@
+{
+  "coreVersion": 3,
+  "ine": "\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u5982\u4e66\u5c4b"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.ultwo li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ".t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"mtype\",\"s\":[{\"a\":\"\u7384\u5e7b\u9b54\u6cd5\",\"v\":\"1\"},{\"a\":\"\u6b66\u4fa0\u4fee\u771f\",\"v\":\"2\"},{\"a\":\"\u90fd\u5e02\u8a00\u60c5\",\"v\":\"3\"},{\"a\":\"\u5386\u53f2\u519b\u4e8b\",\"v\":\"4\"},{\"a\":\"\u4fa6\u63a2\u63a8\u7406\",\"v\":\"5\"},{\"a\":\"\u7f51\u6e38\u52a8\u6f2b\",\"v\":\"6\"},{\"a\":\"\u79d1\u5e7b\u6050\u6016\",\"v\":\"7\"},{\"a\":\"YY\u9999\u8273\",\"v\":\"8\"},{\"a\":\"\u5176\u4ed6\u7c7b\u578b\",\"v\":\"9\"}]}]"
+        }
+      ],
+      "sign": "\u5982\u4e66\u5c4b\u5206\u7c7b",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(table.acss a)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".a(href)"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "pagecount"
+            }
+          ]
+        },
+        {
+          "a": "text",
+          "s": [
+            {
+              "a": "text",
+              "v": ".get(div.ccontent)"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9605\u8bfb\u5668",
+      "type": 25
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u6392\u884c\u699c"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.ultwo li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ".t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"mtype\",\"s\":[{\"a\":\"\u603b\u6392\u884c\",\"v\":\"allvisit\"},{\"a\":\"\u603b\u63a8\u8350\",\"v\":\"allvote\"},{\"a\":\"\u6708\u6392\u884c\",\"v\":\"monthvisit\"},{\"a\":\"\u6708\u63a8\u8350\",\"v\":\"monthvote\"},{\"a\":\"\u5468\u6392\u884c\",\"v\":\"weekvisit\"},{\"a\":\"\u5468\u63a8\u8350\",\"v\":\"weekvote\"},{\"a\":\"\u6700\u65b0\u5165\u5e93\",\"v\":\"postdate\"},{\"a\":\"\u6700\u8fd1\u66f4\u65b0\",\"v\":\"lastupdate\"},{\"a\":\"\u603b\u6536\u85cf\",\"v\":\"goodnum\"},{\"a\":\"\u5b57\u6570\",\"v\":\"size\"}]}]"
+        }
+      ],
+      "sign": "\u6392\u884c\u699c\u5217\u8868",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u5982\u4e66\u5c4b\u5206\u7c7b\",\"\u6392\u884c\u699c\u5217\u8868\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u641c\u7d22"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div#content tr).i(1,)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ".t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u641c\u7d22\u5217\u8868",
+      "type": 1
+    }
+  ],
+  "name": "\u5982\u4e66\u5c4b-0130",
+  "sign": "22547eaec75d59ccea4aa841b01d270d",
+  "sqlId": 3,
+  "vars": [
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u5982\u4e66\u5c4b",
+      "v": "{\"code\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"#PC\",\"url\":\"http://www.rushuwu.net/list/mtype-%pn%.html\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u6392\u884c\u699c",
+      "v": "{\"code\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"#PC\",\"url\":\"http://www.rushuwu.net/mtype-%pn%.html\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u641c\u7d22",
+      "v": "{\"code\":\"gbk\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"#PC\",\"url\":\"http://www.rushuwu.net/modules/article/search.php?searchtype\\u003darticlename\\u0026searchkey\\u003d%key%\\u0026t_btnsearch\\u003d%26%2360968%3B\\u0026page\\u003d%pn%\"}"
+    }
+  ],
+  "version": 2
+}

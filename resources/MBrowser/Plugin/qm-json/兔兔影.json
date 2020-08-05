@@ -1,0 +1,280 @@
+{
+  "coreVersion": 3,
+  "ine": "",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u7535\u5f71\",\"\u5267\u96c6\",\"\u7efc\u827a\",\"\u52a8\u6f2b\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://www.tutuying.com/vod/show/class/page/%pn%.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-list-info.fed-part-rows li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).i(1).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-remarks).t()"
+            },
+            {
+              "a": "next",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"class\",\"s\":[{\"a\":\"\u7535\u5f71\",\"v\":\"id/1\"},{\"a\":\"\u5947\u5e7b\u7247\",\"v\":\"id/33\"},{\"a\":\"\u52a8\u4f5c\u7247\",\"v\":\"id/6\"},{\"a\":\"\u559c\u5267\u7247\",\"v\":\"id/7\"},{\"a\":\"\u7231\u60c5\u7247\",\"v\":\"id/8\"},{\"a\":\"\u79d1\u5e7b\u7247\",\"v\":\"id/9\"},{\"a\":\"\u6050\u6016\u7247\",\"v\":\"id/10\"},{\"a\":\"\u5267\u60c5\u7247\",\"v\":\"id/11\"}]}]"
+        }
+      ],
+      "sign": "\u7535\u5f71",
+      "type": 1
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://www.tutuying.com/vod/show/area/page/%pn%.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-list-info.fed-part-rows li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).i(1).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-remarks).t()"
+            },
+            {
+              "a": "next",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"area\",\"s\":[{\"a\":\"\u8fde\u7eed\u5267\",\"v\":\"id/2\"},{\"a\":\"\u5927\u9646\",\"v\":\"id/13\"},{\"a\":\"\u6e2f\u5267\",\"v\":\"id/14\"},{\"a\":\"\u97e9\u5267\",\"v\":\"id/15\"},{\"a\":\"\u7f8e\u5267\",\"v\":\"id/16\"},{\"a\":\"\u65e5\u5267\",\"v\":\"id/25\"},{\"a\":\"\u53f0\u5267\",\"v\":\"id/26\"}]}]"
+        }
+      ],
+      "sign": "\u5267\u96c6",
+      "type": 1
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://www.tutuying.com/vod/show/year/page/%pn%.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-list-info.fed-part-rows li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).i(1).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-remarks).t()"
+            },
+            {
+              "a": "next",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"year\",\"s\":[{\"a\":\"\u7efc\u827a\",\"v\":\"id/3\"},{\"a\":\"\u5927\u9646\",\"v\":\"id/34\"},{\"a\":\"\u6e2f\u53f0\",\"v\":\"id/35\"},{\"a\":\"\u65e5\u97e9\",\"v\":\"id/38\"}]}]"
+        }
+      ],
+      "sign": "\u7efc\u827a",
+      "type": 1
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://www.tutuying.com/vod/show/time/page/%pn%.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-list-info.fed-part-rows li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).i(1).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.fed-list-remarks).t()"
+            },
+            {
+              "a": "next",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"time\",\"s\":[{\"a\":\"\u52a8\u6f2b\",\"v\":\"id/4\"},{\"a\":\"\u65e5\u672c\",\"v\":\"id/29\"},{\"a\":\"\u56fd\u4ea7\",\"v\":\"id/30\"},{\"a\":\"\u6b27\u7f8e\",\"v\":\"id/31\"}]}]"
+        }
+      ],
+      "sign": "\u52a8\u6f2b",
+      "type": 1
+    },
+    {
+      "attr": "{\"childmou\":\"\u9009\u96c6\"}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "a",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(div.fed-play-item)"
+            },
+            {
+              "a": "s_name",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6\u5217\u8868",
+      "type": 5
+    },
+    {
+      "attr": "{}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.fed-part-rows).i(1).get(li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9009\u96c6",
+      "type": 2
+    },
+    {
+      "attr": "{\"m_list\":\"\u9009\u96c6\u5217\u8868\"}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl"
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 11
+    }
+  ],
+  "name": "\u5154\u5154\u5f71",
+  "sign": "e18958d103b973593ec29572a3a4b069",
+  "sqlId": 15,
+  "vars": [],
+  "version": 0
+}

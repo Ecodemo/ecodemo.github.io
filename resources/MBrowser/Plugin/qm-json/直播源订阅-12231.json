@@ -1,0 +1,380 @@
+{
+  "coreVersion": 3,
+  "ine": "",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":2,\"type\":1}",
+      "host": {
+        "a": "#\u6587\u672c",
+        "v": "<div class=\"playlist\"> \n      <p class=\"intro\">\u76d2\u5b50\u6293\u53d6\uff0c\u6613\u5931\u6548</p> \n     <ul> \n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/7203.m3u\">\u76f4\u64ad7203</a></li>\n      </ul>\n    </div> \n<div class=\"playlist\"> \n      <p class=\"intro\">\u7f51\u7edc\u8ba2\u9605\uff0c\u5b9a\u671f\u7ef4\u62a4</p> \n     <ul>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/122.m3u\">\u76f4\u64ad122</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/123.m3u\">\u76f4\u64ad123</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/lt.m3u\">\u9a86\u9a7c\u76f4\u64ad</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/movie.m3u\">\u76f4\u64admovie</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/migu1.m3u\">\u54aa\u5495\u76f4\u64ad</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tv/raw/tv/qinyunian.m3u8\">\u5e86\u4f59\u5e74</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tvheizi/raw/master/\u536b\u89c6\u9891\u9053.m3u\">\u536b\u89c6\u9891\u9053</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tvheizi/raw/master/\u5730\u65b9\u53f0.m3u\">\u5730\u65b9\u53f0</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tvheizi/raw/master/\u592e\u89c6\u9891\u9053.m3u\">\u592e\u89c6\u9891\u9053</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tvheizi/raw/master/\u6e2f\u6fb3\u9891\u9053.m3u\">\u6e2f\u6fb3\u9891\u9053</a></li>\n<li><a href=\"https://gitee.com/mickvvw/tvheizi/raw/master/\u7535\u5f71\u9891\u9053.m3u\">\u7535\u5f71\u9891\u9053</a></li>\n<li><a href=\"https://gitee.com/eeput/iptv/raw/master/iptv.m3u\"></a>\u5bd2\u751f\u540c\u5b66IPTV</li>\n<li><a href=\"https://gitee.com/lette/home/raw/master/list.m3u\">\u5bb6\u5ead\u7f51\u7edc\u8d44\u6e90\u5206\u4eabIPTV</a></li>\n<li><a href=\"https://gitee.com/hutao4399/IPTV/raw/master/dianxinIPTV.m3u8\">\u7535\u4fe1IPTV</a></li>\n<li><a href=\"https://gitee.com/hutao4399/IPTV/raw/master/yidongIPTV.m3u8\">\u79fb\u52a8IPTV</a></li>\n<li><a href=\"https://gitee.com/lihuosheng/tv/raw/master/tv.m3u\">\u7801\u4e91lihuosheng TV</a></li>\n<li><a href=\"https://gitee.com/lihuosheng/tv/raw/master/vod.m3u\">\u7801\u4e91lihuosheng VOD</a></li>\n<li><a href=\"https://raw.githubusercontent.com/EvilCult/iptv-m3u-maker/master/tv.m3u8\">\u5c0f\u68c9\u8884-Evilcult\u6e90</a></li>\n      </ul>\n    </div>"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul li)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u76f4\u64ad\u5206\u7c7b\u5217\u8868",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort"
+            },
+            {
+              "a": "s_name",
+              "v": "\u64ad\u653e\u4e0d\u4e86\u7684\u5c1d\u8bd5\u5207\u6362\u5185\u6838\u6216\u7f51\u9875\u6253\u5f00"
+            },
+            {
+              "a": "list",
+              "v": ".z(#EXTINF[\\s\\S]*?,.*?[r|h]t[s|m|t]p.*?[\\s])"
+            },
+            {
+              "a": "name",
+              "v": ".z2(,\\(.*?\\)[r|h]t[s|m|t]p)"
+            },
+            {
+              "a": "url",
+              "v": ".z2(,.*?\\([r|h]t[s|m|t]p.*?\\)[\\s])"
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"json\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u6587\u672c",
+        "v": "<div class=\"playlist\"> \n      <p class=\"intro\">\u76d2\u5b50\u6293\u53d6\uff0c\u6613\u5931\u6548</p> \n     <ul> \n<li><a href=\"https://gitee.com/haotv/tvbtvb/raw/master/iptv.json\">TVB\u5185\u7f6eIPTV</a></li>\n<li><a href=\"https://gitee.com/haotv/tvbtvb/raw/master/iptv1.json\">TVB\u5185\u7f6eIPTV1</a></li>\n      </ul>\n    </div>"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul li)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u76f4\u64ad\u8f6f\u4ef6\u5185\u7f6ejson\u7c7b",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".json(data)"
+            },
+            {
+              "a": "s_name",
+              "v": ".json(group).ct(,\u64ad\u653e\u4e0d\u4e86\u7684\u5c1d\u8bd5\u5207\u6362\u5185\u6838\u6216\u7f51\u9875\u6253\u5f00)"
+            },
+            {
+              "a": "list",
+              "v": ".json(channels)"
+            },
+            {
+              "a": "name",
+              "v": ".json(title)"
+            },
+            {
+              "a": "url",
+              "v": ".json(url)"
+            }
+          ]
+        }
+      ],
+      "sign": "json\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u76f4\u64ad\u5206\u7c7b\u5217\u8868\",\"\u76f4\u64ad\u8f6f\u4ef6\u5185\u7f6ejson\u7c7b\",\"\u5c0f\u68c9\u8884\u6d77\u9614\u76f4\u64ad\u7cfb\u5217\",\"\u5c0f\u68c9\u8884-\u7eaf\u4e8c\",\"\u7801\u4e91\u6c47\u603b\u9879\u76ee(\u5931\u6548\u8f83\u591a)\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://gitee.com/zengjian0303/Tvlist-awesome-m3u-m3u8/tree/master/m3u\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.tree-item-file-name.tree-file.tree-list-item)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href).th(blob##raw)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u7801\u4e91\u6c47\u603b\u9879\u76ee(\u5931\u6548\u8f83\u591a)",
+      "type": 1
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5c0f\u68c9\u8884\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u6587\u672c",
+        "v": "<div class=\"playlist\"> \n      <p class=\"intro\">\u76d2\u5b50\u6293\u53d6\uff0c\u6613\u5931\u6548</p> \n     <ul> \n<li><a href=\"https://coding.net/u/Gold2River/p/NetRaw/git/raw/master/yangshi.json\">\u5c0f\u68c9\u8884-\u592e\u89c6</a></li>\n<li><a href=\"https://coding.net/u/Gold2River/p/NetRaw/git/raw/master/weishi.json\">\u5c0f\u68c9\u8884-\u536b\u89c6</a></li>\n<li><a href=\"https://coding.net/u/Gold2River/p/NetRaw/git/raw/master/yingshi.json\">\u5c0f\u68c9\u8884-\u5f71\u89c6\u8f6e\u64ad</a></li>\n<li><a href=\"https://coding.net/u/Gold2River/p/NetRaw/git/raw/master/dfgj.json\">\u5c0f\u68c9\u8884-\u5730\u65b9\u56fd\u9645</a></li>\n      </ul>\n    </div>"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul li)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5c0f\u68c9\u8884\u6d77\u9614\u76f4\u64ad\u7cfb\u5217",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort"
+            },
+            {
+              "a": "s_name",
+              "v": ".json(name)"
+            },
+            {
+              "a": "list",
+              "v": ".json(lives)"
+            },
+            {
+              "a": "name",
+              "v": ".json(name)"
+            },
+            {
+              "a": "url",
+              "v": ".json(url)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5c0f\u68c9\u8884\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5c0f\u68c9\u8884-\u7eaf\u4e8c\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u6587\u672c",
+        "v": "<div class=\"playlist\"> \n      <p class=\"intro\">\u76d2\u5b50\u6293\u53d6\uff0c\u6613\u5931\u6548</p> \n     <ul> \n<li><a href=\"https://coding.net/u/Gold2River/p/NetRaw/git/raw/master/tvLive.json\">\u5c0f\u68c9\u8884-\u7231\u597d</a></li>\n      </ul>\n    </div>"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul li)"
+            },
+            {
+              "a": "name",
+              "v": ".t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5c0f\u68c9\u8884-\u7eaf\u4e8c",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://coding.net/u/Gold2River/p/NetRaw/git/raw/master/tvLive.json\"}"
+      },
+      "ins": [
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".json(lives)"
+            },
+            {
+              "a": "s_name",
+              "v": ".json(name)"
+            },
+            {
+              "a": "list",
+              "v": ".json(lives)"
+            },
+            {
+              "a": "name",
+              "v": ".json(name)"
+            },
+            {
+              "a": "url",
+              "v": ".json(url)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5c0f\u68c9\u8884-\u7eaf\u4e8c\u64ad\u653e\u5668",
+      "type": 22
+    }
+  ],
+  "name": "\u76f4\u64ad\u6e90\u8ba2\u9605-12231",
+  "sign": "cd80fa7775868bbbf276fe24da13a0e3",
+  "sqlId": 123,
+  "vars": [],
+  "version": 1
+}

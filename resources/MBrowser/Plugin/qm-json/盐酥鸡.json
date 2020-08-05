@@ -1,0 +1,277 @@
+{
+  "coreVersion": 3,
+  "ine": "\u641c\u7d22",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://ysuzy.com/vodshow/\u5206\u7c7b--\u6392\u5e8f------#PN#---\u5e74\u4ee3.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(li.fed-list-item.fed-padding.fed-col-xs4.fed-col-sm3.fed-col-md2)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.fed-list-title.fed-font-xiv.fed-text-center.fed-text-sm-left.fed-visible.fed-part-eone).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a.fed-list-pics.fed-lazy.fed-part-2by3).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics.fed-lazy.fed-part-2by3).a(data-original)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"1\"},{\"a\":\"\u52a8\u4f5c\u7247\",\"v\":\"6\"},{\"a\":\"\u559c\u5267\u7247\",\"v\":\"7\"},{\"a\":\"\u7231\u60c5\u7247\",\"v\":\"8\"},{\"a\":\"\u79d1\u5e7b\u7247\",\"v\":\"9\"},{\"a\":\"\u6050\u6016\u7247\",\"v\":\"10\"},{\"a\":\"\u5267\u60c5\u7247\",\"v\":\"11\"},{\"a\":\"\u6218\u4e89\u7247\",\"v\":\"12\"}]},{\"a\":\"\u5730\u533a\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"\"},{\"a\":\"\u5927\u9646\",\"v\":\"\u5927\u9646\"},{\"a\":\"\u9999\u6e2f\",\"v\":\"\u9999\u6e2f\"},{\"a\":\"\u53f0\u6e7e\",\"v\":\"\u53f0\u6e7e\"},{\"a\":\"\u7f8e\u56fd\",\"v\":\"\u7f8e\u56fd\"},{\"a\":\"\u6cd5\u56fd\",\"v\":\"\u6cd5\u56fd\"},{\"a\":\"\u82f1\u56fd\",\"v\":\"\u82f1\u56fd\"},{\"a\":\"\u65e5\u672c\",\"v\":\"\u65e5\u672c\"},{\"a\":\"\u97e9\u56fd\",\"v\":\"\u97e9\u56fd\"},{\"a\":\"\u5fb7\u56fd\",\"v\":\"\u5fb7\u56fd\"},{\"a\":\"\u6cf0\u56fd\",\"v\":\"\u6cf0\u56fd\"},{\"a\":\"\u5370\u5ea6\",\"v\":\"\u5370\u5ea6\"},{\"a\":\"\u610f\u5927\u5229\",\"v\":\"\u610f\u5927\u5229\"},{\"a\":\"\u52a0\u62ff\u5927\",\"v\":\"\u52a0\u62ff\u5927\"}]},{\"a\":\"\u5e74\u4ee3\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"\"},{\"a\":\"2019\",\"v\":\"2019\"},{\"a\":\"2018\",\"v\":\"2018\"},{\"a\":\"2017\",\"v\":\"2017\"},{\"a\":\"2016\",\"v\":\"2016\"},{\"a\":\"2015\",\"v\":\"2015\"},{\"a\":\"2014\",\"v\":\"2014\"},{\"a\":\"2013\",\"v\":\"2013\"},{\"a\":\"2012\",\"v\":\"2012\"},{\"a\":\"2011\",\"v\":\"2011\"},{\"a\":\"2010\",\"v\":\"2010\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6309\u65f6\u95f4\",\"v\":\"time\"},{\"a\":\"\u6309\u4eba\u6c14\",\"v\":\"hits\"},{\"a\":\"\u6309\u8bc4\u5206\",\"v\":\"score\"}]}]"
+        }
+      ],
+      "sign": "\u7535\u5f71",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://ysuzy.com/vodshow/\u5206\u7c7b--\u6392\u5e8f------#PN#---\u5e74\u4ee3.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(li.fed-list-item.fed-padding.fed-col-xs4.fed-col-sm3.fed-col-md2)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.fed-list-title.fed-font-xiv.fed-text-center.fed-text-sm-left.fed-visible.fed-part-eone).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a.fed-list-pics.fed-lazy.fed-part-2by3).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics.fed-lazy.fed-part-2by3).a(data-original)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"2\"},{\"a\":\"\u56fd\u4ea7\u5267\",\"v\":\"13\"},{\"a\":\"\u6e2f\u53f0\u5267\",\"v\":\"14\"},{\"a\":\"\u65e5\u97e9\u5267\",\"v\":\"15\"},{\"a\":\"\u6b27\u7f8e\u5267\",\"v\":\"16\"}]},{\"a\":\"\u5e74\u4ee3\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"\"},{\"a\":\"2019\",\"v\":\"2019\"},{\"a\":\"2018\",\"v\":\"2018\"},{\"a\":\"2017\",\"v\":\"2017\"},{\"a\":\"2016\",\"v\":\"2016\"},{\"a\":\"2015\",\"v\":\"2015\"},{\"a\":\"2014\",\"v\":\"2014\"},{\"a\":\"2013\",\"v\":\"2013\"},{\"a\":\"2012\",\"v\":\"2012\"},{\"a\":\"2011\",\"v\":\"2011\"},{\"a\":\"2010\",\"v\":\"2010\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6309\u65f6\u95f4\",\"v\":\"time\"},{\"a\":\"\u6309\u4eba\u6c14\",\"v\":\"hits\"},{\"a\":\"\u6309\u8bc4\u5206\",\"v\":\"score\"}]}]"
+        }
+      ],
+      "sign": "\u7535\u89c6\u5267",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(div.fed-play-item.fed-drop-item.fed-visible)"
+            },
+            {
+              "a": "s_name",
+              "v": ".get(li.fed-padding.fed-col-xs4.fed-part-eone.fed-font-xvi).t()"
+            },
+            {
+              "a": "list",
+              "v": ".get(li).i(2,0)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.fed-btns-info.fed-rims-info.fed-part-eone).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a.fed-btns-info.fed-rims-info.fed-part-eone).a(href)"
+            }
+          ]
+        },
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info",
+              "v": ".get(p.fed-padding.fed-part-both.fed-text-muted).t()"
+            }
+          ]
+        },
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "playurl"
+            },
+            {
+              "a": "putjs"
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://ysuzy.com/vodshow/4--\u6392\u5e8f------#PN#---\u5e74\u4ee3.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(li.fed-list-item.fed-padding.fed-col-xs4.fed-col-sm3.fed-col-md2)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a.fed-list-title.fed-font-xiv.fed-text-center.fed-text-sm-left.fed-visible.fed-part-eone).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a.fed-list-pics.fed-lazy.fed-part-2by3).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics.fed-lazy.fed-part-2by3).a(data-original)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5e74\u4ee3\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"\"},{\"a\":\"2019\",\"v\":\"2019\"},{\"a\":\"2018\",\"v\":\"2018\"},{\"a\":\"2017\",\"v\":\"2017\"},{\"a\":\"2016\",\"v\":\"2016\"},{\"a\":\"2015\",\"v\":\"2015\"},{\"a\":\"2014\",\"v\":\"2014\"},{\"a\":\"2013\",\"v\":\"2013\"},{\"a\":\"2012\",\"v\":\"2012\"},{\"a\":\"2011\",\"v\":\"2011\"},{\"a\":\"2010\",\"v\":\"2010\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6309\u65f6\u95f4\",\"v\":\"time\"},{\"a\":\"\u6309\u4eba\u6c14\",\"v\":\"hits\"},{\"a\":\"\u6309\u8bc4\u5206\",\"v\":\"score\"}]}]"
+        }
+      ],
+      "sign": "\u52a8\u6f2b",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://ysuzy.com/vodsearch/-------------.html?wd\\u003d#KEY#\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(dl.fed-deta-info.fed-deta-padding.fed-line-top.fed-margin.fed-part-rows.fed-part-over)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h1.fed-part-eone.fed-font-xvi).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a.fed-list-pics.fed-lazy.fed-part-2by3).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(ul.fed-part-rows)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u641c\u7d22",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u7535\u89c6\u5267\",\"\u7535\u5f71\",\"\u52a8\u6f2b\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    }
+  ],
+  "name": "\u76d0\u9165\u9e21",
+  "sign": "3f32dc60ee750ca49ae2764bab6538f4",
+  "sqlId": 88,
+  "vars": [],
+  "version": 1
+}

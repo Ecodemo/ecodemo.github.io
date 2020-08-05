@@ -1,0 +1,222 @@
+{
+  "coreVersion": 3,
+  "ine": "\u5168\u5c0f\u8bf4\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u5168\u5c0f\u8bf4"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.main.list ul.list_content)"
+            },
+            {
+              "a": "name",
+              "v": ".get(li.cc2 a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(li.cc2 a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ".get(li.cc3).t().c(_\u4f5c\u8005:).get(li.cc4).t().c(_).get(li.cc5).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"mtype\",\"s\":[{\"a\":\"\u70b9\u51fb\u699c\",\"v\":\"top\"},{\"a\":\"\u5947\u5e7b\",\"v\":\"qihuan\"},{\"a\":\"\u7384\u5e7b\",\"v\":\"xuanhuan\"},{\"a\":\"\u8a00\u60c5\",\"v\":\"yanqing\"},{\"a\":\"\u90fd\u5e02\",\"v\":\"dushi\"},{\"a\":\"\u6e38\u620f\",\"v\":\"youxi\"},{\"a\":\"\u7ade\u6280\",\"v\":\"jingji\"},{\"a\":\"\u6b66\u4fa0\",\"v\":\"wuxia\"},{\"a\":\"\u5386\u53f2\",\"v\":\"lishi\"},{\"a\":\"\u519b\u4e8b\",\"v\":\"junshi\"},{\"a\":\"\u79d1\u5e7b\",\"v\":\"kehuan\"},{\"a\":\"\u4ed9\u4fa0\",\"v\":\"xianxia\"},{\"a\":\"\u7075\u5f02\",\"v\":\"lingyi\"},{\"a\":\"\u5973\u6027\",\"v\":\"nvxing\"},{\"a\":\"\u5176\u4ed6\",\"v\":\"qita\"},{\"a\":\"\u6700\u65b0\u66f4\u65b0\",\"v\":\"last1\"},{\"a\":\"\u6700\u65b0\u5165\u5e93\",\"v\":\"new\"}]}]"
+        }
+      ],
+      "sign": "\u5168\u5c0f\u8bf4\u5217\u8868",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.chapter)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "pagecount"
+            }
+          ]
+        },
+        {
+          "a": "text",
+          "s": [
+            {
+              "a": "text",
+              "v": ".get(div#content).t().ty(ad3).tz(ad4)"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9605\u8bfb\u5668",
+      "type": 25
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "\u5168\u5c0f\u8bf4\u641c\u7d22"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.list_content)"
+            },
+            {
+              "a": "name",
+              "v": ".get(li.cc2 a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(li.cc2 a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ".get(li.cc3).t().c(_\u4f5c\u8005:).get(li.cc4).t().c(_).get(li.cc5).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5168\u5c0f\u8bf4\u641c\u7d22\u5217\u8868",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://qxs.la/last%pn%.htm\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.main.list ul.list_content)"
+            },
+            {
+              "a": "name",
+              "v": ".get(li.cc2 a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(li.cc2 a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ".get(li.cc3).t().c(_\u4f5c\u8005:).get(li.cc4).t().c(_).get(li.cc5).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6700\u8fd1\u66f4\u65b0",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u5168\u5c0f\u8bf4\u5217\u8868\",\"\u6700\u8fd1\u66f4\u65b0\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    }
+  ],
+  "name": "\u5168\u5c0f\u8bf4-0130",
+  "sign": "8d836261092f71018019bdf720b7fd94",
+  "sqlId": 11,
+  "vars": [
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u5168\u5c0f\u8bf4",
+      "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://qxs.la/mtype/%pn%/\"}"
+    },
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u5168\u5c0f\u8bf4\u641c\u7d22",
+      "v": "{\"code\":\"\",\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"\",\"ua\":\"\",\"url\":\"https://qxs.la/s_%key%/%pn%/\"}"
+    }
+  ],
+  "version": 2
+}

@@ -1,0 +1,370 @@
+{
+  "coreVersion": 3,
+  "ine": "\u641c\u7d22\u5217\u8868",
+  "info": "",
+  "inq": "TAB",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://saohuotv.com/search.php?page\\u003d%pn%\\u0026searchtype\\u003d5\\u0026order\\u003d\u6392\u5e8f\\u0026tid\\u003d\u5206\u7c7b\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.v_list li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a img).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(div.v_note).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"1\"},{\"a\":\"\u559c\u5267\",\"v\":\"6\"},{\"a\":\"\u7231\u60c5\",\"v\":\"7\"},{\"a\":\"\u6050\u6016\",\"v\":\"8\"},{\"a\":\"\u52a8\u4f5c\",\"v\":\"9\"},{\"a\":\"\u79d1\u5e7b\",\"v\":\"10\"},{\"a\":\"\u6218\u4e89\",\"v\":\"11\"},{\"a\":\"\u72af\u7f6a\",\"v\":\"12\"},{\"a\":\"\u52a8\u753b\",\"v\":\"13\"},{\"a\":\"\u5947\u5e7b\",\"v\":\"14\"},{\"a\":\"\u5267\u60c5\",\"v\":\"15\"},{\"a\":\"\u5192\u9669\",\"v\":\"16\"},{\"a\":\"\u60ac\u7591\",\"v\":\"17\"},{\"a\":\"\u60ca\u609a\",\"v\":\"18\"},{\"a\":\"\u5176\u4ed6\",\"v\":\"19\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6700\u65b0\",\"v\":\"time\"},{\"a\":\"\u4eba\u6c14\",\"v\":\"hit\"}]}]"
+        }
+      ],
+      "sign": "\u7535\u5f71",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://saohuotv.com/search.php?page\\u003d%pn%\\u0026searchtype\\u003d5\\u0026order\\u003d\u6392\u5e8f\\u0026tid\\u003d\u5206\u7c7b\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.v_list li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a img).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(div.v_note).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"2\"},{\"a\":\"\u5927\u9646\",\"v\":\"20\"},{\"a\":\"TVB\",\"v\":\"21\"},{\"a\":\"\u97e9\u5267\",\"v\":\"22\"},{\"a\":\"\u7f8e\u5267\",\"v\":\"23\"},{\"a\":\"\u65e5\u5267\",\"v\":\"24\"},{\"a\":\"\u82f1\u5267\",\"v\":\"25\"},{\"a\":\"\u53f0\u5267\",\"v\":\"26\"},{\"a\":\"\u5176\u4ed6\",\"v\":\"27\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6700\u65b0\",\"v\":\"time\"},{\"a\":\"\u4eba\u6c14\",\"v\":\"hit\"}]}]"
+        }
+      ],
+      "sign": "\u7535\u89c6\u5267",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://saohuotv.com/search.php?page\\u003d%pn%\\u0026searchtype\\u003d5\\u0026order\\u003d\u6392\u5e8f\\u0026tid\\u003d\u5206\u7c7b\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.v_list li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a img).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(div.v_note).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u5168\u90e8\",\"v\":\"4\"},{\"a\":\"\u641e\u7b11\",\"v\":\"38\"},{\"a\":\"\u604b\u7231\",\"v\":\"39\"},{\"a\":\"\u70ed\u8840\",\"v\":\"40\"},{\"a\":\"\u683c\u6597\",\"v\":\"41\"},{\"a\":\"\u7f8e\u5c11\u5973\",\"v\":\"42\"},{\"a\":\"\u9b54\u6cd5\",\"v\":\"43\"},{\"a\":\"\u673a\u6218\",\"v\":\"44\"},{\"a\":\"\u6821\u56ed\",\"v\":\"45\"},{\"a\":\"\u4eb2\u5b50\",\"v\":\"46\"},{\"a\":\"\u7ae5\u8bdd\",\"v\":\"47\"},{\"a\":\"\u5192\u9669\",\"v\":\"48\"},{\"a\":\"\u771f\u4eba\",\"v\":\"49\"},{\"a\":\"LOLI\",\"v\":\"50\"},{\"a\":\"\u5176\u4ed6\",\"v\":\"51\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u6700\u65b0\",\"v\":\"time\"},{\"a\":\"\u4eba\u6c14\",\"v\":\"hit\"}]}]"
+        }
+      ],
+      "sign": "\u52a8\u6f2b",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://saohuotv.com/top/\u5206\u7c7b\u6392\u5e8f.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.text_list).th(<li></li>##<br>).get(li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.v_note).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u603b\u699c\",\"v\":\"index\"},{\"a\":\"\u7535\u5f71\",\"v\":\"dianying\"},{\"a\":\"\u7535\u89c6\u5267\",\"v\":\"dianshiju\"},{\"a\":\"\u7efc\u827a\",\"v\":\"zongyi\"},{\"a\":\"\u52a8\u6f2b\",\"v\":\"dongman\"}]},{\"a\":\"\u6392\u5e8f\",\"s\":[{\"a\":\"\u5468\u699c\",\"v\":\"\"},{\"a\":\"\u6708\u699c\",\"v\":\"-m\"}]}]"
+        }
+      ],
+      "sign": "\u6392\u884c\u699c",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://saohuotv.com/new/\u5206\u7c7b.html\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.text_list).th(<li></li>##<br>).get(li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ""
+            },
+            {
+              "a": "msg",
+              "v": ".get(span.v_note).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "scr",
+          "v": "[{\"a\":\"\u5206\u7c7b\",\"s\":[{\"a\":\"\u603b\u699c\",\"v\":\"index\"},{\"a\":\"\u7535\u5f71\",\"v\":\"dianying\"},{\"a\":\"\u7535\u89c6\u5267\",\"v\":\"dianshiju\"},{\"a\":\"\u7efc\u827a\",\"v\":\"zongyi\"},{\"a\":\"\u52a8\u6f2b\",\"v\":\"dongman\"}]}]"
+        }
+      ],
+      "sign": "\u6700\u8fd1\u66f4\u65b0",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740_OkHttp"
+      },
+      "ins": [
+        {
+          "a": "info",
+          "s": [
+            {
+              "a": "info"
+            }
+          ]
+        },
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "sort",
+              "v": ".get(ul#play_link li)"
+            },
+            {
+              "a": "s_name",
+              "v": ""
+            },
+            {
+              "a": "list",
+              "v": ".get(a)"
+            },
+            {
+              "a": "name",
+              "v": ".a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".a(href)"
+            }
+          ]
+        }
+      ],
+      "sign": "\u64ad\u653e\u5668",
+      "type": 22
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u6700\u8fd1\u66f4\u65b0\",\"\u6392\u884c\u699c\",\"\u7535\u5f71\",\"\u7535\u89c6\u5267\",\"\u52a8\u6f2b\"]"
+        }
+      ],
+      "sign": "TAB",
+      "type": 8
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u64ad\u653e\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":1,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://saohuotv.com/search.php?page\\u003d%pn%\\u0026searchword\\u003d%key%\\u0026searchtype\\u003d\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(ul.v_list li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).a(title)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(a img).a(data-original)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(div.v_note).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u641c\u7d22\u5217\u8868",
+      "type": 1
+    }
+  ],
+  "name": "\u9a9a\u706bvip(\u65e0\u5e7f\u544a)",
+  "sign": "2c7828aee6bdd0e1fa716456336e089f",
+  "sqlId": 147,
+  "vars": [],
+  "version": 1
+}

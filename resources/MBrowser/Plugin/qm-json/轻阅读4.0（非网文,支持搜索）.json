@@ -1,0 +1,1000 @@
+{
+  "coreVersion": 5,
+  "ine": "\u641c\u7d22",
+  "info": "",
+  "inq": "\u4e66\u7c4d\u4e3b\u63a8",
+  "ins": [],
+  "mous": [
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u65f6\u95f4\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://qikan.fun/s.php?s\\u003d%key%\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.layui-container)"
+            },
+            {
+              "a": "name",
+              "v": ".get(b).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href).ct(&page=#pn#)"
+            },
+            {
+              "a": "img",
+              "v": ".get(img).a(src)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u6742\u5fd7",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u76ee\u5f55\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.layui-container)"
+            },
+            {
+              "a": "name",
+              "v": ".get(b).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(img).a(src)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev",
+              "v": ""
+            },
+            {
+              "a": "next",
+              "v": ".get(a).byt(\u4e0b\u9875).a(href)"
+            },
+            {
+              "a": "tail",
+              "v": ""
+            }
+          ]
+        }
+      ],
+      "sign": "\u65f6\u95f4",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":2}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740_Jsoup"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(a)"
+            },
+            {
+              "a": "name",
+              "v": ".get(div.layui-card-title).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg",
+              "v": ""
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u76ee\u5f55",
+      "type": 1
+    },
+    {
+      "attr": "{\"type\":0}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740_Jsoup"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "name",
+              "v": ""
+            },
+            {
+              "a": "cont",
+              "v": ".get(div.layui-field-box)"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9605\u8bfb\u5668",
+      "type": 13
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u65f6\u95f4\",\"max\":0,\"row\":3,\"type\":5}",
+      "host": {
+        "a": "\u8bfb\u8005"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.layui-container)"
+            },
+            {
+              "a": "name",
+              "v": ".get(b).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href).ct(&page=#pn#)"
+            },
+            {
+              "a": "img",
+              "v": ".get(img).a(src)"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u9996\u9875",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u8d85\u661f\u76ee\u5f55\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"start\\u003d0\\u0026size\\u003d25\\u0026sw\\u003d%key%\\u0026channelId\\u003d52\",\"url\":\"http://yz4.chaoxing.com/circlemarket/getsearch\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".z(\\{.*?\\})"
+            },
+            {
+              "a": "name",
+              "v": ".json(name)"
+            },
+            {
+              "a": "url",
+              "v": ".json(mobileulr)"
+            },
+            {
+              "a": "img",
+              "v": ".json(coverUrl)"
+            },
+            {
+              "a": "msg",
+              "v": ".json(author)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u8d85\u661f\u641c\u7d22",
+      "type": 1
+    },
+    {
+      "attr": "{\"type\":0}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "name",
+              "v": ".get(p.content)"
+            },
+            {
+              "a": "cont",
+              "v": ".get(div#contentBox)"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u8d85\u661f\u9605\u8bfb\u5668",
+      "type": 13
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u8d85\u661f\u76ee\u5f55\",\"max\":0,\"row\":2,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"start\\u003d0\\u0026size\\u003d1000\\u0026channelId\\u003d\u5206\u7c7b\\u0026\",\"url\":\"http://yz4.chaoxing.com/circlemarket/getBook\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".ty([).z(\\{.*?\\})"
+            },
+            {
+              "a": "name",
+              "v": ".json(name)"
+            },
+            {
+              "a": "url",
+              "v": ".json(mobileulr)"
+            },
+            {
+              "a": "img",
+              "v": ".json(coverUrl)"
+            },
+            {
+              "a": "msg",
+              "v": ".json(author)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "screen",
+          "v": "\u5206\u7c7b+\u81ea\u7136\u79d1\u5b66=1000000020+\u5929\u6587\u5b66=1000000023+\u6570\u7406\u5316\u5b66=1000000019+\u8ba1\u7b97\u673a=1000000036"
+        }
+      ],
+      "sign": "\u8d85\u661f\u63a8\u8350",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u6742\u5fd7\",\"\u8d85\u661f\u641c\u7d22\",\"\u5fc5\u770b\u641c\u7d22\",\"\u8d85\u661f\u56fe\u4e66\",\"\u8d85\u661f\u671f\u520a\",\"\u8d85\u661f\u8bba\u6587\",\"\u62a5\u7eb8\"]"
+        }
+      ],
+      "sign": "\u641c\u7d22",
+      "type": 8
+    },
+    {
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "sort",
+          "s": [
+            {
+              "a": "list"
+            },
+            {
+              "a": "name"
+            },
+            {
+              "a": "url"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "pagecount"
+            }
+          ]
+        },
+        {
+          "a": "text",
+          "s": [
+            {
+              "a": "text"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5fc5\u770b\u9605\u8bfb\u5668",
+      "type": 25
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u6d4f\u89c8\u6846\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://www.biikan.com/\u5206\u7c7b/#PN#.shtml\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h1).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a.hotWrapImg).a(href).th(book##read)"
+            },
+            {
+              "a": "img",
+              "v": ".get(img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(p).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "screen",
+          "v": "\u5206\u7c7b+\u6587\u5b66=wenxue+\u5fc3\u7406=xinli+\u4eba\u7269=renwu+\u54f2\u5b66=zhexue+\u5386\u53f2=lishi+\u79d1\u666e=kepu+\u5c0f\u8bf4=xiaoshuo"
+        }
+      ],
+      "sign": "\u5fc5\u770b\u63a8\u8350",
+      "type": 1
+    },
+    {
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "ors": [
+        {
+          "a": "m",
+          "v": "[\"\u8d85\u661f\u62a5\u7eb8\",\"\u8d85\u661f\u63a8\u8350\",\"\u8d85\u661f\u63a8\u83502\",\"\u5fc5\u770b\u63a8\u8350\",\"\u79d1\u666e\u4e2d\u56fd\",\"\u6bcf\u65e5\u4e00\u6587\"]"
+        }
+      ],
+      "sign": "\u4e66\u7c4d\u4e3b\u63a8",
+      "type": 8
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u8d85\u661f\u76ee\u5f55\",\"max\":0,\"row\":2,\"type\":5}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"post\":\"start\\u003d0\\u0026size\\u003d1000\\u0026channelId\\u003d\u5206\u7c7b\\u0026\",\"url\":\"http://yz4.chaoxing.com/circlemarket/getBook\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".ty([).z(\\{.*?\\})"
+            },
+            {
+              "a": "name",
+              "v": ".json(name)"
+            },
+            {
+              "a": "url",
+              "v": ".json(mobileulr)"
+            },
+            {
+              "a": "img",
+              "v": ".json(coverUrl)"
+            },
+            {
+              "a": "msg",
+              "v": ".json(author)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "screen",
+          "v": "\u5206\u7c7b+\u5916\u6587\u540d\u8457=1000000438+\u6d41\u884c\u5c0f\u8bf4=1000000010+\u540d\u5bb6\u540d\u8457=1000000007+\u8bd7\u6b4c\u6563\u6587=1000000033"
+        }
+      ],
+      "sign": "\u8d85\u661f\u63a8\u83502",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u6d4f\u89c8\u6846\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://www.biikan.com/home/book/search/k/#KEY#/page/#PN#.shtml\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h1).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a.hotWrapImg).a(href).th(book##read)"
+            },
+            {
+              "a": "img",
+              "v": ".get(img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(p).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5fc5\u770b\u641c\u7d22",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5929\u6587\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://www.kepuchina.cn/wiki/\u5206\u7c7b/index_#PN#.shtml\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.dialog-list div.dialog)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h2).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(p).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "screen",
+          "v": "\u5206\u7c7b+\u5b87\u5b99\u63a2\u7d22=yzts+\u79d1\u5b66\u539f\u7406=science+\u4eba\u6587\u79d1\u5b66=humanity+\u81ea\u7136\u5730\u7406=geography"
+        }
+      ],
+      "sign": "\u79d1\u666e\u4e2d\u56fd",
+      "type": 1
+    },
+    {
+      "attr": "{\"type\":0}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "con",
+          "s": [
+            {
+              "a": "name",
+              "v": ".get(h1)"
+            },
+            {
+              "a": "cont",
+              "v": ".get(div.TRS_Editor)"
+            },
+            {
+              "a": "next"
+            }
+          ]
+        }
+      ],
+      "sign": "\u5929\u6587\u9605\u8bfb\u5668",
+      "type": 13
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u5929\u6587\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"ua\":\"#PC\",\"url\":\"https://cloud.kepuchina.cn/search/imageText?s\\u003d\u5316\u5b66\\u0026page\\u003d#PN#\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(div.list-block)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h2).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(p.info).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg",
+              "v": ".get(p.info).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u79d1\u666e",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"\u8d85\u661f\u9605\u8bfb\u5668\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u8bfb\u4e0a\u7ea7\u5730\u5740"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(li)"
+            },
+            {
+              "a": "name",
+              "v": ".get(li).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(attr)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u8d85\u661f\u76ee\u5f55",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u6d4f\u89c8\u6846\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":2,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://qk.chaoxing.com/guide/res?classify\\u003d\u5206\u7c7b\\u0026page\\u003d#PN#\\u0026size\\u003d10\\u0026t\\u003d1586500914824\\u0026_\\u003d1586500914824\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".json(datas)"
+            },
+            {
+              "a": "name",
+              "v": ".json(npname)"
+            },
+            {
+              "a": "url",
+              "v": ".json(mobileulr).th(list##detail)"
+            },
+            {
+              "a": "img",
+              "v": ".json(coverurl)"
+            },
+            {
+              "a": "msg",
+              "v": ".json(summary)"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "ors": [
+        {
+          "a": "screen",
+          "v": "\u5206\u7c7b+\u4e0a\u6d77=26+\u5317\u4eac=3+\u5929\u6d25=28+\u5e7f\u4e1c=6+\u6d59\u6c5f=33+\u6c5f\u82cf=17+\u5e7f\u897f=7"
+        }
+      ],
+      "sign": "\u8d85\u661f\u62a5\u7eb8",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u6d4f\u89c8\u6846\",\"max\":0,\"row\":3,\"type\":1}",
+      "host": {
+        "a": "#UJsoup"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(a)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t(a)"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).z(\\{.*?\\}).json(webUrl)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u62a5\u7eb8\u76ee\u5f55",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u6d4f\u89c8\u6846\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://ss.chaoxing.com/ncs?sw\\u003d#KEY#\\u0026strchannel\\u003d11\\u0026x\\u003d0_7209\\u0026page\\u003d#PN#\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(tr)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h2).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img",
+              "v": ".get(img).a(src)"
+            },
+            {
+              "a": "msg",
+              "v": ".get(p).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u8d85\u661f\u56fe\u4e66",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u6d4f\u89c8\u6846\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://qikan.chaoxing.com/searchjour?sw\\u003d#KEY#\\u0026nosim\\u003d1\\u0026size\\u003d50\\u0026x\\u003d0_687\\u0026pages\\u003d#PN#\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".z(\"left\".*?</a>)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg",
+              "v": ".get(td).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u8d85\u661f\u671f\u520a",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u6d4f\u89c8\u6846\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://ss.chaoxing.com/ncs?sw\\u003d#KEY#\\u0026pages\\u003d#PN#\\u0026strchannel\\u003d3\\u0026field\\u003d0\\u0026originalsw\\u003d#KEY#+\\u0026isort\\u003d0\\u0026x\\u003d0_687\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(li h3)"
+            },
+            {
+              "a": "name",
+              "v": ".get(h3).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u8d85\u661f\u8bba\u6587",
+      "type": 1
+    },
+    {
+      "attr": "{\"btNext\":false,\"desc\":false,\"flow\":false,\"itemtarget\":\"#\u6d4f\u89c8\u6846\",\"max\":0,\"row\":1,\"type\":1}",
+      "host": {
+        "a": "#\u722c\u866b",
+        "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"http://ss.chaoxing.com/ncs?sw\\u003d#KEY#\\u0026pages\\u003d#PN#\\u0026strchannel\\u003d13\\u0026field\\u003d0\\u0026originalsw\\u003d#KEY#+\\u0026isort\\u003d0\\u0026x\\u003d0_7209\"}"
+      },
+      "ins": [
+        {
+          "a": "list",
+          "s": [
+            {
+              "a": "list",
+              "v": ".get(h2.zdi_blue)"
+            },
+            {
+              "a": "name",
+              "v": ".get(a).t()"
+            },
+            {
+              "a": "url",
+              "v": ".get(a).a(href)"
+            },
+            {
+              "a": "img"
+            },
+            {
+              "a": "msg",
+              "v": ".get(p).t()"
+            },
+            {
+              "a": "prev"
+            },
+            {
+              "a": "next"
+            },
+            {
+              "a": "tail"
+            }
+          ]
+        }
+      ],
+      "sign": "\u62a5\u7eb8",
+      "type": 1
+    },
+    {
+      "attr": "{\"drefresh\":false,\"url\":\"https://meiriyiwen.com/\"}",
+      "host": {
+        "a": "#\u53d6\u4e0a\u7ea7\u6e90\u7801"
+      },
+      "ins": [],
+      "sign": "\u6bcf\u65e5\u4e00\u6587",
+      "type": 4
+    }
+  ],
+  "name": "\u8f7b\u9605\u8bfb4.0\uff08\u975e\u7f51\u6587,\u652f\u6301\u641c\u7d22\uff09",
+  "sign": "8627aa09dc5483fe4052a4bcc99024f6",
+  "sqlId": 36,
+  "vars": [
+    {
+      "a": "#\u722c\u866b",
+      "sign": "\u8bfb\u8005",
+      "v": "{\"mode\":0,\"pn_raise\":1,\"pn_start\":1,\"url\":\"https://qikan.fun/magazine.php?s\\u003d%E8%AF%BB%E8%80%85\\u0026key\\u003d9e236705-8f62-4007-9dc6-0ce02ae32a4c\\nhttps://qikan.fun/magazine.php?s\\u003d%E8%AF%BB%E8%80%85\\u0026key\\u003db4f38850-dda4-4559-a1a7-59479a2e05e6\\nhttps://qikan.fun/magazine.php?s\\u003d%E8%AF%BB%E8%80%85\\u0026key\\u003dea265b17-0d79-4240-b3db-0b4cf94de08b\"}"
+    }
+  ],
+  "version": 4
+}
