@@ -812,265 +812,265 @@
                 <name>贴吧展开</name>
                 <info></info>
                 <version>1</version>
-                <url>js/贴吧展开.js.json</url>
+                <url>js/贴吧展开.js</url>
             </item>
             <item>
                 <name>去百度广告</name>
                 <info></info>
                 <version>1</version>
-                <url>js/去百度广告.js.json</url>
+                <url>js/去百度广告.js</url>
             </item>
             <item>
                 <name>清除百度搜索广告</name>
                 <info></info>
                 <version>1</version>
-                <url>js/清除百度搜索广告.js.json</url>
+                <url>js/清除百度搜索广告.js</url>
             </item>
             <item>
                 <name>小小影视</name>
                 <info></info>
                 <version>1</version>
-                <url>js/小小影视.js.json</url>
+                <url>js/小小影视.js</url>
             </item>
             <item>
                 <name>回到顶底部</name>
                 <info></info>
                 <version>1</version>
-                <url>js/回到顶底部.js.json</url>
+                <url>js/回到顶底部.js</url>
             </item>
             <item>
                 <name>夜间模式</name>
                 <info></info>
                 <version>1</version>
-                <url>js/夜间模式.js.json</url>
+                <url>js/夜间模式.js</url>
             </item>
             <item>
                 <name>手机按钮工具箱</name>
                 <info></info>
                 <version>1</version>
-                <url>js/手机按钮工具箱.js.json</url>
+                <url>js/手机按钮工具箱.js</url>
             </item>
             <item>
                 <name>global_9_隐藏悬浮</name>
                 <info></info>
                 <version>1</version>
-                <url>js/global_9_隐藏悬浮.js.json</url>
+                <url>js/global_9_隐藏悬浮.js</url>
             </item>
             <item>
                 <name>global_3_美化字体</name>
                 <info></info>
                 <version>1</version>
-                <url>js/global_3_美化字体.js.json</url>
+                <url>js/global_3_美化字体.js</url>
             </item>
             <item>
                 <name>知乎直接看</name>
                 <info></info>
                 <version>1</version>
-                <url>js/知乎直接看.js.json</url>
+                <url>js/知乎直接看.js</url>
             </item>
             <item>
                 <name>万能命令.user</name>
                 <info></info>
                 <version>1</version>
-                <url>js/万能命令.user.js.json</url>
+                <url>js/万能命令.user.js</url>
             </item>
             <item>
                 <name>自动夜间模式</name>
                 <info></info>
                 <version>1</version>
-                <url>js/自动夜间模式.js.json</url>
+                <url>js/自动夜间模式.js</url>
             </item>
             <item>
                 <name>隐藏广告</name>
                 <info></info>
                 <version>1</version>
-                <url>js/隐藏广告.js.json</url>
+                <url>js/隐藏广告.js</url>
             </item>
             <item>
                 <name>手机广告拦截</name>
                 <info></info>
                 <version>1</version>
-                <url>js/手机广告拦截.js.json</url>
+                <url>js/手机广告拦截.js</url>
             </item>
             <item>
                 <name>VIP视频解析</name>
                 <info></info>
                 <version>1</version>
-                <url>js/VIP视频解析.js.json</url>
+                <url>js/VIP视频解析.js</url>
             </item>
             <item>
                 <name>小说阅读</name>
                 <info></info>
                 <version>1</version>
-                <url>js/小说阅读.js.json</url>
+                <url>js/小说阅读.js</url>
             </item>
             <item>
                 <name>自定义改进版本</name>
                 <info></info>
                 <version>1</version>
-                <url>js/自定义改进版本.js.json</url>
+                <url>js/自定义改进版本.js</url>
             </item>
             <item>
                 <name>链接可点击</name>
                 <info></info>
                 <version>1</version>
-                <url>js/链接可点击.js.json</url>
+                <url>js/链接可点击.js</url>
             </item>
             <item>
                 <name>baiduyun.user</name>
                 <info></info>
                 <version>1</version>
-                <url>js/baiduyun.user.js.json</url>
+                <url>js/baiduyun.user.js</url>
             </item>
             <item>
                 <name>global_C站</name>
                 <info></info>
                 <version>1</version>
-                <url>js/global_C站.js.json</url>
+                <url>js/global_C站.js</url>
             </item>
             <item>
                 <name>贴吧去广告看回复</name>
                 <info></info>
                 <version>1</version>
-                <url>js/贴吧去广告看回复.js.json</url>
+                <url>js/贴吧去广告看回复.js</url>
             </item>
             <item>
                 <name>Pure百度美化</name>
                 <info></info>
                 <version>1</version>
-                <url>js/Pure百度美化.js.json</url>
+                <url>js/Pure百度美化.js</url>
             </item>
             <item>
                 <name>纯净苍空</name>
                 <info></info>
                 <version>1</version>
-                <url>js/纯净苍空.js.json</url>
+                <url>js/纯净苍空.js</url>
             </item>
             <item>
                 <name>视频增强</name>
                 <info></info>
                 <version>1</version>
-                <url>js/视频增强.js.json</url>
+                <url>js/视频增强.js</url>
             </item>
             <item>
                 <name>360</name>
                 <info></info>
                 <version>1</version>
-                <url>js/360.js.json</url>
+                <url>js/360.js</url>
             </item>
             <item>
                 <name>悬浮翻页</name>
                 <info></info>
                 <version>1</version>
-                <url>js/悬浮翻页.js.json</url>
+                <url>js/悬浮翻页.js</url>
             </item>
             <item>
                 <name>oo.movie</name>
                 <info></info>
                 <version>1</version>
-                <url>js/oo.movie.js.json</url>
+                <url>js/oo.movie.js</url>
             </item>
             <item>
                 <name>野径云俱黑，江船火独明</name>
                 <info></info>
                 <version>1</version>
-                <url>js/野径云俱黑，江船火独明.js.json</url>
+                <url>js/野径云俱黑，江船火独明.js</url>
             </item>
             <item>
                 <name>百度文库</name>
                 <info></info>
                 <version>1</version>
-                <url>js/百度文库.js.json</url>
+                <url>js/百度文库.js</url>
             </item>
             <item>
                 <name>global_觅影</name>
                 <info></info>
                 <version>1</version>
-                <url>js/global_觅影.js.json</url>
+                <url>js/global_觅影.js</url>
             </item>
             <item>
                 <name>去除电信运营商劫持广告.user</name>
                 <info></info>
                 <version>1</version>
-                <url>js/去除电信运营商劫持广告.user.js.json</url>
+                <url>js/去除电信运营商劫持广告.user.js</url>
             </item>
             <item>
                 <name>贴吧</name>
                 <info></info>
                 <version>1</version>
-                <url>js/贴吧.js.json</url>
+                <url>js/贴吧.js</url>
             </item>
             <item>
                 <name>觅影去搜索.user</name>
                 <info></info>
                 <version>1</version>
-                <url>js/觅影去搜索.user.js.json</url>
+                <url>js/觅影去搜索.user.js</url>
             </item>
             <item>
                 <name>彩虹小译.user</name>
                 <info></info>
                 <version>1</version>
-                <url>js/彩虹小译.user.js.json</url>
+                <url>js/彩虹小译.user.js</url>
             </item>
             <item>
                 <name>江小白手机广告拦截自改</name>
                 <info></info>
                 <version>1</version>
-                <url>js/江小白手机广告拦截自改.js.json</url>
+                <url>js/江小白手机广告拦截自改.js</url>
             </item>
             <item>
                 <name>贴吧增强</name>
                 <info></info>
                 <version>1</version>
-                <url>js/贴吧增强.js.json</url>
+                <url>js/贴吧增强.js</url>
             </item>
             <item>
                 <name>链接文字可点击</name>
                 <info></info>
                 <version>1</version>
-                <url>js/链接文字可点击.js.json</url>
+                <url>js/链接文字可点击.js</url>
             </item>
             <item>
                 <name>IT之家手机版去广告</name>
                 <info></info>
                 <version>1</version>
-                <url>js/IT之家手机版去广告.js.json</url>
+                <url>js/IT之家手机版去广告.js</url>
             </item>
             <item>
                 <name>懒人专用</name>
                 <info></info>
                 <version>1</version>
-                <url>js/懒人专用.js.json</url>
+                <url>js/懒人专用.js</url>
             </item>
             <item>
                 <name>百度网盘资源_搜索引擎_聚合</name>
                 <info></info>
                 <version>1</version>
-                <url>js/百度网盘资源_搜索引擎_聚合.js.json</url>
+                <url>js/百度网盘资源_搜索引擎_聚合.js</url>
             </item>
             <item>
                 <name>小净化</name>
                 <info></info>
                 <version>1</version>
-                <url>js/小净化.js.json</url>
+                <url>js/小净化.js</url>
             </item>
             <item>
                 <name>觅影</name>
                 <info></info>
                 <version>1</version>
-                <url>js/觅影.js.json</url>
+                <url>js/觅影.js</url>
             </item>
             <item>
                 <name>贴吧可看动图</name>
                 <info></info>
                 <version>1</version>
-                <url>js/贴吧可看动图.js.json</url>
+                <url>js/贴吧可看动图.js</url>
             </item>
             <item>
                 <name>会员VIP解析免费看江小白</name>
                 <info></info>
                 <version>1</version>
-                <url>js/会员VIP解析免费看江小白.js.json</url>
+                <url>js/会员VIP解析免费看江小白.js</url>
             </item>
         </list>
     </page>
