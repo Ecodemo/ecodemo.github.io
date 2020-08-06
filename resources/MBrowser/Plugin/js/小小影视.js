@@ -1,0 +1,33 @@
+// ==UserScript== 
+// @name   小小影视
+// @run-at   context-menu
+// ==/UserScript==
+// ==UserScript== 
+// @name   小小影视
+// @description  try to take over the world!
+// @match   https://95hmv60762fwdm5vp5ir.leleapps.com/*
+// @run-at   document-start
+// ==/UserScript==
+
+
+(function() {
+    'use strict';
+    var integrityurl = window.location.href;
+    var data = document.body.innerHTML;
+    data = data.replace(/<(?:.|\s)*?>/g, '');
+    var jsonObj = JSON.parse(data);
+    if(String(integrityurl).indexOf('reqplay')>=0)document.body.innerHTML = '<!DOCTYPE html><html itemscope itemtype="http://schema.org/WebPage" class="ua-chrome ua-mobile "><head><meta charset="UTF-8"><title></title><meta name="google-site-verification" content="ok0wCgT20tBBgo9_zat2iAcimtN4Ftf5ccsh092Xeyw" /><meta name="viewport"    content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="format-detection" content="telephone=no"><style>    html,    body {      margin: 0;      padding: 0;      width: 100%;      height: 100%;      overflow: hidden;    }    .playerBox {      width: 90vw;      height: 60vh;      margin: 0px auto;      margin-top: 20vh;      text-align: center;      line-height: 60vh;      color: #fff;    }    .button {      background-color: #f44336;            height: 150px;      width: 250px;      border: none;      color: white;      padding: 15px 32px;      text-align: center;      text-decoration: none;      display: inline-block;      font-size: 16px;      cursor: pointer;      border-radius: 4px;    }</style><link rel="stylesheet" href="https://img3.doubanio.com/misc/mixed_static/72312681dbda0a84.css"></head><body ontouchstart=""><div id="playerBox" class="playerBox"><a href="'+jsonObj.data.httpurl+'"><button class="button" href="#" style="font-size:30px">立即播放</button></a></div></body></html>';
+    else if(String(integrityurl).indexOf('show')>=0)
+    {
+        var li = '';
+        for (var i = 0; i < jsonObj.data.vodrow.playlist.length; i++) {
+            var j = jsonObj.data.vodrow.playlist[i];
+          li += '<a target="_blank"  href="https://95hmv60762fwdm5vp5ir.leleapps.com/vod/reqplay/'+jsonObj.data.vodrow.vodid+'?playindex='+j.playindex+'&apiVersion=28&deviceModel=MI8&brand=Xiaomi&deviceName=sagit&serial=e744ac82&platform=android&version=2.1.32">第'+j.play_name+'集</a>';
+}
+        var style = '<style type="text/css">.score-write,a[href*="to_app"]:not(.sub-honor):not(.sub-cover),a[href*="doubanapp"],div[id*="BAIDU"],div[id*="google"],section+.center,.bottom_ad_download,.sub-vendor,.to_pc,.TalionNav-static,.sub-detail .mark-movie,.sub-detail .mark-tv,.subject-banner,.bottom_ad_download,.cover-count,#google_esf,.adsbygoogle,.Advertisement{display:none!important;visibility:hidden!important;position:absolute!important;left:-9999px!important;opacity:0!important;pointer-events:none!important;z-index:-9999!important}.sub-info .sub-cover{display:block!important}.TalionNav-primary{position:relative!important}.subject-comments,.subject-reviews{margin-bottom:0!important}.TalionNav .TalionNav-primary .search-box{width:230px;flex:230px 0 0;animation:none}.sub-original-title{padding:.25em 0}._V_sign{font-size:.85em;opacity:.15;text-align:center;padding-bottom:1em}._V_source,.sub-score+.sub-score{margin-top:1.5em!important;color:#fff}._V_source .sub-score .sub-content{display:block}._V_source .sub-score a{padding:.25em .5em;line-height:1.5;margin:0 .15em;border:1px solid rgba(255,255,255,0.2);font-size:1.05em;font-weight:bold;letter-spacing:1px;margin-top:.5em;display:inline-block;color:#ffe8cc;background:rgba(239,238,238,0.05);border-radius:4px}#TalionNav{display:none}#TalionNav .logo{background:0;font-size:1em;display:inline-flex;justify-content:center;align-items:center;color:#dee2e6}.search-box:not(.on-search){opacity:.7}#channel_tags{margin-bottom:10px}.subject-header-wrap .sub-detail{display:flex;flex-direction:column;justify-content:space-around}#channel_tags{margin-top:10px}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-results-button,input[type="search"]::-webkit-search-results-decoration{-webkit-appearance:none}</style><style type="text/css">.sub-cover::before{background:-webkit-linear-gradient(bottom,#7f493a 0,#7f493a00 15%),-webkit-linear-gradient(right,#7f493a 0,#7f493a00 15%),-webkit-linear-gradient(top,#7f493a 0,#7f493a00 15%),-webkit-linear-gradient(left,#7f493a 0,#7f493a00 15%);content:"";bottom:0;position:absolute;left:0;right:0;top:0;width:102px;height:142px;border-radius:4px}</style>';
+        var head = '<head><meta charset="UTF-8"><title>'+jsonObj.data.vodrow.subtitle+'</title><meta name="google-site-verification" content="ok0wCgT20tBBgo9_zat2iAcimtN4Ftf5ccsh092Xeyw" /><meta name="viewport"    content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="format-detection" content="telephone=no"><link rel="canonical" href="https://m.douban.com/movie/subject/30306570/"><link href="https://img3.doubanio.com/f/talion/20f294507038a0d03718cd15b4defe16ea78d05a/css/card/base.css"    rel="stylesheet">'+style+'<link rel="stylesheet" href="https://img3.doubanio.com/misc/mixed_static/72312681dbda0a84.css"></head>';
+        document.body.innerHTML = '<!DOCTYPE html><html itemscope itemtype="http://schema.org/WebPage" class="ua-chrome ua-mobile ">'+head+'<body ontouchstart=""><div class="page"><div class="subject-header-wrap" id="subject-header-container" style="background-color: rgb(127, 73, 58);"><div class="sub-info"><a class="sub-cover" href=""><img src="'+jsonObj.data.vodrow.coverpic+'" /></a><div class="sub-detail"><div class="sub-title" style="color: #fff;">'+jsonObj.data.vodrow.title+'</div><div class="sub-original-title" style="color: #fff;">'+jsonObj.data.vodrow.subtitle+'</div><div id="subject-honor-root"></div><div class="sub-meta" style="color: #fff;">'+jsonObj.data.vodrow.areaname+' / '+jsonObj.data.vodrow.catename+' / '+jsonObj.data.vodrow.episode_statustext+'</div></div></div><div id="subject-rating-root"></div><div class="_V_source subject-mark"><div class="sub-score"><div class="sub-trademark">            在线观看</div><div class="sub-content">'+li+'</div></div></div></div><div class="card"><br/><section class="subject-intro"><h2>          剧情简介</h2><div class="bd"><p data-clamp="3">'+jsonObj.data.vodrow.intro+'</p></div></section></div></body></html>';
+    }
+
+    // Your code here...
+})();
