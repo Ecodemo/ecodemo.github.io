@@ -324,12 +324,6 @@
                 <url>https://easylist-downloads.adblockplus.org/malwaredomains_full.txt</url>
             </item>
             <item>
-                <name>EasyList China</name>
-                <info></info>
-                <version>5</version>
-                <url>https://easylist-downloads.adblockplus.org/easylistchina.txt</url>
-            </item>
-            <item>
                 <name>X浏览器拦截规则国内版本</name>
                 <info>x浏览器针对国内版本的内建规则，由官方统一维护</info>
                 <version>5</version>
